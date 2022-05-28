@@ -19,130 +19,65 @@
     </nav>
     <div class="card-columns"></div>
     <div class="container">
-       <div class="row"  data-masonry='{"percentPosition": true }'>
+
+        <form action="http://www.google.com/search" method="get" class="row">
+            <div class="col-lg-8 col-md-12 mb-3 mt-3 input-group">
+                <input type="text" class="form-control" name="q"/>
+                <input type="submit" value="search" class="btn btn-primary"/>
+            </div>
+        </form>
+        <div class="row"  data-masonry='{"percentPosition": true }'>
+
             <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-dark mb-3 mt-3">
+                <div class="card border-dark mb-3 mt-3">
                       <div class="card-body">
-                      <h5 class="card-title">&#129327; Programming</h5>
-                      <p class="card-text">Programming related resources</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://github.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-dark">Git</span> GitHub</a>
-                          <a href="https://leetcode.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-warning">Leet</span> Leetcode</a>
-                          <a href="https://hackerrank.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-secondary">Hacker</span> Hackerrank</a>
-                          <a href="https://baeldung.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-success">B</span> Baeldung</a>
-                          <a href="https://refactoring.guru/ru" class="list-group-item list-group-item-action"><span class="badge text-bg-danger">RefGuru</span> Refactoring Guru</a>
-                          <a href="https://www.geeksforgeeks.org/" class="list-group-item list-group-item-action"><span class="badge text-bg-dark">Geeks</span> Geeks for geeks</a>
+                          <h5 class="card-title">&#128187; Programming</h5>
+                          <p class="card-text">Programming related resources</p>
+                          <a href="./pages/programming.html" class="btn btn-dark">Go programming</a>
                       </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-secondary mb-3 mt-3">
+                <div class="card border-secondary mb-3 mt-3">
                       <div class="card-body">
-                      <h5 class="card-title">&#128221; Blogs</h5>
-                      <p class="card-text">Some blogs</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://dotsandbrackets.com/" class="list-group-item list-group-item-action"><span class="badge bg-info">D</span> Dots and brackets</a>
-                          <a href="https://blog.dahr.ru/" class="list-group-item list-group-item-action"><span class="badge text-bg-danger">D</span> Dahr's blog</a>
-                          <a href="https://kovchinnikov.info/" class="list-group-item list-group-item-action"><span class="badge bg-info">K</span> Kovchinnikov's blog</a>
-                          <a href="https://www.swyx.io/" class="list-group-item list-group-item-action"><span class="badge text-bg-light">[S]</span> Swyx</a>
-                          <a href="http://sereja.me/" class="list-group-item list-group-item-action"><span class="badge text-bg-light">S</span> Sergey Slotin</a>
-                          <a href="https://cupsofcode.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-warning">C</span> Cups of code</a>
-                          <a href="https://vvsevolodovich.dev/" class="list-group-item list-group-item-action"><span class="badge text-bg-secondary">V</span> Vladimir Ivanov's blog</a>
-                          <a href="https://phreedom.club/~tolstoevsky/" class="list-group-item list-group-item-action"><span class="badge text-bg-dark">T</span> Tolstoevsky</a>
-                          <a href="http://danluu.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-light">D</span> Danluu</a>
+                          <h5 class="card-title">&#128240; News</h5>
+                          <p class="card-text">Links to the entertainment resources</p>
+                          <a href="./pages/news.html" class="btn btn-secondary">Go news</a>
                       </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-light mb-3 mt-3">
+                <div class="card border-primary mb-3 mt-3">
                       <div class="card-body">
-                      <h5 class="card-title">&#128296; Utils</h5>
-                      <p class="card-text">Util web resources</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://trello.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-primary">T</span> Trello</a>
-                          <a href="https://notion.so/" class="list-group-item list-group-item-action"><span class="badge text-bg-light">[N]</span> Notion</a>
-                          <a href="https://jwt.io/" class="list-group-item list-group-item-action"><span class="badge text-bg-light">J</span> JWT</a>
-                          <a href="https://translate.google.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-primary">G-T</span> Google translate</a>
+                          <h5 class="card-title">&#128221; Blogs</h5>
+                          <p class="card-text">Old-fashioned blog collection</p>
+                          <a href="./pages/blogs.html" class="btn btn-primary">Go blogs</a>
                       </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-light mb-3 mt-3">
+                <div class="card border-dark mb-3 mt-3">
                       <div class="card-body">
-                      <h5 class="card-title">&#128511; Social networks</h5>
-                      <p class="card-text">Some social networks</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://www.youtube.com" class="list-group-item list-group-item-action"><span class="badge text-bg-danger">You</span> Youtube</a>
-                          <a href="https://www.vk.com" class="list-group-item list-group-item-action"><span class="badge text-bg-primary">VK</span> VKontakte</a>
-                          <a href="https://www.facebook.com" class="list-group-item list-group-item-action"><span class="badge text-bg-primary">F</span> Facebook</a>
+                          <h5 class="card-title">&#128295; Tools</h5>
+                          <p class="card-text">Web-resources to use as utils</p>
+                          <a href="./pages/tools.html" class="btn btn-dark">Go tools</a>
                       </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-warning mb-3 mt-3">
+                <div class="card border-danger mb-3 mt-3">
                       <div class="card-body">
-                      <h5 class="card-title">&#128187; IT News</h5>
-                      <p class="card-text">Some it news websites</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://www.habr.com" class="list-group-item list-group-item-action"><span class="badge text-bg-secondary">H</span> Habr</a>
-                          <a href="https://www.linux.org.ru" class="list-group-item list-group-item-action"><span class="badge text-bg-secondary">L</span> Linux.org.ru</a>
-                          <a href="https://www.medium.com" class="list-group-item list-group-item-action"><span class="badge text-bg-dark">M</span> Medium</a>
-                          <a href="https://3dnews.ru/" class="list-group-item list-group-item-action"><span class="badge text-bg-primary">3D</span> 3D news</a>
-                          <a href="https://www.render.ru" class="list-group-item list-group-item-action"><span class="badge bg-info">R</span> Render.ru</a>
-                          <a href="https://www.devby.io" class="list-group-item list-group-item-action"><span class="badge text-bg-primary">D</span> Dev.by</a>
-                          <a href="https://tproger.ru/" class="list-group-item list-group-item-action"><span class="badge text-bg-dark">TP</span> TProger</a>
-                          <a href="https://phreedom.club/" class="list-group-item list-group-item-action"><span class="badge text-bg-light">Ph</span> Phreedom</a>
-                          <a href="https://dtf.ru/" class="list-group-item list-group-item-action"><span class="badge text-bg-info">D</span> DTF</a>
-                          <a href="https://www.ixbt.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-primary">iX</span> iXBT</a>
+                          <h5 class="card-title">&#128526; Entertainment</h5>
+                          <p class="card-text">Entertainment</p>
+                          <a href="./pages/entertainment.html" class="btn btn-danger">Go entertain</a>
                       </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-info mb-3 mt-3">
-                      <div class="card-body">
-                      <h5 class="card-title">&#128240; Common news</h5>
-                      <p class="card-text">Some common news websites</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://www.onliner.by" class="list-group-item list-group-item-action"><span class="badge text-bg-danger">O</span> Onliner.by</a>
-                          <a href="https://www.zerkalo.io" class="list-group-item list-group-item-action"><span class="badge text-bg-danger">Z</span> Zerkalo.io</a>
-                          <a href="https://www.joyreactor.cc" class="list-group-item list-group-item-action"><span class="badge text-bg-warning">J</span> Joyreactor</a>
-                          <a href="https://www.pikabu.ru" class="list-group-item list-group-item-action"><span class="badge text-bg-success">P</span> Pikabu</a>
-                          <a href="https://www.reddit.com" class="list-group-item list-group-item-action"><span class="badge text-bg-danger">R</span> Reddit</a>
-                          <a href="https://www.dtf.ru" class="list-group-item list-group-item-action"><span class="badge text-bg-info">D</span> DTF</a>
-                      </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-primary mb-3 mt-3">
-                      <div class="card-body">
-                      <h5 class="card-title">&#127911; Podcasts</h5>
-                      <p class="card-text">Some podcasts webasites</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://radio-t.com/" class="list-group-item list-group-item-action"><span class="badge bg-info">T</span> Radio-T</a>
-                          <a href="https://beardycast.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-warning">B</span> Beardycast</a>
-                          <a href="https://podcast.umputun.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-secondary">U</span> UWP</a>
-                      </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-light mb-3 mt-3">
-                      <div class="card-body">
-                      <h5 class="card-title">&#128173; Inspiration</h5>
-                      <p class="card-text">Some websites where I take inspiration</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://www.pinterest.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-danger">P</span> Pinterest</a>
-                          <a href="https://hackaday.io" class="list-group-item list-group-item-action"><span class="badge bg-dark">H</span> Hackaday</a>
-                      </div>
-                </div>
-            </div>
+
        </div>
     </div>
 </body>
