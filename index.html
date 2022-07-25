@@ -13,11 +13,29 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
     <link rel="manifest" href="./img/site.webmanifest">
 
+    <script src="./content/index.js" ></script>
+    <script src="./script/jsrender.min.js" ></script>
+
     <meta name="theme-color" content="#000000">
 </head>
 <body>
+
     <script src="./script/bootstrap.min.js"></script>
     <script src="./script/masonry.pkgd.min.js"></script>
+
+    <script id="category-cards" type="text/x-jsrender">
+        {{for}}
+            <div class="col-lg-4 col-md-6">
+                <div class="card border-{{:color}} mb-3 mt-3">
+                      <div class="card-body">
+                          <h5 class="card-title">{{:title}}</h5>
+                          <p class="card-text">{{:text}}</p>
+                          <a href="{{:link}}" class="btn btn-{{:color}}">{{:linkButtonText}}</a>
+                      </div>
+                </div>
+            </div>
+        {{/for}}
+    </script>
 
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
@@ -27,65 +45,24 @@
     <div class="card-columns"></div>
     <div class="container">
 
-        <form action="http://www.google.com/search" method="get" class="row">
+        <form action="https://www.google.com/search" method="get" class="row">
             <div class="col-lg-8 col-md-12 mb-3 mt-3 input-group">
                 <input type="text" class="form-control" name="q"/>
                 <input type="submit" value="search" class="btn btn-primary"/>
             </div>
         </form>
-        <div class="row"  data-masonry='{"percentPosition": true }'>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="card border-dark mb-3 mt-3">
-                      <div class="card-body">
-                          <h5 class="card-title">&#128295; Tools</h5>
-                          <p class="card-text">Web-resources to use as utils</p>
-                          <a href="./pages/tools.html" class="btn btn-dark">Go tools</a>
-                      </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="card border-dark mb-3 mt-3">
-                      <div class="card-body">
-                          <h5 class="card-title">&#128187; Education</h5>
-                          <p class="card-text">Educational resources</p>
-                          <a href="./pages/education.html" class="btn btn-dark">Go education</a>
-                      </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="card border-secondary mb-3 mt-3">
-                      <div class="card-body">
-                          <h5 class="card-title">&#128240; News</h5>
-                          <p class="card-text">Links to the entertainment resources</p>
-                          <a href="./pages/news.html" class="btn btn-secondary">Go news</a>
-                      </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="card border-primary mb-3 mt-3">
-                      <div class="card-body">
-                          <h5 class="card-title">&#128221; Blogs</h5>
-                          <p class="card-text">Old-fashioned blog collection</p>
-                          <a href="./pages/blogs.html" class="btn btn-primary">Go blogs</a>
-                      </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="card border-danger mb-3 mt-3">
-                      <div class="card-body">
-                          <h5 class="card-title">&#128526; Entertainment</h5>
-                          <p class="card-text">Entertainment</p>
-                          <a href="./pages/entertainment.html" class="btn btn-danger">Go entertain</a>
-                      </div>
-                </div>
-            </div>
+        
+        <div id="cards-row" class="row" data-masonry='{"percentPosition": true }'>
 
        </div>
-    </div>
+   </div>
+
+    <script>
+        var $ = window.jsrender;
+        var tmpl = $.templates("#category-cards");
+        var html = tmpl.render(categories);
+        document.getElementById("cards-row").innerHTML = html;
+    </script>
 </body>
 </html>
+

@@ -13,12 +13,32 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
     <link rel="manifest" href="../img/site.webmanifest">
 
-    <meta name="theme-color" content="#000000">
+    <script src="../content/education.js" ></script>
+    <script src="../script/jsrender.min.js" ></script>
 
+    <meta name="theme-color" content="#000000">
 </head>
 <body>
     <script src="../script/bootstrap.min.js"></script>
     <script src="../script/masonry.pkgd.min.js"></script>
+
+    <script id="entertainment-cards" type="text/x-jsrender">
+        {{for}}
+            <div class="col-lg-4 col-md-6">
+                <div class="card bg-{{:color}} mb-3 mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">{{:title}}</h5>
+                        <p class="card-text">{{:description}}</p>
+                    </div>
+                    <div class="list-group list-group-flush">
+                        {{for links}}
+                            <a href="{{:link}}" target="_blank" class="list-group-item list-group-item-action"><span class="badge bg-{{:badgeColor}}">{{:badgeText}}</span> {{:linkText}}</a>
+                        {{/for}}
+                    </div>
+                </div>
+            </div>
+        {{/for}}
+    </script>
 
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
@@ -27,54 +47,14 @@
     </nav>
     <div class="card-columns"></div>
     <div class="container">
-       <div class="row"  data-masonry='{"percentPosition": true }'>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-dark mb-3 mt-3">
-                      <div class="card-body">
-                      <h5 class="card-title">&#128187; Automatic cources</h5>
-                      <p class="card-text">Automatic cources</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://leetcode.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-warning">Leet</span> Leetcode</a>
-                          <a href="https://hackerrank.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-dark">Hacker</span> Hackerrank</a>
-                          <a href="https://www.codewars.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-danger">Code</span> Codewars</a>
-                          <a href="https://tryhackme.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-success">Try</span> Tryhackme</a>
-                          <a href="https://javarush.ru/" class="list-group-item list-group-item-action"><span class="badge text-bg-warning">Java</span> Javarush</a>
-                          <a href="https://www.khanacademy.org/" class="list-group-item list-group-item-action"><span class="badge text-bg-primary">Kh</span> Khanacademy</a>
-                      </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-success mb-3 mt-3">
-                      <div class="card-body">
-                      <h5 class="card-title">&#128196; Learning articles</h5>
-                      <p class="card-text">Programming related resources</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://baeldung.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-success">B</span> Baeldung</a>
-                          <a href="https://refactoring.guru/ru" class="list-group-item list-group-item-action"><span class="badge text-bg-danger">RefGuru</span> Refactoring Guru</a>
-                          <a href="https://www.w3schools.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-danger">W3</span> W3Schools</a>
-                          <a href="https://www.geeksforgeeks.org/" class="list-group-item list-group-item-action"><span class="badge text-bg-dark">Geeks</span> Geeks for geeks</a>
-                      </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-secondary mb-3 mt-3">
-                      <div class="card-body">
-                      <h5 class="card-title">&#128218; Online cources</h5>
-                      <p class="card-text">Online cources</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://www.udemy.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-success">U</span> Udemy</a>
-                      </div>
-                </div>
-            </div>
-
-
+       <div id="cards-row" class="row"  data-masonry='{"percentPosition": true }'>
        </div>
     </div>
+    <script>
+        var $ = window.jsrender;
+        var tmpl = $.templates("#entertainment-cards");
+        var html = tmpl.render(cards);
+        document.getElementById("cards-row").innerHTML = html;
+    </script>
 </body>
 </html>

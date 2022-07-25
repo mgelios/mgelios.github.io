@@ -13,11 +13,32 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
     <link rel="manifest" href="../img/site.webmanifest">
 
+    <script src="../content/news.js" ></script>
+    <script src="../script/jsrender.min.js" ></script>
+
     <meta name="theme-color" content="#000000">
 </head>
 <body>
     <script src="../script/bootstrap.min.js"></script>
     <script src="../script/masonry.pkgd.min.js"></script>
+
+    <script id="entertainment-cards" type="text/x-jsrender">
+        {{for}}
+            <div class="col-lg-4 col-md-6">
+                <div class="card bg-{{:color}} mb-3 mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">{{:title}}</h5>
+                        <p class="card-text">{{:description}}</p>
+                    </div>
+                    <div class="list-group list-group-flush">
+                        {{for links}}
+                            <a href="{{:link}}" target="_blank" class="list-group-item list-group-item-action"><span class="badge bg-{{:badgeColor}}">{{:badgeText}}</span> {{:linkText}}</a>
+                        {{/for}}
+                    </div>
+                </div>
+            </div>
+        {{/for}}
+    </script>
 
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
@@ -26,67 +47,14 @@
     </nav>
     <div class="card-columns"></div>
     <div class="container">
-       <div class="row"  data-masonry='{"percentPosition": true }'>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-warning mb-3 mt-3">
-                      <div class="card-body">
-                      <h5 class="card-title">&#128187; I'm writing</h5>
-                      <p class="card-text">Resources I'm writing articles on</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://www.habr.com" class="list-group-item list-group-item-action"><span class="badge text-bg-secondary">H</span> Habr</a>
-                          <a href="https://www.medium.com" class="list-group-item list-group-item-action"><span class="badge text-bg-dark">M</span> Medium</a>
-                      </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-dark mb-3 mt-3">
-                      <div class="card-body">
-                      <h5 class="card-title">&#128187; IT Common</h5>
-                      <p class="card-text">Some it news websites</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://www.linux.org.ru" class="list-group-item list-group-item-action"><span class="badge text-bg-secondary">L</span> Linux.org.ru</a>
-                          <a href="https://3dnews.ru/" class="list-group-item list-group-item-action"><span class="badge text-bg-primary">3D</span> 3D news</a>
-                          <a href="https://www.render.ru" class="list-group-item list-group-item-action"><span class="badge bg-info">R</span> Render.ru</a>
-                          <a href="https://tproger.ru/" class="list-group-item list-group-item-action"><span class="badge text-bg-dark">TP</span> TProger</a>
-                          <a href="https://proglib.io/" class="list-group-item list-group-item-action"><span class="badge text-bg-dark">P</span> Proglib</a>
-                          <a href="https://dtf.ru/" class="list-group-item list-group-item-action"><span class="badge text-bg-info">D</span> DTF</a>
-                          <a href="https://www.ixbt.com/" class="list-group-item list-group-item-action"><span class="badge text-bg-primary">iX</span> iXBT</a>
-                          <a href="https://phreedom.club/" class="list-group-item list-group-item-action"><span class="badge text-bg-light">Ph</span> Phreedom</a>
-                      </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-primary ng mb-3 mt-3">
-                      <div class="card-body">
-                      <h5 class="card-title">&#128187; IT Companies</h5>
-                      <p class="card-text">Some it news websites</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://www.devby.io" class="list-group-item list-group-item-action"><span class="badge text-bg-primary">D</span> Dev.by</a>
-                          <a href="https://www.dou.ua" class="list-group-item list-group-item-action"><span class="badge text-bg-dark">D</span> DOU</a>
-                          <a href="https://www.ebanoe.it" class="list-group-item list-group-item-action"><span class="badge text-bg-secondary">E</span> Ebanoe</a>
-                      </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-bg-info mb-3 mt-3">
-                      <div class="card-body">
-                      <h5 class="card-title">&#128240; Common news</h5>
-                      <p class="card-text">Some common news websites</p>
-                      </div>
-                      <div class="list-group list-group-flush">
-                          <a href="https://infomate.club/" class="list-group-item list-group-item-action"><span class="badge text-bg-secondary">I</span> Infomate</a>
-                          <a href="https://www.onliner.by" class="list-group-item list-group-item-action"><span class="badge text-bg-danger">O</span> Onliner.by</a>
-                          <a href="https://www.zerkalo.io" class="list-group-item list-group-item-action"><span class="badge text-bg-danger">Z</span> Zerkalo.io</a>
-                      </div>
-                </div>
-            </div>
-
+       <div id="cards-row" class="row"  data-masonry='{"percentPosition": true }'>
        </div>
     </div>
+    <script>
+        var $ = window.jsrender;
+        var tmpl = $.templates("#entertainment-cards");
+        var html = tmpl.render(cards);
+        document.getElementById("cards-row").innerHTML = html;
+    </script>
 </body>
 </html>
