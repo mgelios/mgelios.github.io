@@ -39,27 +39,27 @@ const cards =
     description: "Google web resources",
     color: "primary",
     links: [{
-        link: "https://github.com/",
+        link: "https://translate.google.com/",
         linkText: "Transate",
         badgeColor: "primary",
         badgeText: "T"
     }, {
-        link: "https://trello.com/",
+        link: "https://mail.google.com/mail/u/0/",
         linkText: "Gmail",
         badgeColor: "warning",
         badgeText: "G"
     }, {
-        link: "https://notion.so/",
+        link: "https://calendar.google.com/calendar/u/0/r",
         linkText: "Calendar",
         badgeColor: "light",
         badgeText: "C"
     }, {
-        link: "https://jwt.io/",
+        link: "https://docs.google.com/document/u/0/",
         linkText: "Documents",
         badgeColor: "primary",
         badgeText: "W"
     }, {
-        link: "https://linkedin.com/",
+        link: "https://docs.google.com/spreadsheets/u/0/",
         linkText: "Sheets",
         badgeColor: "success",
         badgeText: "E"
