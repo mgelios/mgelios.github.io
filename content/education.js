@@ -33,6 +33,11 @@ const cards =
         linkText: "Khanacademy",
         badgeColor: "primary",
         badgeText: "Kh"
+    }, {
+        link: "https://visualgo.net/",
+        linkText: "Visualgo",
+        badgeColor: "secondary",
+        badgeText: "V"
     }]
 }, {
     title: "&#128196; Learning articles",

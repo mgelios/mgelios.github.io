@@ -24,6 +24,12 @@ const categories =
     linkButtonText: "Go blogs",
     color: "warning"
 }, {
+    title: "Datasources",
+    text: "Different datasources",
+    link: "./pages/datasources.html",
+    linkButtonText: "Go datasources",
+    color: "secondary"
+}, {
     title: "&#128526; Entertainment",
     text: "Entertainment",
     link: "./pages/entertainment.html",

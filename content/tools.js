@@ -33,6 +33,21 @@ const cards =
         linkText: "ResumeIO",
         badgeColor: "primary",
         badgeText: "R"
+    }, {
+        link: "https://miro.com/",
+        linkText: "Miro",
+        badgeColor: "secondary",
+        badgeText: "M"
+    }, {
+        link: "https://www.jsviews.com/#home",
+        linkText: "JSViews/JSRender",
+        badgeColor: "secondary",
+        badgeText: "J"
+    }, {
+        link: "https://bootswatch.com/",
+        linkText: "Bootstrap themes",
+        badgeColor: "primary",
+        badgeText: "B"
     }]
 }, {
     title: '<span class="badge bg-success">G</span> Google',
@@ -78,25 +93,5 @@ const cards =
         linkText: "Passport",
         badgeColor: "warning",
         badgeText: "P"
-    }]
-}, {
-    title: "&#128191; Datasource",
-    description: "Data sources",
-    color: "warning",
-    links: [{
-        link: "https://mega.nz",
-        linkText: "Mega",
-        badgeColor: "danger",
-        badgeText: "M"
-    }, {
-        link: "http://rutracker.org/forum/index.php",
-        linkText: "Rutracker",
-        badgeColor: "primary",
-        badgeText: "Ru"
-    }, {
-        link: "http://flibusta.site/",
-        linkText: "Flibusta",
-        badgeColor: "success",
-        badgeText: "F"
     }]
 }];

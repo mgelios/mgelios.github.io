@@ -53,6 +53,11 @@ const cards =
         linkText: "Jinesh",
         badgeColor: "success",
         badgeText: "J"
+    }, {
+        link: "https://borchun.name/main/",
+        linkText: "Borchun",
+        badgeColor: "primary",
+        badgeText: "B"
     }]
 }, {
     title: "&#128196; Learning articles",
