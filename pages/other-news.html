@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>News</title>
+
+    <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+    <link rel="manifest" href="../img/site.webmanifest">
+
+    <script src="../content/other-news.js" ></script>
+    <script src="../script/jsrender.min.js" ></script>
+
+    <meta name="theme-color" content="#000000">
+</head>
+<body>
+    <script src="../script/bootstrap.min.js"></script>
+    <script src="../script/masonry.pkgd.min.js"></script>
+
+    <script id="entertainment-cards" type="text/x-jsrender">
+        {{for}}
+            <div class="col-lg-4 col-md-6">
+                <div class="card bg-{{:color}} mb-3 mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">{{:title}}</h5>
+                        <p class="card-text">{{:description}}</p>
+                    </div>
+                    <div class="list-group list-group-flush">
+                        {{for links}}
+                            <a href="{{:link}}" target="_blank" class="list-group-item list-group-item-action"><span class="badge bg-{{:badgeColor}}">{{:badgeText}}</span> {{:linkText}}</a>
+                        {{/for}}
+                    </div>
+                </div>
+            </div>
+        {{/for}}
+    </script>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="../index.html" class="navbar-brand mb-0 h1">News</a>
+        </div>
+    </nav>
+    <div class="card-columns"></div>
+    <div class="container">
+       <div id="cards-row" class="row"  data-masonry='{"percentPosition": true }'>
+       </div>
+    </div>
+    <script>
+        var $ = window.jsrender;
+        var tmpl = $.templates("#entertainment-cards");
+        var html = tmpl.render(cards);
+        document.getElementById("cards-row").innerHTML = html;
+    </script>
+</body>
+</html>

@@ -12,10 +12,16 @@ const categories =
     linkButtonText: "Go education",
     color: "primary"
 }, {
-    title: "&#128240; News",
-    text: "Links to the news resources",
-    link: "./pages/news.html",
-    linkButtonText: "Go news",
+    title: "Dev & Tech News",
+    text: "Links to the dev & tech news resources",
+    link: "./pages/dev-tech-news.html",
+    linkButtonText: "Go dev & tech",
+    color: "secondary"
+}, {
+    title: "Other News",
+    text: "Links to the other news resources",
+    link: "./pages/other-news.html",
+    linkButtonText: "Go other news",
     color: "success"
 }, {
     title: "&#128221; Blogs",
