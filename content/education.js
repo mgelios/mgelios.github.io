@@ -38,6 +38,11 @@ const cards =
         linkText: "Visualgo",
         badgeColor: "secondary",
         badgeText: "V"
+    }, {
+        link: "https://university.mongodb.com/",
+        linkText: "MongoDB university",
+        badgeColor: "success",
+        badgeText: "M"
     }]
 }, {
     title: "&#128196; Learning articles",
