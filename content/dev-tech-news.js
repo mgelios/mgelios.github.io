@@ -63,16 +63,6 @@ const cards =
         linkText: "Phreedom",
         badgeColor: "light",
         badgeText: "Ph"
-    }, {
-        link: "https://wccftech.com/",
-        linkText: "Wccftech",
-        badgeColor: "secondary",
-        badgeText: "W"
-    }, {
-        link: "https://www.overclockers.com/",
-        linkText: "Overclockers",
-        badgeColor: "secondary",
-        badgeText: "O"
     }]
 }, {
     title: "TECH::ENG",
@@ -103,6 +93,16 @@ const cards =
         linkText: "Wired",
         badgeColor: "light",
         badgeText: "w"
+    }, {
+        link: "https://wccftech.com/",
+        linkText: "Wccftech",
+        badgeColor: "secondary",
+        badgeText: "W"
+    }, {
+        link: "https://www.overclockers.com/",
+        linkText: "Overclockers",
+        badgeColor: "secondary",
+        badgeText: "O"
     }]
 }, {
     title: "DEV::RU",

@@ -23,6 +23,26 @@ const cards =
         linkText: "Render.ru",
         badgeColor: "info",
         badgeText: "R"
+    }, {
+        link: "https://www.blenderguru.com/",
+        linkText: "Blender Guru",
+        badgeColor: "light",
+        badgeText: "B"
+    }, {
+        link: "https://www.poliigon.com/",
+        linkText: "Poligon assets",
+        badgeColor: "secondary",
+        badgeText: "P"
+    }, {
+        link: "https://www.artstation.com/",
+        linkText: "Artstation",
+        badgeColor: "secondary",
+        badgeText: "A"
+    }, {
+        link: "https://www.deviantart.com/",
+        linkText: "Deviantart",
+        badgeColor: "success",
+        badgeText: "D"
     }]
 }, {
     title: "News aggregators",
