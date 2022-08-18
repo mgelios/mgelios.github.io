@@ -24,11 +24,6 @@ const cards =
         badgeColor: "light",
         badgeText: "[S]"
     }, {
-        link: "http://sereja.me/",
-        linkText: "Sergey Slotin",
-        badgeColor: "light",
-        badgeText: "S"
-    }, {
         link: "https://cupsofcode.com/",
         linkText: "Cups of code",
         badgeColor: "warning",
@@ -44,11 +39,6 @@ const cards =
         badgeColor: "light",
         badgeText: "D"
     }, {
-        link: "https://neustadt.fr/",
-        linkText: "Parimal Satyal",
-        badgeColor: "light",
-        badgeText: "P"
-    }, {
         link: "https://jinesh.codes/",
         linkText: "Jinesh",
         badgeColor: "success",
@@ -60,8 +50,8 @@ const cards =
         badgeText: "B"
     }]
 }, {
-    title: "&#128196; Learning articles",
-    description: "Programming related resources",
+    title: "Artists",
+    description: "Artists blogs",
     color: "info",
     links: [{
         link: "https://blog.dahr.ru/",
@@ -103,5 +93,25 @@ const cards =
         linkText: "Aditya Telange",
         badgeColor: "light",
         badgeText: "A"
+    }, {
+        link: "https://neustadt.fr/",
+        linkText: "Parimal Satyal",
+        badgeColor: "light",
+        badgeText: "P"
+    }]
+}, {
+    title: "Personal pages",
+    description: "Personal pages, like cvs, portfolios",
+    color: "success",
+    links: [{
+        link: "http://sereja.me/",
+        linkText: "Sergey Slotin",
+        badgeColor: "light",
+        badgeText: "S"
+    }, {
+        link: "https://prettycoffee.github.io/",
+        linkText: "Pretty Coffee",
+        badgeColor: "secondary",
+        badgeText: "P"
     }]
 }];
