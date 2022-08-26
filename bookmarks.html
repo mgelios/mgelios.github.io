@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>start</title>
+    <title>mg's start_page</title>
 
     <link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
 
@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
     <link rel="manifest" href="./img/site.webmanifest">
 
-    <script src="./content/start_page.js" ></script>
+    <script src="./content/index.js" ></script>
     <script src="./script/jsrender.min.js" ></script>
 
     <meta name="theme-color" content="#000000">
@@ -23,38 +23,35 @@
     <script src="./script/bootstrap.min.js"></script>
     <script src="./script/masonry.pkgd.min.js"></script>
 
-    <script id="speed-dial-cards" type="text/x-jsrender">
+    <script id="category-cards" type="text/x-jsrender">
         {{for}}
-            <div class="col-lg-2 col-md-4 col-6 text-center">
+            <div class="col-lg-4 col-md-6">
                 <div class="card border-{{:color}} mb-3 mt-3">
-                    <div class="card-body">
-                        <h5 class="card-title"><span class="badge bg-{{:badgeColor}} {{:badgeTextColor}}">{{:badgeText}}</span> {{:title}}</h5>
-                        <a href="{{:link}}" target="_blank" class="btn btn-{{:color}} {{:linkButtonTextColor}} stretched-link">{{:linkButtonText}}</a>
-                    </div>
+                      <div class="card-body">
+                          <h5 class="card-title">{{:title}}</h5>
+                          <p class="card-text">{{:text}}</p>
+                          <a href="{{:link}}" class="btn btn-{{:color}}">{{:linkButtonText}}</a>
+                      </div>
                 </div>
             </div>
         {{/for}}
     </script>
 
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="./index.html" class="navbar-brand mb-0 h1">Bookmarks</a>
+        </div>
+    </nav>
     <div class="card-columns"></div>
     <div class="container">
-
-        <form action="https://www.google.com/search" method="get" class="row">
-            <div class="col-lg-8 col-md-12 mb-3 mt-3 input-group">
-                <input type="text" class="form-control" name="q"/>
-                <input type="submit" value="search" class="btn btn-primary"/>
-            </div>
-        </form>
-        
         <div id="cards-row" class="row" data-masonry='{"percentPosition": true }'>
-
-       </div>
+        </div>
    </div>
 
     <script>
         var $ = window.jsrender;
-        var tmpl = $.templates("#speed-dial-cards");
-        var html = tmpl.render(speed_dial_links);
+        var tmpl = $.templates("#category-cards");
+        var html = tmpl.render(categories);
         document.getElementById("cards-row").innerHTML = html;
     </script>
 </body>
