@@ -1,0 +1,116 @@
+:root {
+    --dark-1: hsl(40 0% 5%);
+    --dark-2: hsl(40 0% 10%);
+    --dark-3: hsl(40 0% 15%);
+    --dark-4: hsl(40 0% 20%);
+    --dark-5: hsl(40 0% 25%);
+    --light-1: hsl(40 0% 70%);
+    --light-2: hsl(40 0% 75%);
+    --light-3: hsl(40 0% 80%);
+    --light-4: hsl(40 0% 85%);
+    --light-5: hsl(40 0% 90%);
+
+    --main-font-family: sans;
+}
+
+body {
+    background-color: var(--dark-1);
+    color: var(--light-3);
+    font-family: var(--main-font-family);
+    font-size: 1em;
+    padding: 0em;
+    margin: 0em;
+}
+
+#search-section {
+    padding: 1em;
+}
+
+.text-input {
+    flex: 1 1 auto;
+    width: 1%;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 1em;
+    padding: .25em .5em;
+    background-color: var(--dark-3);
+    border: 1px solid transparent;
+    color: var(--light-3);
+    border-radius: .5em;
+}
+
+#search-section form {
+    display: flex;
+}
+
+#search-section .button {
+    position: relative;
+} 
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    box-sizing: border-box;
+    width: 100%;
+    grid-gap: .5em;
+    padding: .5em
+}
+
+.grid-item {
+    padding: .62em;
+    text-align: center;
+    background-color: var(--dark-3);
+    text-decoration: none;
+    color: var(--light-3);
+    border-radius: .5em;
+}
+
+.grid-item:hover {
+    background-color: var(--dark-4);
+}
+
+.grid-item:active {
+    background-color: var(--dark-2);
+}
+
+.badge {
+    display: inline-block;
+    max-height: 1em;
+    font-size: 0.8em;
+    padding: .1em .3em .27em .3em;
+    border-radius: .2em;
+    color: var(--dark-3);
+    background-color: var(--light-3);
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+} 
+
+@media only screen and (min-width: 992px) {
+    .grid-container {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .grid-container {
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+    }
+}
