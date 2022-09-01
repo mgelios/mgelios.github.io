@@ -41,4 +41,10 @@ const categories =
     link: "./pages/entertainment.html",
     linkButtonText: "Go Entertain",
     color: "danger"
+}, {
+    title: "Test category page",
+    text: "Test category page to check new style approach",
+    link: "./pages/test-category-page.html",
+    linkButtonText: "Go test category",
+    color: "danger"
 }];
