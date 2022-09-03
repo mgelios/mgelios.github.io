@@ -1,5 +1,121 @@
 const cards =
 [{
+    title: "BY news",
+    description: "Belarus-related news",
+    color: "danger",
+    links: [{
+        link: "https://www.onliner.by",
+        linkText: "Onliner.by",
+        badgeColor: "red-3",
+        badgeText: "O"
+    }, {
+        link: "https://www.zerkalo.io",
+        linkText: "Zerkalo.io",
+        badgeColor: "red-3",
+        badgeText: "Z"
+    }]
+}, {
+    title: "CG news",
+    description: "CG news websites",
+    color: "success",
+    links: [{
+        link: "https://www.render.ru",
+        linkText: "Render.ru",
+        badgeColor: "green-2",
+        badgeText: "R"
+    }, {
+        link: "https://www.blenderguru.com/",
+        linkText: "Blender Guru",
+        badgeColor: "light-3",
+        badgeText: "B",
+        badgeTextColor: "dark-1"
+    }, {
+        link: "https://www.poliigon.com/",
+        linkText: "Poligon assets",
+        badgeColor: "secondary",
+        badgeText: "P"
+    }, {
+        link: "https://www.artstation.com/",
+        linkText: "Artstation",
+        badgeColor: "secondary",
+        badgeText: "A"
+    }, {
+        link: "https://www.deviantart.com/",
+        linkText: "Deviantart",
+        badgeColor: "success",
+        badgeText: "D"
+    }]
+}, {
+    title: "News aggregators",
+    description: "Some it companies news websites",
+    color: "primary",
+    links: [{
+        link: "https://infomate.club/",
+        linkText: "Infomate",
+        badgeColor: "secondary",
+        badgeText: "I"
+    }]
+}, {
+    title: "Science news",
+    description: "Some common news websites",
+    color: "info",
+    links: [{
+        link: "https://scientifically.info/",
+        linkText: "Scientifically",
+        badgeColor: "secondary",
+        badgeText: "S"
+    }]
+}, {
+    title: "GAMES::RU",
+    description: "Games news websites",
+    color: "dark",
+    links: [{
+        link: "https://dtf.ru/",
+        linkText: "DTF",
+        badgeColor: "info",
+        badgeText: "D"
+    }, {
+        link: "https://stopgame.ru/",
+        linkText: "Stopgame",
+        badgeColor: "danger",
+        badgeText: "S"
+    }, {
+        link: "https://ixbt.games/",
+        linkText: "IXBT games",
+        badgeColor: "primary",
+        badgeText: "I"
+    }, {
+        link: "https://www.igromania.ru/news/",
+        linkText: "Igromania",
+        badgeColor: "danger",
+        badgeText: "I"
+    }]
+}, {
+    title: "GAMES::ENG",
+    description: "Some it news websites",
+    color: "secondary",
+    links: [{
+        link: "https://www.eurogamer.net/",
+        linkText: "Eurogamer",
+        badgeColor: "info",
+        badgeText: "E"
+    }, {
+        link: "https://www.polygon.com/",
+        linkText: "Polygon",
+        badgeColor: "danger",
+        badgeText: "P"
+    }, {
+        link: "https://www.rockpapershotgun.com/",
+        linkText: "Rockpapershotgun",
+        badgeColor: "primary",
+        badgeText: "R"
+    }, {
+        link: "https://www.ign.com/",
+        linkText: "IGN",
+        badgeColor: "danger",
+        badgeText: "I"
+    }]
+}, {
     title: "&#128187; I'm writing",
     description: "Resources I'm writing articles on",
     color: "warning",

@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>start</title>
+    <title>Start page</title>
 
-    <link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/custom.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
@@ -14,48 +14,66 @@
     <link rel="manifest" href="./img/site.webmanifest">
 
     <script src="./content/speed-dial.js" ></script>
+    <script src="./content/categories.js" ></script>
     <script src="./script/jsrender.min.js" ></script>
 
     <meta name="theme-color" content="#000000">
 </head>
 <body>
-
-    <script src="./script/bootstrap.min.js"></script>
-    <script src="./script/masonry.pkgd.min.js"></script>
-
-    <script id="speed-dial-cards" type="text/x-jsrender">
+    <script id="speed-dial-links" type="text/x-jsrender">
         {{for}}
-            <div class="col-lg-2 col-md-4 col-6 text-center">
-                <div class="card border-{{:color}} mb-3 mt-3">
-                    <div class="card-body">
-                        <h5 class="card-title"><span class="badge bg-{{:badgeColor}} {{:badgeTextColor}}">{{:badgeText}}</span> {{:title}}</h5>
-                        <a href="{{:link}}" target="_blank" class="btn btn-{{:color}} {{:linkButtonTextColor}} stretched-link">{{:linkButtonText}}</a>
-                    </div>
-                </div>
-            </div>
+            <a href="{{:link}}" class="grid-item">
+                <p><span class="badge backgroud-{{:badgeColor}} text-color-{{:badgeTextColor}}">{{:badgeText}}</span> {{:title}}</p>
+            </a>
         {{/for}}
     </script>
 
-    <div class="card-columns"></div>
-    <div class="container">
+    <script id="bookmarks-categories" type="text/x-jsrender">
+        {{for}}
+            <a href="{{:link}}" class="grid-item">
+                <h3>{{:title}}</h3>
+                <p>{{:text}}</p>
+            </a>
+        {{/for}}
+    </script>
 
-        <form action="https://www.google.com/search" method="get" class="row">
-            <div class="col-lg-8 col-md-12 mb-3 mt-3 input-group">
-                <input type="text" class="form-control" name="q"/>
-                <input type="submit" value="search" class="btn btn-primary"/>
-            </div>
-        </form>
-        
-        <div id="cards-row" class="row" data-masonry='{"percentPosition": true }'>
+    <div class="flex-container">
+        <section class="container-header">
+            <h1>Search</h1>
+        </section>
+        <section id="search-section">
+            <form action="https://www.google.com/search" method="get">
+                <input type="text" class="text-input" name="q"/>
+                <input type="submit" value="search" class="button"/>
+            </form>
+        </section>
+    </div>
 
-       </div>
-   </div>
+    <div class="flex-container">
+        <section class="container-header">
+            <h1>Links</h1>
+        </section>
+        <section id="speed-dial-container" class="grid-container">
+        </section>
+    </div>
+
+    <div class="flex-container">
+        <section class="container-header">
+            <h1>Bookmarks</h1>
+        </section>
+        <section id="bookmarks-categories-container" class="grid-container">
+        </section>
+    </div>
 
     <script>
         var $ = window.jsrender;
-        var tmpl = $.templates("#speed-dial-cards");
-        var html = tmpl.render(speed_dial_links);
-        document.getElementById("cards-row").innerHTML = html;
+        var speedDialLinks = $.templates("#speed-dial-links");
+        var speedDialLinksHtml = speedDialLinks.render(speed_dial_links);
+        document.getElementById("speed-dial-container").innerHTML = speedDialLinksHtml;
+
+        var bookmarksCategories = $.templates("#bookmarks-categories");
+        var bookmarksCategoriesHtml = bookmarksCategories.render(categories);
+        document.getElementById("bookmarks-categories-container").innerHTML = bookmarksCategoriesHtml;
     </script>
 </body>
 </html>

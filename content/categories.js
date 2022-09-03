@@ -12,16 +12,10 @@ const categories =
     linkButtonText: "Go education",
     color: "primary"
 }, {
-    title: "Dev & Tech News",
-    text: "Links to the dev & tech news resources",
-    link: "./pages/dev-tech-news.html",
-    linkButtonText: "Go dev & tech",
-    color: "secondary"
-}, {
-    title: "Other News",
-    text: "Links to the other news resources",
-    link: "./pages/other-news.html",
-    linkButtonText: "Go other news",
+    title: "News",
+    text: "Links to the news resources",
+    link: "./pages/news.html",
+    linkButtonText: "Go news",
     color: "success"
 }, {
     title: "&#128221; Blogs",
@@ -40,11 +34,5 @@ const categories =
     text: "Entertainment",
     link: "./pages/entertainment.html",
     linkButtonText: "Go Entertain",
-    color: "danger"
-}, {
-    title: "Test category page",
-    text: "Test category page to check new style approach",
-    link: "./pages/test-category-page.html",
-    linkButtonText: "Go test category",
     color: "danger"
 }];
