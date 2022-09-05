@@ -6,27 +6,27 @@ const cards =
     links: [{
         link: "https://www.pinterest.com/",
         linkText: "Pinterest",
-        badgeColor: "danger",
+        badgeColor: "red-3",
         badgeText: "P"
     }, {
         link: "https://hackaday.io",
         linkText: "Hackaday",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "H"
     }, {
         link: "https://www.reddit.com",
         linkText: "Reddit",
-        badgeColor: "danger",
+        badgeColor: "red-3",
         badgeText: "R"
     }, {
         link: "https://www.joyreactor.cc",
         linkText: "Joyreactor",
-        badgeColor: "warning",
+        badgeColor: "orange-2",
         badgeText: "J"
     }, {
         link: "https://www.pikabu.ru",
         linkText: "Pikabu",
-        badgeColor: "success",
+        badgeColor: "green-2",
         badgeText: "P"
     }]
 }, {
@@ -36,22 +36,22 @@ const cards =
     links: [{
         link: "https://www.youtube.com",
         linkText: "Youtube",
-        badgeColor: "danger",
+        badgeColor: "red-3",
         badgeText: "You"
     }, {
         link: "https://vk.com/",
         linkText: "VKontakte",
-        badgeColor: "primary",
+        badgeColor: "blue-3",
         badgeText: "VK"
     }, {
         link: "https://facebook.com/",
         linkText: "Facebook",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "F"
     }, {
         link: "https://www.twitter.com",
         linkText: "Twitter",
-        badgeColor: "primary",
+        badgeColor: "blue-4",
         badgeText: "T"
     }]
 }, {
@@ -61,23 +61,24 @@ const cards =
     links: [{
         link: "https://radio-t.com/",
         linkText: "Radio-T",
-        badgeColor: "info",
+        badgeColor: "blue-3",
         badgeText: "T"
     }, {
         link: "https://beardycast.com/",
         linkText: "Beardycast",
-        badgeColor: "warning",
+        badgeColor: "orange-3",
         badgeText: "B"
     }, {
         link: "https://podcast.umputun.com/",
         linkText: "UWP",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "U"
     }, {
         link: "https://usilenie.plus/",
         linkText: "Usilenie",
-        badgeColor: "primary",
-        badgeText: "U"
+        badgeColor: "light-1",
+        badgeText: "U",
+        badgeTextColor: "dark-4"
     }]
 }, {
     title: "&#127916; Movies",
@@ -86,18 +87,23 @@ const cards =
     links: [{
         link: "https://hd.kinopoisk.ru/",
         linkText: "Kinopoisk HD",
-        badgeColor: "secondary",
+        badgeColor: "orange-2",
         badgeText: "K"
     }, {
         link: "http://baskino.me/",
         linkText: "Baskino.me",
-        badgeColor: "secondary",
+        badgeColor: "purple-2",
         badgeText: "B"
     }, {
         link: "https://hdrezka.ag/",
         linkText: "HDRezka.ag",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "Rezka"
+    }, {
+        link: "https://www.dashserial.online/",
+        linkText: "Dashserial",
+        badgeColor: "dark-5",
+        badgeText: "D"
     }]
 }, {
     title: "&#127925; Music",
@@ -106,7 +112,7 @@ const cards =
     links: [{
         link: "https://music.yandex.ru/",
         linkText: "Yandex Music",
-        badgeColor: "danger",
+        badgeColor: "red-3",
         badgeText: "Y"
     }]
 }, {
@@ -116,22 +122,33 @@ const cards =
     links: [{
         link: "https://wiby.me/",
         linkText: "Wiby",
-        badgeColor: "light",
+        badgeColor: "purple-3",
         badgeText: "W"
     }, {
         link: "https://swalker.org/",
         linkText: "Swalker",
-        badgeColor: "dark",
+        badgeColor: "red-3",
         badgeText: "S"
     }, {
         link: "https://everydaycarry.com/",
         linkText: "EDC",
-        badgeColor: "dark",
+        badgeColor: "dark-1",
         badgeText: "E"
     }, {
         link: "https://lozhki.net/",
         linkText: "Lozhki.net",
-        badgeColor: "success",
+        badgeColor: "green-2",
         badgeText: "L"
+    }, {
+        link: "https://www.window-swap.com/",
+        linkText: "Windows swap",
+        badgeColor: "orange-3",
+        badgeText: "WS",
+    }, {
+        link: "http://nightbbs.ru/index.html",
+        linkText: "Night bbs",
+        badgeColor: "light-3",
+        badgeText: "NB",
+        badgeTextColor: "dark-3"
     }]
 }];

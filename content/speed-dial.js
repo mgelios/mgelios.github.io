@@ -1,13 +1,5 @@
 const speed_dial_links = 
 [{
-    title: "Bookmarks",
-    link: "./bookmarks.html",
-    linkButtonText: "Go bookmarks",
-    color: "secondary",
-    badgeColor: "light-1",
-    badgeText: "B",
-    badgeTextColor: "dark-3"
-}, {
     title: "Notion",
     link: "./pages/tools.html",
     linkButtonText: "Go Notion",

@@ -6,17 +6,17 @@ const cards =
     links: [{
         link: "https://drive.google.com/drive/u/0/",
         linkText: "Google drive",
-        badgeColor: "info",
+        badgeColor: "blue-3",
         badgeText: "G"
     }, {
         link: "https://mega.io/",
         linkText: "Mega",
-        badgeColor: "danger",
+        badgeColor: "red-3",
         badgeText: "M"
     }, {
         link: "https://www.dropbox.com/",
         linkText: "Dropbox",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "D"
     }]
 }, {
@@ -26,8 +26,14 @@ const cards =
     links: [{
         link: "https://rutracker.org/forum/index.php",
         linkText: "Rutracker",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "R"
+    }, {
+        link: "https://thepiratebay.org/index.html",
+        linkText: "The Pirate Bay",
+        badgeColor: "light-3",
+        badgeText: "T",
+        badgeTextColor: "dark-5"
     }]
 }, {
     title: "FTP",
@@ -36,12 +42,13 @@ const cards =
     links: [{
         link: "https://www.mmnt.net/",
         linkText: "MMNT FTP collection",
-        badgeColor: "primary",
-        badgeText: "M"
+        badgeColor: "light-1",
+        badgeText: "M",
+        badgeTextColor: "dark-1"
     }, {
         link: "https://scientifically.info/publ/7-1-0-52",
         linkText: "Scientifically FTP collection",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "S"
     }]
 }, {
@@ -51,17 +58,22 @@ const cards =
     links: [{
         link: "http://flibusta.site/",
         linkText: "Flibusta",
-        badgeColor: "info",
+        badgeColor: "blue-3",
         badgeText: "F"
     },{
         link: "https://render.ru/ru/magazine",
         linkText: "Render magazine",
-        badgeColor: "success",
+        badgeColor: "green-2",
         badgeText: "R"
     },{
         link: "https://borchun.name/main/32-aktualnye-opds-katalogi.html",
         linkText: "Opds collection Borchun",
-        badgeColor: "primary",
+        badgeColor: "dark-1",
         badgeText: "B"
+    }, {
+        link: "https://libgen.lc/",
+        linkText: "Library Genesis",
+        badgeColor: "blue-2",
+        badgeText: "L"
     }]
 }];

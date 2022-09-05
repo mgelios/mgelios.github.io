@@ -32,17 +32,17 @@ const cards =
     }, {
         link: "https://www.poliigon.com/",
         linkText: "Poligon assets",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "P"
     }, {
         link: "https://www.artstation.com/",
         linkText: "Artstation",
-        badgeColor: "secondary",
+        badgeColor: "blue-2",
         badgeText: "A"
     }, {
         link: "https://www.deviantart.com/",
         linkText: "Deviantart",
-        badgeColor: "success",
+        badgeColor: "green-2",
         badgeText: "D"
     }]
 }, {
@@ -52,7 +52,7 @@ const cards =
     links: [{
         link: "https://infomate.club/",
         linkText: "Infomate",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "I"
     }]
 }, {
@@ -62,7 +62,7 @@ const cards =
     links: [{
         link: "https://scientifically.info/",
         linkText: "Scientifically",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "S"
     }]
 }, {
@@ -72,22 +72,22 @@ const cards =
     links: [{
         link: "https://dtf.ru/",
         linkText: "DTF",
-        badgeColor: "info",
+        badgeColor: "blue-3",
         badgeText: "D"
     }, {
         link: "https://stopgame.ru/",
         linkText: "Stopgame",
-        badgeColor: "danger",
+        badgeColor: "red-3",
         badgeText: "S"
     }, {
         link: "https://ixbt.games/",
         linkText: "IXBT games",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "I"
     }, {
         link: "https://www.igromania.ru/news/",
         linkText: "Igromania",
-        badgeColor: "danger",
+        badgeColor: "red-3",
         badgeText: "I"
     }]
 }, {
@@ -97,22 +97,22 @@ const cards =
     links: [{
         link: "https://www.eurogamer.net/",
         linkText: "Eurogamer",
-        badgeColor: "info",
+        badgeColor: "blue-3",
         badgeText: "E"
     }, {
         link: "https://www.polygon.com/",
         linkText: "Polygon",
-        badgeColor: "danger",
+        badgeColor: "purple-2",
         badgeText: "P"
     }, {
         link: "https://www.rockpapershotgun.com/",
         linkText: "Rockpapershotgun",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "R"
     }, {
         link: "https://www.ign.com/",
         linkText: "IGN",
-        badgeColor: "danger",
+        badgeColor: "red-2",
         badgeText: "I"
     }]
 }, {
@@ -122,12 +122,12 @@ const cards =
     links: [{
         link: "https://www.habr.com/",
         linkText: "Habr",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "H"
     }, {
         link: "https://www.medium.com",
         linkText: "Medium",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "M"
     }]
 }, {
@@ -137,17 +137,17 @@ const cards =
     links: [{
         link: "https://www.devby.io",
         linkText: "Dev.by",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "D"
     }, {
         link: "https://www.dou.ua",
         linkText: "DOU",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "D"
     }, {
         link: "https://www.ebanoe.it",
         linkText: "Ebanoe",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "E"
     }]
 }, {
@@ -157,28 +157,30 @@ const cards =
     links: [{
         link: "https://www.linux.org.ru",
         linkText: "Linux.org.ru",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "L"
     }, {
         link: "https://3dnews.ru/",
         linkText: "3D news",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "3D"
     }, {
         link: "https://www.opennet.ru/",
         linkText: "Opennet",
-        badgeColor: "warning",
-        badgeText: "O"
+        badgeColor: "light-3",
+        badgeText: "O",
+        badgeTextColor: "dark-4"
     }, {
         link: "https://www.ixbt.com/",
         linkText: "iXBT",
-        badgeColor: "primary",
+        badgeColor: "purple-3",
         badgeText: "iX"
     }, {
         link: "https://phreedom.club/",
         linkText: "Phreedom",
-        badgeColor: "light",
-        badgeText: "Ph"
+        badgeColor: "light-1",
+        badgeText: "Ph",
+        badgeTextColor: "dark-5"
     }]
 }, {
     title: "TECH::ENG",
@@ -187,37 +189,37 @@ const cards =
     links: [{
         link: "https://news.ycombinator.com/",
         linkText: "Hacker news",
-        badgeColor: "secondary",
+        badgeColor: "orange-3",
         badgeText: "H"
     }, {
         link: "https://techcrunch.com/",
         linkText: "Techcrunch",
-        badgeColor: "success",
+        badgeColor: "green-2",
         badgeText: "T"
     }, {
         link: "https://www.engadget.com/",
         linkText: "Endgadget",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "E"
     }, {
         link: "https://gizmodo.com/",
         linkText: "Gizmodo",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "G"
     }, {
         link: "https://www.wired.com/",
         linkText: "Wired",
-        badgeColor: "light",
+        badgeColor: "dark-1",
         badgeText: "w"
     }, {
         link: "https://wccftech.com/",
         linkText: "Wccftech",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "W"
     }, {
         link: "https://www.overclockers.com/",
         linkText: "Overclockers",
-        badgeColor: "secondary",
+        badgeColor: "blue-2",
         badgeText: "O"
     }]
 }, {
@@ -227,27 +229,27 @@ const cards =
     links: [{
         link: "https://tproger.ru/",
         linkText: "TProger",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "TP"
     }, {
         link: "https://proglib.io/",
         linkText: "Proglib",
-        badgeColor: "secondary",
+        badgeColor: "blue-3",
         badgeText: "P"
     }, {
         link: "https://bbbl.dev/",
         linkText: "Bubble dev",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "B"
     }, {
         link: "https://razrabs.ru/",
         linkText: "Razrabs",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "R"
     }, {
         link: "https://gwer.github.io/kitchen/",
         linkText: "Gwer Kitchen",
-        badgeColor: "success",
+        badgeColor: "green-2",
         badgeText: "GK"
     }]
 }, {
@@ -257,7 +259,7 @@ const cards =
     links: [{
         link: "https://changelog.com/",
         linkText: "Changelog",
-        badgeColor: "secondary",
+        badgeColor: "green-2",
         badgeText: "C"
     }]
 }];

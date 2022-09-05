@@ -6,42 +6,43 @@ const cards =
     links: [{
         link: "https://leetcode.com/",
         linkText: "Leetcode",
-        badgeColor: "warning",
-        badgeText: "Leet"
+        badgeColor: "orange-5",
+        badgeText: "Leet",
+        badgeTextColor: "dark-1"
     }, {
         link: "https://hackerrank.com/",
         linkText: "Hackerrank",
-        badgeColor: "dark",
+        badgeColor: "dark-1",
         badgeText: "Hacker"
     }, {
         link: "https://www.codewars.com/",
         linkText: "Codewars",
-        badgeColor: "danger",
+        badgeColor: "red-2",
         badgeText: "code"
     }, {
         link: "https://tryhackme.com/",
         linkText: "Tryhackme",
-        badgeColor: "success",
+        badgeColor: "green-2",
         badgeText: "try"
     }, {
         link: "https://javarush.ru/",
         linkText: "Javarush",
-        badgeColor: "warning",
+        badgeColor: "orange-2",
         badgeText: "java"
     }, {
         link: "https://www.khanacademy.org/",
         linkText: "Khanacademy",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "Kh"
     }, {
         link: "https://visualgo.net/",
         linkText: "Visualgo",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "V"
     }, {
         link: "https://university.mongodb.com/",
         linkText: "MongoDB university",
-        badgeColor: "success",
+        badgeColor: "green-1",
         badgeText: "M"
     }]
 }, {
@@ -51,22 +52,22 @@ const cards =
     links: [{
         link: "https://baeldung.com/",
         linkText: "Baeldung",
-        badgeColor: "primary",
-        badgeText: "D"
+        badgeColor: "green-2",
+        badgeText: "B"
     }, {
         link: "https://refactoring.guru/ru",
         linkText: "Refactoring Guru",
-        badgeColor: "danger",
+        badgeColor: "red-3",
         badgeText: "RefGuru"
     }, {
         link: "https://www.w3schools.com/",
         linkText: "W3Schools",
-        badgeColor: "danger",
+        badgeColor: "green-2",
         badgeText: "W3"
     }, {
         link: "https://www.geeksforgeeks.org/",
         linkText: "Geeks for geeks",
-        badgeColor: "dark",
+        badgeColor: "dark-1",
         badgeText: "Geeks"
     }]
 }, {
@@ -76,7 +77,8 @@ const cards =
     links: [{
         link: "https://www.udemy.com/",
         linkText: "Udemy",
-        badgeColor: "success",
-        badgeText: "U"
+        badgeColor: "light-3",
+        badgeText: "U",
+        badgeTextColor: "dark-2"
     }]
 }];

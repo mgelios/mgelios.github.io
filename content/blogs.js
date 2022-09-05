@@ -6,48 +6,56 @@ const cards =
     links: [{
         link: "https://dotsandbrackets.com/",
         linkText: "Dots and brackets",
-        badgeColor: "info",
+        badgeColor: "blue-3",
         badgeText: "D"
     }, {
         link: "https://du-blog.ru/",
         linkText: "One dude",
-        badgeColor: "dark",
-        badgeText: "DU"
+        badgeColor: "light-2",
+        badgeText: "DU",
+        badgeTextColor: "dark-4"
     }, {
         link: "https://kovchinnikov.info/",
         linkText: "Kovchinnikov's blog",
-        badgeColor: "info",
+        badgeColor: "blue-3",
         badgeText: "K"
     }, {
         link: "https://www.swyx.io/",
         linkText: "Swyx",
-        badgeColor: "light",
-        badgeText: "[S]"
+        badgeColor: "light-4",
+        badgeText: "[S]",
+        badgeTextColor: "dark-3"
     }, {
         link: "https://cupsofcode.com/",
         linkText: "Cups of code",
-        badgeColor: "warning",
+        badgeColor: "orange-2",
         badgeText: "C"
     }, {
         link: "https://vvsevolodovich.dev/",
         linkText: "Vladimir Ivanov's blog",
-        badgeColor: "secondary",
+        badgeColor: "dark-1",
         badgeText: "V"
     }, {
         link: "http://danluu.com/",
         linkText: "Danluu",
-        badgeColor: "light",
-        badgeText: "D"
+        badgeColor: "light-3",
+        badgeText: "D",
+        badgeTextColor: "dark-3"
     }, {
         link: "https://jinesh.codes/",
         linkText: "Jinesh",
-        badgeColor: "success",
+        badgeColor: "green-2",
         badgeText: "J"
     }, {
         link: "https://borchun.name/main/",
         linkText: "Borchun",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "B"
+    }, {
+        link: "https://tonsky.livejournal.com/",
+        linkText: "Tonsky blog",
+        badgeColor: "blue-2",
+        badgeText: "T"
     }]
 }, {
     title: "Artists",
@@ -56,12 +64,12 @@ const cards =
     links: [{
         link: "https://blog.dahr.ru/",
         linkText: "Dahr's blog",
-        badgeColor: "danger",
+        badgeColor: "dark-1",
         badgeText: "D"
     }, {
         link: "https://karanak.livejournal.com/",
         linkText:  "Karanak",
-        badgeColor: "primary",
+        badgeColor: "blue-2",
         badgeText: "K"
     }]
 }, {
@@ -71,32 +79,32 @@ const cards =
     links: [{
         link: "https://vas3k.ru/",
         linkText: "Vas3k RU",
-        badgeColor: "success",
+        badgeColor: "dark-1",
         badgeText: "V"
     },{
         link: "https://vas3k.com",
         linkText: "Vas3k COM",
-        badgeColor: "success",
+        badgeColor: "dark-1",
         badgeText: "V"
     },{
         link: "https://phreedom.club/~tolstoevsky/",
         linkText: "Tolstoevsky",
-        badgeColor: "dark",
+        badgeColor: "dark-1",
         badgeText: "T"
     },{
         link: "https://satyrs.eu/",
         linkText: "Staryr's forest",
-        badgeColor: "light",
+        badgeColor: "purple-2",
         badgeText: "S"
     },{
         link: "https://adityatelange.in/",
         linkText: "Aditya Telange",
-        badgeColor: "light",
+        badgeColor: "dark-1",
         badgeText: "A"
     }, {
         link: "https://neustadt.fr/",
         linkText: "Parimal Satyal",
-        badgeColor: "light",
+        badgeColor: "dark-1",
         badgeText: "P"
     }]
 }, {
@@ -106,12 +114,19 @@ const cards =
     links: [{
         link: "http://sereja.me/",
         linkText: "Sergey Slotin",
-        badgeColor: "light",
-        badgeText: "S"
+        badgeColor: "light-3",
+        badgeText: "S",
+        badgeTextColor: "dark-3"
     }, {
         link: "https://prettycoffee.github.io/",
         linkText: "Pretty Coffee",
-        badgeColor: "secondary",
+        badgeColor: "blue-1",
         badgeText: "P"
+    }, {
+        link: "https://tonsky.me/",
+        linkText: "Tonsky",
+        badgeColor: "orange-4",
+        badgeText: "T",
+        badgeTextColor: "dark-2"
     }]
 }];
