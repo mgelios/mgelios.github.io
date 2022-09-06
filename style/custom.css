@@ -1,10 +1,10 @@
 /* constants section */
 :root {
-    --dark-1: hsl(40 0% 5%);
-    --dark-2: hsl(40 0% 10%);
-    --dark-3: hsl(40 0% 15%);
-    --dark-4: hsl(40 0% 20%);
-    --dark-5: hsl(40 0% 25%);
+    --dark-1: hsl(40 0% 10%);
+    --dark-2: hsl(40 0% 15%);
+    --dark-3: hsl(40 0% 20%);
+    --dark-4: hsl(40 0% 25%);
+    --dark-5: hsl(40 0% 30%);
 
     --light-1: hsl(40 0% 60%);
     --light-2: hsl(40 0% 70%);
@@ -144,6 +144,10 @@ h1, h2, h3, h4, h5, h6, p {
 #search-section .button {
     position: relative;
 } 
+
+#bookmarks-categories-container {
+    height: fit-content;
+}
 
 .grid-container {
     display: inline-grid;
