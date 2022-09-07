@@ -44,6 +44,18 @@ const cards =
         linkText: "MongoDB university",
         badgeColor: "green-1",
         badgeText: "M"
+    }, {
+        link: "https://aws.amazon.com/training/digital/?nc2=sb_tr_dt",
+        linkText: "Learn AWS",
+        badgeColor: "orange-5",
+        badgeText: "L",
+        badgeTextColor: "dark-1"
+    }, {
+        link: "https://explore.skillbuilder.aws/pages/16/learner-dashboard",
+        linkText: "AWS Learner dashboard",
+        badgeColor: "orange-5",
+        badgeText: "A",
+        badgeTextColor: "dark-1"
     }]
 }, {
     title: "&#128196; Learning articles",

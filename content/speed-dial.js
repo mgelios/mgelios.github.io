@@ -1,7 +1,7 @@
 const speed_dial_links = 
 [{
     title: "Notion",
-    link: "./pages/tools.html",
+    link: "https://notion.so/",
     linkButtonText: "Go Notion",
     linkButtonTextColor: "text-dark",
     color: "light",
@@ -9,20 +9,12 @@ const speed_dial_links =
     badgeText: "[N]",
     badgeTextColor: "dark-1"
 }, {
-    title: "Youtube",
-    link: "https://www.youtube.com",
-    linkButtonText: "Go youtube",
-    color: "danger",
-    badgeColor: "red-3",
-    badgeText: "You",
-    badgeTextColor: "light-3"
-}, {
     title: "GMail",
     link: "https://mail.google.com/mail/u/0/",
     linkButtonText: "Go GMail",
     linkButtonTextColor: "text-dark",
     color: "warning",
-    badgeColor: "light-1",
+    badgeColor: "orange-4",
     badgeText: "G",
     badgeTextColor: "dark-3"
 }, {
@@ -31,7 +23,7 @@ const speed_dial_links =
     linkButtonText: "Go YouTube",
     linkButtonTextColor: "text-dark",
     color: "light",
-    badgeColor: "blue-2",
+    badgeColor: "blue-3",
     badgeText: "C",
     badgeTextColor: "light-3"
 }, {
@@ -49,6 +41,14 @@ const speed_dial_links =
     color: "primary",
     badgeColor: "blue-2",
     badgeText: "T",
+    badgeTextColor: "light-3"
+}, {
+    title: "Youtube",
+    link: "https://www.youtube.com",
+    linkButtonText: "Go youtube",
+    color: "danger",
+    badgeColor: "red-3",
+    badgeText: "You",
     badgeTextColor: "light-3"
 }, {
     title: "Zerkalo.io",
