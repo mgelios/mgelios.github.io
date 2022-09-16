@@ -20,6 +20,16 @@ const cards =
         badgeText: "[N]",
         badgeTextColor: "dark-1"
     }, {
+        link: "https://miro.com/",
+        linkText: "Miro",
+        badgeColor: "dark-1",
+        badgeText: "M"
+    }]
+}, {
+    title: "&#128296; Info",
+    description: "Info resources",
+    color: "secondary",
+    links: [{
         link: "https://jwt.io/",
         linkText: "jwt.io",
         badgeColor: "dark-1",
@@ -35,11 +45,6 @@ const cards =
         badgeColor: "purple-3",
         badgeText: "R"
     }, {
-        link: "https://miro.com/",
-        linkText: "Miro",
-        badgeColor: "dark-1",
-        badgeText: "M"
-    }, {
         link: "https://www.jsviews.com/#home",
         linkText: "JSViews/JSRender",
         badgeColor: "light-3",
@@ -51,7 +56,7 @@ const cards =
         badgeColor: "blue-1",
         badgeText: "B"
     }]
-}, {
+},{
     title: '<span class="badge backgroud-blue-2">G</span> Google',
     description: "Google web resources",
     color: "primary",
