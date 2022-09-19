@@ -71,6 +71,11 @@ const cards =
         linkText:  "Karanak",
         badgeColor: "blue-2",
         badgeText: "K"
+    }, {
+        link: "https://kro-ogli.livejournal.com/",
+        linkText: "Kro Ogli",
+        badgeColor: "blue-2",
+        badgeText: "KO"
     }]
 }, {
     title: "&#128190; Geek",
@@ -127,6 +132,17 @@ const cards =
         linkText: "Tonsky",
         badgeColor: "orange-4",
         badgeText: "T",
+        badgeTextColor: "dark-2"
+    }]
+}, {
+    title: "Random blogs",
+    description: "temp category for random blogs",
+    color: "orange-3",
+    links: [{
+        link: "https://weintravel.blogspot.com/",
+        linkText: "We in travel",
+        badgeColor: "orange-4",
+        badgeText: "W",
         badgeTextColor: "dark-2"
     }]
 }];
