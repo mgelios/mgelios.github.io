@@ -24,6 +24,11 @@ const cards =
         linkText: "Miro",
         badgeColor: "dark-1",
         badgeText: "M"
+    }, {
+        link: "https://www.desmos.com/",
+        linkText: "Desmos",
+        badgeColor: "blue-2",
+        badgeText: "D"
     }]
 }, {
     title: "&#128296; Info",

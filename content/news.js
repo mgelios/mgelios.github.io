@@ -13,6 +13,17 @@ const cards =
         linkText: "Zerkalo.io",
         badgeColor: "red-3",
         badgeText: "Z"
+    }, {
+        link: "https://kyky.org/",
+        linkText: "kyky.org",
+        badgeColor: "dark-1",
+        badgeText: "K"
+    }, {
+        link: "https://citydog.io/",
+        linkText: "Citydog.io",
+        badgeColor: "light-5",
+        badgeText: "C",
+        badgeTextColor: "dark-4"
     }]
 }, {
     title: "CG news",
