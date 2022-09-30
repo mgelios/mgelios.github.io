@@ -56,6 +56,11 @@ const cards =
         badgeColor: "orange-5",
         badgeText: "A",
         badgeTextColor: "dark-1"
+    }, {
+        link: "https://brilliant.org",
+        linkText: "Brilliant.org",
+        badgeColor: "green-2",
+        badgeText: "B"
     }]
 }, {
     title: "&#128196; Learning articles",

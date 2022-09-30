@@ -28,6 +28,22 @@ const cards =
         linkText: "Pikabu",
         badgeColor: "green-2",
         badgeText: "P"
+    }, {
+        link: "https://devandgear.com",
+        linkText: "Devandgear",
+        badgeColor: "dark-1",
+        badgeText: "D"
+    }, {
+        link: "https://minifree.org/",
+        linkText: "MiniFree",
+        badgeColor: "light-3",
+        badgeText: "M",
+        badgeTextColor: "dark-3"
+    }, {
+        link: "https://system76.com/",
+        linkText: "System76",
+        badgeColor: "dark-5",
+        badgeText: "76"
     }]
 }, {
     title: "&#128511; Social networks",
