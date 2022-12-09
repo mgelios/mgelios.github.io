@@ -93,7 +93,7 @@
         document.getElementById("bookmarks-categories-container").innerHTML = bookmarksCategoriesHtml;
 
         var secretCategoriesTemplate = $.templates("#secret-categories");
-        var secretCategories = window.localStorage.getItem('secret-categories');
+        var secretCategories = window.localStorage.getItem('secret_categories');
         var secretCategoriesHtml = secretCategoriesTemplate.render(secretCategories);
         document.getElementById("secret-categories-container").innerHTML = secretCategoriesHtml;
     </script>
