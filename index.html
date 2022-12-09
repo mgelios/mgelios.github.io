@@ -37,6 +37,15 @@
         {{/for}}
     </script>
 
+    <script id="secret-categories" type="text/x-jsrender">
+        {{for}}
+            <a href="" class="grid-item">
+                <h3>{{:$data}}</h3>
+            </a>
+        {{/for}}
+    </script>
+
+
     <div class="flex-container">
         <section class="container-header">
             <h1>Search</h1>
@@ -65,15 +74,28 @@
         </section>
     </div>
 
+    <div class="flex-container">
+        <section class="container-header">
+            <h1>Secret</h1>
+        </section>
+        <section id="secret-categories-container" class="grid-container">
+        </section>
+    </div>
+
     <script>
         var $ = window.jsrender;
         var speedDialLinks = $.templates("#speed-dial-links");
         var speedDialLinksHtml = speedDialLinks.render(speed_dial_links);
         document.getElementById("speed-dial-container").innerHTML = speedDialLinksHtml;
 
-        var bookmarksCategories = $.templates("#bookmarks-categories");
-        var bookmarksCategoriesHtml = bookmarksCategories.render(categories);
+        var bookmarksCategoriesTemplate = $.templates("#bookmarks-categories");
+        var bookmarksCategoriesHtml = bookmarksCategoriesTemplate.render(categories);
         document.getElementById("bookmarks-categories-container").innerHTML = bookmarksCategoriesHtml;
+
+        var secretCategoriesTemplate = $.templates("#secret-categories");
+        var secretCategories = window.localStorage.getItem('secret-categories');
+        var secretCategoriesHtml = secretCategoriesTemplate.render(secretCategories);
+        document.getElementById("secret-categories-container").innerHTML = secretCategoriesHtml;
     </script>
 </body>
 </html>

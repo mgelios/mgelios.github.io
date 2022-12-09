@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Update category</title>
+
+    <link rel="stylesheet" type="text/css" href="../style/custom.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="manifest" href="./img/site.webmanifest">
+
+    <script src="../script/jsrender.min.js" ></script>
+
+    <meta name="theme-color" content="#000000">
+</head>
+<body>
+    <script src="../script/masonry.pkgd.min.js"></script>
+
+    <script id="category-template" type="text/x-jsrender">
+        {{for}}
+        <div class="card-wrapper">
+            <div class="card">
+                <div class="card-header">
+                    <h3>{{:title}}</h3>
+                </div>
+                <div class="card-body">
+                    {{for links}}
+                        <a href="{{:#data[0]}}" target="_blank">
+                            <div><span class="badge backgroud-{{:#data[2]}} text-color-{{:#data[4]}}">{{:#data[3]}}</span> {{:#data[1]}}</div>
+                        </a>
+                    {{/for}}
+                </div>
+            </div>
+        </div>
+        {{/for}}
+    </script>
+
+    <div class="flex-container">
+        <section class="container-header">
+            <a href="../index.html"><h1>Update</h1></a>
+        </section>
+        <section id="speed-dial-container">
+            <input id="category-name" type="text"/>
+            <br>
+            <textarea id="category-content" rows="20" cols="100" type="text"></textarea>
+            <br>
+            <button id="update-button">Update category</button>
+        </section>
+    </div>
+
+    <div class="flex-container">
+        <section class="container-header">
+            <h1>Preview</h1>
+        </section>
+        <section id="cards-container" class="cards-container" data-masonry='{"percentPosition": true }'>
+        </section>
+    </div>
+
+    <script>
+        function renderCategory(categoryName) {
+            var $ = window.jsrender;
+            var categoryRaw = window.localStorage.getItem(categoryName);
+            var category = JSON.parse(categoryRaw);
+            var categoryTemplate = $.templates("#category-template");
+            var categoryHtml = categoryTemplate.render(category.cards);
+
+            const textarea = document.getElementById('category-content');
+
+            document.getElementById("cards-container").innerHTML = categoryHtml;
+            var msnry = new Masonry('#cards-container');
+            msnry.layout();
+        }
+
+        function updateCategory() {
+            const input = document.getElementById('category-name');
+            const textarea = document.getElementById('category-content');
+            const currentName = input.value;
+            const currentValue = JSON.parse(textarea.value);
+            window.localStorage.setItem(currentName, JSON.stringify(currentValue));
+            renderCategory(currentName);
+        }
+
+        document.getElementById("update-button").addEventListener("click", updateCategory);
+    </script>
+</body>
+</html>
+
