@@ -39,12 +39,12 @@
 
     <script id="secret-categories" type="text/x-jsrender">
         {{for}}
-            <a href="" class="grid-item">
-                <h3>{{:$data}}</h3>
+            <a href="./pages/secret-category.html?category={{:title}}" class="grid-item">
+                <h3>{{:title}}</h3>
+                <p>{{:text}}</p>
             </a>
         {{/for}}
     </script>
-
 
     <div class="flex-container">
         <section class="container-header">
@@ -93,7 +93,7 @@
         document.getElementById("bookmarks-categories-container").innerHTML = bookmarksCategoriesHtml;
 
         var secretCategoriesTemplate = $.templates("#secret-categories");
-        var secretCategories = window.localStorage.getItem('secret_categories');
+        var secretCategories = JSON.parse(window.localStorage.getItem("secret_categories"));
         var secretCategoriesHtml = secretCategoriesTemplate.render(secretCategories);
         document.getElementById("secret-categories-container").innerHTML = secretCategoriesHtml;
     </script>

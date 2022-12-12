@@ -20,15 +20,16 @@
 <body>
     <script id="categories-template" type="text/x-jsrender">
         {{for}}
-            <a href="#" class="grid-item">
-                <h3>{{:#data}}</h3>
+            <a href="" class="grid-item">
+                <h3>{{:title}}</h3>
+                <p>{{:text}}</p>
             </a>
         {{/for}}
     </script>
 
     <div class="flex-container">
         <section class="container-header">
-            <h1>Update categories</h1>
+            <h1>Update</h1>
         </section>
         <section id="speed-dial-container">
             <textarea id="categories-content" rows="20" cols="100" type="text"></textarea>
@@ -39,9 +40,9 @@
 
     <div class="flex-container">
         <section class="container-header">
-            <h1>Existing categories</h1>
+            <h1>Preview</h1>
         </section>
-        <section id="cards-container" class="cards-container" data-masonry='{"percentPosition": true }'>
+        <section id="categories-container" class="grid-container">
         </section>
     </div>
 
@@ -56,7 +57,7 @@
             const textarea = document.getElementById('categories-content');
             textarea.value = categoriesRaw;
 
-            document.getElementById("cards-container").innerHTML = categoriesHtml;
+            document.getElementById("categories-container").innerHTML = categoriesHtml;
         }
 
         function updateCategories() {
