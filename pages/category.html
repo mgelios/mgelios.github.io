@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Secret</title>
+    <title>Category</title>
 
     <link rel="stylesheet" type="text/css" href="../style/custom.css">
 
@@ -13,9 +13,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
     <link rel="manifest" href="../img/site.webmanifest">
 
-    <script src="../content/test.js" ></script>
-
     <script src="../script/jsrender.min.js" ></script>
+    <script src="../script/common.js"></script>
 
     <meta name="theme-color" content="#000000">
 </head>
@@ -43,20 +42,18 @@
 
     <div class="flex-container">
         <section class="container-header">
-            <a href="../index.html"><h1 id="home-link-name">Secret</h1></a>
+            <a href="../index.html"><h1 id="home-link-name">Category</h1></a>
         </section>
         <section id="cards-container" class="cards-container" data-masonry='{"percentPosition": true }'>
         </section>
     </div>
 
     <script>
-        var $ = window.jsrender;
-        var tmpl = $.templates("#cards");
-        var params = new URLSearchParams(window.location.search);
-        var html = tmpl.render(JSON.parse(window.localStorage.getItem(params.get("category"))).cards);
-        document.getElementById("cards-container").innerHTML = html;
-        document.getElementById("home-link-name").innerText = params.get("category");
-        document.title = params.get("category");
+        JSONFromURL("../content/" + getURLParam("category") + ".json")
+            .then(content => {
+                renderTemplateWithData(content.cards, "cards", "cards-container");
+                updateCategoryPageWithName(getURLParam("category"));
+            });
     </script>
 </body>
 </html>

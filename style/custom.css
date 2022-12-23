@@ -100,6 +100,18 @@
 .text-color-dark-4 { color: var(--dark-4); }
 .text-color-dark-5 { color: var(--dark-5); }
 
+.text-color-red-1 { color: var(--red-1); }
+.text-color-red-2 { color: var(--red-2); }
+.text-color-red-3 { color: var(--red-3); }
+.text-color-red-4 { color: var(--red-4); }
+.text-color-red-5 { color: var(--red-5); }
+
+.text-color-orange-1 { color: var(--orange-1); }
+.text-color-orange-2 { color: var(--orange-2); }
+.text-color-orange-3 { color: var(--orange-3); }
+.text-color-orange-4 { color: var(--orange-4); }
+.text-color-orange-5 { color: var(--orange-5); }
+
 /* concrete elements section */
 body {
     background-color: var(--dark-1);

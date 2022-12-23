@@ -1,0 +1,38 @@
+{
+    "cards": [{
+        "title": "Cloud",
+        "description": "Cloud storage providers",
+        "color": "secondary",
+        "links": [
+            ["https://drive.google.com/drive/u/0/", "Google drive", "blue-3", "G", ""],
+            ["https://mega.io/", "Mega", "red-3", "M", ""],
+            ["https://www.dropbox.com/", "Dropbox", "blue-2", "D", ""]
+        ]
+    }, {
+        "title": "Torrent",
+        "description": "Torrent trackers",
+        "color": "secondary",
+        "links": [
+            ["https://rutracker.org/forum/index.php", "Rutracker", "blue-2", "R", ""],
+            ["https://thepiratebay.org/index.html", "The Pirate Bay","light-3","T", "dark-5"]
+        ]
+    },{
+        "title": "FTP",
+        "description": "FTP servers",
+        "color": "primary",
+        "links": [
+            ["https://www.mmnt.net/", "MMNT FTP collection", "light-1", "M", "dark-1"],
+            ["https://scientifically.info/publ/7-1-0-52", "Scientifically FTP collection", "dark-1", "S",""]
+        ]
+    }, {
+        "title": "Books",
+        "description": "Sources of books/magazines",
+        "color": "danger",
+        "links": [
+            ["http://flibusta.site/", "Flibusta", "blue-3", "F", ""],
+            ["https://render.ru/ru/magazine", "Render magazine", "green-2", "R", ""],
+            ["https://borchun.name/main/32-aktualnye-opds-katalogi.html", "Opds collection Borchun", "dark-1", "B", ""],
+            ["https://libgen.lc/", "Library Genesis", "blue-2", "L", ""]
+        ]
+    }]
+}

@@ -8,7 +8,7 @@ const categories =
 }, {
     title: "&#128187; Education",
     text: "Web-resources to use as utils",
-    link: "./pages/education.html",
+    link: "./pages/category.html?category=education",
     linkButtonText: "Go education",
     color: "primary"
 }, {
@@ -26,7 +26,7 @@ const categories =
 }, {
     title: "Datasources",
     text: "Different datasources",
-    link: "./pages/datasources.html",
+    link: "./pages/category.html?category=datasources",
     linkButtonText: "Go datasources",
     color: "secondary"
 }, {
