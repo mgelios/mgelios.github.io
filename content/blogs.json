@@ -1,0 +1,200 @@
+{
+    "cards":[
+       {
+          "title":"&#128187; It specialists",
+          "description":"it specialists blogs",
+          "color":"secondary",
+          "links":[
+             [
+                "https://dotsandbrackets.com/",
+                "Dots and brackets",
+                "blue-3",
+                "D",
+                ""
+             ],
+             [
+                "https://du-blog.ru/",
+                "One dude",
+                "light-2",
+                "DU",
+                "dark-4"
+             ],
+             [
+                "https://kovchinnikov.info/",
+                "Kovchinnikov's blog",
+                "blue-3",
+                "K",
+                ""
+             ],
+             [
+                "https://www.swyx.io/",
+                "Swyx",
+                "light-4",
+                "[S]",
+                "dark-3"
+             ],
+             [
+                "https://cupsofcode.com/",
+                "Cups of code",
+                "orange-2",
+                "C",
+                ""
+             ],
+             [
+                "https://vvsevolodovich.dev/",
+                "Vladimir Ivanov's blog",
+                "dark-1",
+                "V",
+                ""
+             ],
+             [
+                "http://danluu.com/",
+                "Danluu",
+                "light-3",
+                "D",
+                "dark-3"
+             ],
+             [
+                "https://jinesh.codes/",
+                "Jinesh",
+                "green-2",
+                "J",
+                ""
+             ],
+             [
+                "https://borchun.name/main/",
+                "Borchun",
+                "blue-2",
+                "B",
+                ""
+             ],
+             [
+                "https://tonsky.livejournal.com/",
+                "Tonsky blog",
+                "blue-2",
+                "T",
+                ""
+             ]
+          ]
+       },
+       {
+          "title":"Artists",
+          "description":"Artists blogs",
+          "color":"info",
+          "links":[
+             [
+                "https://blog.dahr.ru/",
+                "Dahr's blog",
+                "dark-1",
+                "D",
+                ""
+             ],
+             [
+                "https://karanak.livejournal.com/",
+                "Karanak",
+                "blue-2",
+                "K",
+                ""
+             ],
+             [
+                "https://kro-ogli.livejournal.com/",
+                "Kro Ogli",
+                "blue-2",
+                "KO",
+                ""
+             ]
+          ]
+       },
+       {
+          "title":"&#128190; Geek",
+          "description":"Blogs with geek content",
+          "color":"secondary",
+          "links":[
+             [
+                "https://vas3k.ru/",
+                "Vas3k RU",
+                "dark-1",
+                "V",
+                ""
+             ],
+             [
+                "https://vas3k.com",
+                "Vas3k COM",
+                "dark-1",
+                "V",
+                ""
+             ],
+             [
+                "https://phreedom.club/~tolstoevsky/",
+                "Tolstoevsky",
+                "dark-1",
+                "T",
+                ""
+             ],
+             [
+                "https://satyrs.eu/",
+                "Staryr's forest",
+                "purple-2",
+                "S",
+                ""
+             ],
+             [
+                "https://adityatelange.in/",
+                "Aditya Telange",
+                "dark-1",
+                "A",
+                ""
+             ],
+             [
+                "https://neustadt.fr/",
+                "Parimal Satyal",
+                "dark-1",
+                "P",
+                ""
+             ]
+          ]
+       },
+       {
+          "title":"Personal pages",
+          "description":"Personal pages, like cvs, portfolios",
+          "color":"success",
+          "links":[
+             [
+                "http://sereja.me/",
+                "Sergey Slotin",
+                "light-3",
+                "S",
+                "dark-3"
+             ],
+             [
+                "https://prettycoffee.github.io/",
+                "Pretty Coffee",
+                "blue-1",
+                "P",
+                ""
+             ],
+             [
+                "https://tonsky.me/",
+                "Tonsky",
+                "orange-4",
+                "T",
+                "dark-2"
+             ]
+          ]
+       },
+       {
+          "title":"Random blogs",
+          "description":"temp category for random blogs",
+          "color":"orange-3",
+          "links":[
+             [
+                "https://weintravel.blogspot.com/",
+                "We in travel",
+                "orange-4",
+                "W",
+                "dark-2"
+             ]
+          ]
+       }
+    ]
+ }
