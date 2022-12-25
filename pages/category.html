@@ -49,7 +49,7 @@
     </div>
 
     <script>
-        JSONFromURL("../content/category/" + getURLParam("category") + ".json")
+        JSONFromURL("../content/categories/" + getURLParam("category") + ".json")
             .then(content => {
                 renderTemplateWithData(content.cards, "cards", "cards-container");
                 updateCategoryPageWithName(getURLParam("category"));
