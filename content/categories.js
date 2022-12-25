@@ -41,4 +41,10 @@ const categories =
     link: "./pages/category.html?category=poland",
     linkButtonText: "Go Poland",
     color: "danger"
+}, {
+    title: "🇷🇸 Serbia",
+    text: "Serbia related",
+    link: "./pages/category.html?category=serbia",
+    linkButtonText: "Go Serbia",
+    color: "danger"
 }];

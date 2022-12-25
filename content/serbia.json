@@ -1,0 +1,10 @@
+{
+    "cards": [{
+        "title": "Shopping",
+        "description": "shopping",
+        "color": "secondary",
+        "links": [
+            ["https://novi.kupujemprodajem.com/", "KupujemProdajem", "light-5", "K", "red-3"]
+        ]
+    }]
+}

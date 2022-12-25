@@ -1,235 +1,66 @@
 {
-    "cards":[
-       {
-          "title":"&#128173; Inspiration",
-          "description":"Some websites where I take inspiration",
-          "color":"warning",
-          "links":[
-             [
-                "https://www.pinterest.com/",
-                "Pinterest",
-                "red-3",
-                "P",
-                ""
-             ],
-             [
-                "https://hackaday.io",
-                "Hackaday",
-                "dark-1",
-                "H",
-                ""
-             ],
-             [
-                "https://www.reddit.com",
-                "Reddit",
-                "red-3",
-                "R",
-                ""
-             ],
-             [
-                "https://www.joyreactor.cc",
-                "Joyreactor",
-                "orange-2",
-                "J",
-                ""
-             ],
-             [
-                "https://www.pikabu.ru",
-                "Pikabu",
-                "green-2",
-                "P",
-                ""
-             ],
-             [
-                "https://devandgear.com",
-                "Devandgear",
-                "dark-1",
-                "D",
-                ""
-             ],
-             [
-                "https://minifree.org/",
-                "MiniFree",
-                "light-3",
-                "M",
-                "dark-3"
-             ],
-             [
-                "https://system76.com/",
-                "System76",
-                "dark-5",
-                "76",
-                ""
-             ]
-          ]
-       },
-       {
-          "title":"&#128511; Social networks",
-          "description":"Some social networks",
-          "color":"light",
-          "links":[
-             [
-                "https://www.youtube.com",
-                "Youtube",
-                "red-3",
-                "You",
-                ""
-             ],
-             [
-                "https://vk.com/",
-                "VKontakte",
-                "blue-3",
-                "VK",
-                ""
-             ],
-             [
-                "https://facebook.com/",
-                "Facebook",
-                "blue-2",
-                "F",
-                ""
-             ],
-             [
-                "https://www.twitter.com",
-                "Twitter",
-                "blue-4",
-                "T",
-                ""
-             ]
-          ]
-       },
-       {
-          "title":"&#127911; Podcasts",
-          "description":"Some podcasts websites",
-          "color":"primary",
-          "links":[
-             [
-                "https://radio-t.com/",
-                "Radio-T",
-                "blue-3",
-                "T",
-                ""
-             ],
-             [
-                "https://beardycast.com/",
-                "Beardycast",
-                "orange-3",
-                "B",
-                ""
-             ],
-             [
-                "https://podcast.umputun.com/",
-                "UWP",
-                "blue-2",
-                "U",
-                ""
-             ],
-             [
-                "https://usilenie.plus/",
-                "Usilenie",
-                "light-1",
-                "U",
-                "dark-4"
-             ]
-          ]
-       },
-       {
-          "title":"&#127916; Movies",
-          "description":"Movies related links",
-          "color":"secondary",
-          "links":[
-             [
-                "https://hd.kinopoisk.ru/",
-                "Kinopoisk HD",
-                "orange-2",
-                "K",
-                ""
-             ],
-             [
-                "http://baskino.me/",
-                "Baskino.me",
-                "purple-2",
-                "B",
-                ""
-             ],
-             [
-                "https://hdrezka.ag/",
-                "HDRezka.ag",
-                "dark-1",
-                "Rezka",
-                ""
-             ],
-             [
-                "https://www.dashserial.online/",
-                "Dashserial",
-                "dark-5",
-                "D",
-                ""
-             ]
-          ]
-       },
-       {
-          "title":"&#127925; Music",
-          "description":"Music related links",
-          "color":"secondary",
-          "links":[
-             [
-                "https://music.yandex.ru/",
-                "Yandex Music",
-                "red-3",
-                "Y",
-                ""
-             ]
-          ]
-       },
-       {
-          "title":"&#127922; Fan sites",
-          "description":"Fan sites",
-          "color":"light",
-          "links":[
-             [
-                "https://wiby.me/",
-                "Wiby",
-                "purple-3",
-                "W",
-                ""
-             ],
-             [
-                "https://swalker.org/",
-                "Swalker",
-                "red-3",
-                "S",
-                ""
-             ],
-             [
-                "https://everydaycarry.com/",
-                "EDC",
-                "dark-1",
-                "E",
-                ""
-             ],
-             [
-                "https://lozhki.net/",
-                "Lozhki.net",
-                "green-2",
-                "L",
-                ""
-             ],
-             [
-                "https://www.window-swap.com/",
-                "Windows swap",
-                "orange-3",
-                "WS",
-                ""
-             ],
-             [
-                "http://nightbbs.ru/index.html",
-                "Night bbs",
-                "light-3",
-                "NB",
-                "dark-3"
-             ]
-          ]
-       }
-    ]
+    "cards":[{
+        "title":"&#128173; Inspiration",
+        "description":"Some websites where I take inspiration",
+        "color":"warning",
+        "links":[
+            ["https://www.pinterest.com/","Pinterest","red-3","P",""],
+            ["https://hackaday.io","Hackaday","dark-1","H",""],
+            ["https://www.reddit.com","Reddit","red-3","R",""],
+            ["https://www.joyreactor.cc","Joyreactor","orange-2","J",""],
+            ["https://www.pikabu.ru","Pikabu","green-2","P",""],
+            ["https://devandgear.com","Devandgear","dark-1","D",""],
+            ["https://minifree.org/","MiniFree","light-3","M","dark-3"],
+            ["https://system76.com/","System76","dark-5","76",""]
+        ]
+    }, {
+        "title":"&#128511; Social networks",
+        "description":"Some social networks",
+        "color":"light",
+        "links":[
+            ["https://www.youtube.com","Youtube","red-3","You",""],
+            ["https://vk.com/","VKontakte","blue-3","VK",""],
+            ["https://facebook.com/","Facebook","blue-2","F",""],
+            ["https://www.twitter.com","Twitter","blue-4","T",""]
+        ]
+    }, {
+        "title":"&#127911; Podcasts",
+        "description":"Some podcasts websites",
+        "color":"primary",
+        "links":[
+            ["https://radio-t.com/","Radio-T","blue-3","T",""],
+            ["https://beardycast.com/","Beardycast","orange-3","B",""],
+            ["https://podcast.umputun.com/","UWP","blue-2","U",""],
+            ["https://usilenie.plus/","Usilenie","light-1","U","dark-4"]
+        ]
+    }, {
+        "title":"&#127916; Movies",
+        "description":"Movies related links",
+        "color":"secondary",
+        "links":[
+            ["https://hd.kinopoisk.ru/","Kinopoisk HD","orange-2","K",""],
+            ["http://baskino.me/","Baskino.me","purple-2","B",""],
+            ["https://hdrezka.ag/","HDRezka.ag","dark-1","Rezka",""],
+            ["https://www.dashserial.online/","Dashserial","dark-5","D",""]
+        ]
+    }, {
+        "title":"&#127925; Music",
+        "description":"Music related links",
+        "color":"secondary",
+        "links":[
+            ["https://music.yandex.ru/","Yandex Music","red-3","Y",""]
+        ]
+    }, {
+        "title":"&#127922; Fan sites",
+        "description":"Fan sites",
+        "color":"light",
+        "links":[
+            ["https://wiby.me/","Wiby","purple-3","W",""],
+            ["https://swalker.org/","Swalker","red-3","S",""],
+            ["https://everydaycarry.com/","EDC","dark-1","E",""],
+            ["https://lozhki.net/","Lozhki.net","green-2","L",""],
+            ["https://www.window-swap.com/","Windows swap","orange-3","WS",""],
+            ["http://nightbbs.ru/index.html","Night bbs","light-3","NB","dark-3"]
+        ]
+    }]
  }
