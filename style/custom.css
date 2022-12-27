@@ -112,6 +112,12 @@
 .text-color-orange-4 { color: var(--orange-4); }
 .text-color-orange-5 { color: var(--orange-5); }
 
+.text-color-yellow-1 { color: var(--yellow-1); }
+.text-color-yellow-2 { color: var(--yellow-2); }
+.text-color-yellow-3 { color: var(--yellow-3); }
+.text-color-yellow-4 { color: var(--yellow-4); }
+.text-color-yellow-5 { color: var(--yellow-5); }
+
 /* concrete elements section */
 body {
     background-color: var(--dark-1);

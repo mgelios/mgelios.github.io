@@ -4,7 +4,16 @@
         "description": "shopping",
         "color": "secondary",
         "links": [
-            ["https://novi.kupujemprodajem.com/", "KupujemProdajem", "light-5", "K", "red-3"]
+            ["https://novi.kupujemprodajem.com/", "KupujemProdajem", "light-5", "K", "red-3"],
+            ["https://gigatron.rs/", "Gigatron", "dark-1", "G", "yellow-3"],
+            ["https://www.tehnomanija.rs/", "Technomanija", "dark-1", "T", ""]
+        ]
+    }, {
+        "title": "Entertainment",
+        "description": "entertainment",
+        "color": "secondary",
+        "links": [
+            ["https://www.cineplexx.rs/", "Cineplexx", "dark-1", "C", "red-3"]
         ]
     }]
 }
