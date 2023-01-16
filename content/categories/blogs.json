@@ -13,7 +13,8 @@
             ["http://danluu.com/","Danluu","light-3","D","dark-3"],
             ["https://jinesh.codes/","Jinesh","green-2","J",""],
             ["https://borchun.name/main/","Borchun","blue-2","B",""],
-            ["https://tonsky.livejournal.com/","Tonsky blog","blue-2","T",""]
+            ["https://tonsky.livejournal.com/","Tonsky blog","blue-2","T",""],
+            ["https://dirtyinode.me/", "MURG", "dark-1", "M", "green-3"]
         ]
     }, {
         "title":"Artists",

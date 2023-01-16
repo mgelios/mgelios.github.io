@@ -19,6 +19,7 @@
             ["https://linkedin.com/","LinkedIn","blue-2","L",""],
             ["https://resume.io/","ResumeIO","purple-3","R",""],
             ["https://www.jsviews.com/#home","JSViews/JSRender","light-3","J","dark-1"],
+            ["https://wkhtmltopdf.org/", "WKHTMLtoPDF", "blue-2", "W", ""],
             ["https://bootswatch.com/","Bootstrap themes","blue-1","B",""]
         ]
     }, {

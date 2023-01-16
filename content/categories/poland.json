@@ -4,8 +4,7 @@
         "description": "Visa related",
         "color": "secondary",
         "links": [
-            ["https://secure.e-konsulat.gov.pl/", "Visa registration", "red-3", "V", ""],
-            ["https://docs.google.com/document/d/1v-YdyKpy1XRC3jMOfsC_XUI4GlmSyCWJYtD4TyYoWak/edit", "PBH guide", "blue-3", "P", ""]
+            ["https://secure.e-konsulat.gov.pl/", "Visa registration", "red-3", "V", ""]
         ]
     }]
 }
