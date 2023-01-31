@@ -30,8 +30,9 @@
         "description":"Blogs with geek content",
         "color":"secondary",
         "links":[
-            ["https://vas3k.ru/", "Vas3k RU", "dark-1", "V", ""],
+            ["https://vas3k.blog/", "Vas3k BLOG", "dark-1", "V", ""],
             ["https://vas3k.com", "Vas3k COM", "dark-1", "V", ""],
+            ["https://vas3k.club/", "Vas3k Club", "dark-1", "V", ""],
             ["https://phreedom.club/~tolstoevsky/", "Tolstoevsky", "dark-1", "T", ""],
             ["https://satyrs.eu/", "Staryr's forest", "purple-2", "S", ""],
             ["https://adityatelange.in/", "Aditya Telange", "dark-1", "A", ""],
