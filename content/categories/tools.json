@@ -54,7 +54,9 @@
         "description": "links to AI tools",
         "color": "primary",
         "links": [
-            ["https://chat.openai.com", "ChatGPT", "dark-3", "C", ""]
+            ["https://chat.openai.com", "ChatGPT", "dark-3", "C", ""],
+            ["https://share-docs.clickup.com/25598832/d/h/rd6vg-14247/0b79ca1dc0f7429/rd6vg-12207", "AI Tools list", "dark-1", "AI", ""],
+            ["https://github.com/ai-collection/ai-collection", "AI collection", "dark-1", "AI", ""]
         ]
     }]
  }

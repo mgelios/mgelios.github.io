@@ -6,7 +6,8 @@
         "links": [
             ["https://novi.kupujemprodajem.com/", "KupujemProdajem", "light-5", "K", "red-3"],
             ["https://gigatron.rs/", "Gigatron", "dark-1", "G", "yellow-3"],
-            ["https://www.tehnomanija.rs/", "Technomanija", "dark-1", "T", ""]
+            ["https://www.tehnomanija.rs/", "Technomanija", "dark-1", "T", ""],
+            ["https://ananas.rs/", "Ananas", "orange-2", "A", ""]
         ]
     }, {
         "title": "Entertainment",
@@ -14,6 +15,15 @@
         "color": "secondary",
         "links": [
             ["https://www.cineplexx.rs/", "Cineplexx", "dark-1", "C", "red-3"]
+        ]
+    }, {
+        "title": "Delivery",
+        "description": "entertainment",
+        "color": "secondary",
+        "links": [
+            ["https://www.posta.rs/index-stanovnistvo-eng.aspx", "Serbia Post", "blue-2", "SP", ""],
+            ["https://www.dexpress.rs/", "DExpress", "red-3", "DE", ""],
+            ["https://www.aks.rs/", "AKS", "blue-3", "A", ""]
         ]
     }]
 }
