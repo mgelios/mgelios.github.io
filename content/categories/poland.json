@@ -14,7 +14,7 @@
         "links": [
             ["https://www.luxmed.pl/", "Luxmed", "green-2", "L", ""],
             ["https://www.znanylekarz.pl/", "Znanylekarz", "green-3", "Z", ""],
-            ["https://pacjent.gov.pl/aktualnosc/mojeikp-na-komorke-lub-tablet", "Receipts", "red-3", ""]
+            ["https://pacjent.gov.pl/aktualnosc/mojeikp-na-komorke-lub-tablet", "Receipts", "red-3", "R", ""]
         ]
     }, {
         "title": "Rent apartment",
@@ -40,8 +40,7 @@
             ["https://bymapka.me/", "BY MAPKA", "red-3", "B", ""],
             ["https://booksy.com/en-us/", "Booksy", "green-3", "B", ""],
             ["https://inpost.pl/", "InPost", "orange-2", "In", ""],
-            ["https://www.groupon.pl", "Groupon", "blue-3", "G", ""],
-            []
+            ["https://www.groupon.pl", "Groupon", "blue-3", "G", ""]
         ]
     }]
 }
