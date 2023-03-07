@@ -25,5 +25,14 @@
             ["https://www.dexpress.rs/", "DExpress", "red-3", "DE", ""],
             ["https://www.aks.rs/", "AKS", "blue-3", "A", ""]
         ]
+    }, {
+        "title": "Communication providers",
+        "description": "communication",
+        "color": "danger",
+        "links": [
+            ["https://mts.rs/", "MTS", "red-3", "M", ""],
+            ["https://www.yettel.rs/", "Yettel", "green-3", "Y", ""],
+            ["https://a1.rs/", "A1", "red-3", "A1", ""]
+        ]
     }]
 }

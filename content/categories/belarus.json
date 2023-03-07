@@ -1,0 +1,22 @@
+{
+    "cards":[{
+        "title": "News",
+        "description": "Belarus-related news",
+        "color": "danger",
+        "links": [
+            ["https://www.zerkalo.io", "Zerkalo.io", "red-3", "Z", ""],
+            ["https://kyky.org/", "kyky.org", "dark-1", "K", ""],
+            ["https://citydog.io/", "Citydog.io", "light-5", "C", "dark-4"]
+        ]
+    }, {
+        "title": "Shopping",
+        "description": "shopping in Belarus",
+        "color": "danger",
+        "links": [
+            ["https://www.onliner.by", "Onliner.by", "red-3", "O", ""],
+            ["https://market.yandex.by/", "Yandex market", "red-3", "YM", ""],
+            ["https://www.ozon.ru/", "Ozon", "blue-3", "O", ""],
+            ["https://www.wildberries.ru/", "Wildberries", "red-3", "W", ""]
+        ]
+    }]
+}

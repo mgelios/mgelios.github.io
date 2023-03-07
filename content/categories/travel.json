@@ -1,0 +1,28 @@
+{
+    "cards":[{
+        "title": "Transport",
+        "description": "transportation",
+        "color": "danger",
+        "links": [
+            ["https://www.aviasales.ru/", "Aviasales", "blue-3", "A", ""],
+            ["https://www.lot.com", "LOT airlines", "blue-2", "L", ""]
+        ]
+    }, {
+        "title": "Housing/Hotels",
+        "description": "where to stay",
+        "color": "danger",
+        "links": [
+            ["https://www.booking.com/", "Booking", "blue-3", "B", ""],
+            ["https://www.airbnb.com/", "Airbnb", "red-3", "A", ""],
+            ["https://www.hotels.com/", "Hotels.com", "red-2", "H", ""]
+        ]
+    }, {
+        "title": "Guides/Compilations",
+        "description": "guides",
+        "color": "danger",
+        "links": [
+            ["https://34travel.me/", "Travel 34", "dark-2", "T", ""],
+            ["https://vandrouki.by/", "Vandrouki", "dark-3", "V", ""]
+        ]
+    }]
+}

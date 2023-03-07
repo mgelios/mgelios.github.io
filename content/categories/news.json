@@ -1,15 +1,5 @@
 {
     "cards":[{
-        "title": "BY news",
-        "description": "Belarus-related news",
-        "color": "danger",
-        "links": [
-            ["https://www.onliner.by", "Onliner.by", "red-3", "O", ""],
-            ["https://www.zerkalo.io", "Zerkalo.io", "red-3", "Z", ""],
-            ["https://kyky.org/", "kyky.org", "dark-1", "K", ""],
-            ["https://citydog.io/", "Citydog.io", "light-5", "C", "dark-4"]
-        ]
-    }, {
         "title":"CG news",
         "description":"CG news websites",
         "color":"success",
@@ -33,26 +23,6 @@
         "color":"info",
         "links":[
             ["https://scientifically.info/","Scientifically","dark-1","S",""]
-        ]
-    }, {
-        "title":"GAMES::RU",
-        "description":"Games news websites",
-        "color":"dark",
-        "links":[
-            ["https://dtf.ru/","DTF","blue-3","D",""],
-            ["https://stopgame.ru/","Stopgame","red-3","S",""],
-            ["https://ixbt.games/","IXBT games","blue-2","I",""],
-            ["https://www.igromania.ru/news/","Igromania","red-3","I",""]
-        ]
-    }, {
-        "title":"GAMES::ENG",
-        "description":"Some it news websites",
-        "color":"secondary",
-        "links":[
-            ["https://www.eurogamer.net/","Eurogamer","blue-3","E",""],
-            ["https://www.polygon.com/","Polygon","purple-2","P",""],
-            ["https://www.rockpapershotgun.com/","Rockpapershotgun","blue-2","R",""],
-            ["https://www.ign.com/","IGN","red-2","I",""]
         ]
     }, {
         "title":"&#128187; I'm writing",

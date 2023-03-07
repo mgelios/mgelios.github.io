@@ -31,4 +31,12 @@ const categories =
     title: "🇷🇸 Serbia",
     text: "Serbia related",
     name: "serbia"
+}, {
+    title: "⬜🟥⬜ Belarus",
+    text: "Belarus related",
+    name: "belarus"
+}, {
+    title: "🚅 Travel",
+    text: "Travel",
+    name: "travel"
 }];

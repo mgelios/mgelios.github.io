@@ -1,10 +1,47 @@
 {
     "cards": [{
-        "title": "Visa",
-        "description": "Visa related",
+        "title": "Goverment",
+        "description": "goverment related",
         "color": "secondary",
         "links": [
+            ["https://www.gov.pl/", "Goverment portal", "red-3", "G", ""],
             ["https://secure.e-konsulat.gov.pl/", "Visa registration", "red-3", "V", ""]
+        ]
+    }, {
+        "title": "Health",
+        "description": "health",
+        "color": "secondary",
+        "links": [
+            ["https://www.luxmed.pl/", "Luxmed", "green-2", "L", ""],
+            ["https://www.znanylekarz.pl/", "Znanylekarz", "green-3", "Z", ""],
+            ["https://pacjent.gov.pl/aktualnosc/mojeikp-na-komorke-lub-tablet", "Receipts", "red-3", ""]
+        ]
+    }, {
+        "title": "Rent apartment",
+        "description": "rent apartments",
+        "color": "secondary",
+        "links": [
+            ["https://www.otodom.pl/", "Otodom", "green-3", "O", ""],
+            ["https://www.facebook.com/groups/1829384610708402", "FB group", "blue-3", "F", ""]
+        ]
+    }, {
+        "title": "Shopping",
+        "description": "shopping",
+        "color": "secondary",
+        "links": [
+            ["https://www.olx.pl/", "OLX PL", "green-3", "O", ""],
+            ["https://allegro.pl/", "Allegro", "orange-3", "A", ""]
+        ]
+    }, {
+        "title": "Services",
+        "description": "services",
+        "color": "secondary",
+        "links": [
+            ["https://bymapka.me/", "BY MAPKA", "red-3", "B", ""],
+            ["https://booksy.com/en-us/", "Booksy", "green-3", "B", ""],
+            ["https://inpost.pl/", "InPost", "orange-2", "In", ""],
+            ["https://www.groupon.pl", "Groupon", "blue-3", "G", ""],
+            []
         ]
     }]
 }

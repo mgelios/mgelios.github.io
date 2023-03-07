@@ -1,0 +1,29 @@
+{
+    "first_name": "Anton",
+    "second_name": "Nadyozhkin",
+    "short_description": "Backend Java developer/Fullstack (Java+Vue.js) developer/Data engineer with more than 7 years of experience",
+    "skills": {
+        "Natural Languages": ["English (B2+)", "Belarusian (B2+)", "Russian (Native)"],
+        "Programming languages": ["Java", "Javascript", "Python"],
+        "Frameworks/Libraries": ["Spring Core", "Spring Cloud", "Spring Data", "Hibernate", "Apache Camel", "Apache Spark"],
+        "Build tools": ["Maven", "Gradle"],
+        "Containers": ["Docker"],
+        "Version control systems": ["Git, Subversion"],
+        "Tools": ["Intellij IDEA", "VS Code, Postman", "Jmeter", "Soap UI"],
+        "Management frameworks": ["Scrum", "Agile", "Spiral", "Waterfall"],
+        "Task management": ["Jira", "Trello"]
+    },
+    "contact_info": {
+        "E-mail": "antonnadezhkin@gmail.com",
+        "Phone": "+375292777042",
+        "Country, City": "Serbia, Novi Sad"
+    },
+    "education": {
+        "Univercity": "BSUIR, Bachelor's degree"
+    },
+    "prizes_appraisals": [
+        "",
+        "",
+        ""
+    ]
+}
