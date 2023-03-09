@@ -17,15 +17,6 @@
             ["https://dirtyinode.me/", "MURG", "dark-1", "M", "green-3"]
         ]
     }, {
-        "title":"Artists",
-        "description":"Artists blogs",
-        "color":"info",
-        "links":[
-            ["https://blog.dahr.ru/", "Dahr's blog", "dark-1", "D", ""],
-            ["https://karanak.livejournal.com/", "Karanak", "blue-2", "K", ""],
-            ["https://kro-ogli.livejournal.com/", "Kro Ogli", "blue-2", "KO", ""]
-        ]
-    }, {
         "title":"&#128190; Geek",
         "description":"Blogs with geek content",
         "color":"secondary",

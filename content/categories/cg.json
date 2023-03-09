@@ -1,0 +1,23 @@
+{
+    "cards":[{
+        "title":"CG news",
+        "description":"CG news websites",
+        "color":"success",
+        "links":[
+            ["https://www.render.ru","Render.ru","green-2","R",""],
+            ["https://www.blenderguru.com/","Blender Guru","light-3","B","dark-1"],
+            ["https://www.poliigon.com/","Poligon assets","dark-1","P",""],
+            ["https://www.artstation.com/","Artstation","blue-2","A",""],
+            ["https://www.deviantart.com/","Deviantart","green-2","D",""]
+        ]
+    }, {
+        "title":"Blogs",
+        "description":"Artists blogs",
+        "color":"info",
+        "links":[
+            ["https://blog.dahr.ru/", "Dahr's blog", "dark-1", "D", ""],
+            ["https://karanak.livejournal.com/", "Karanak", "blue-2", "K", ""],
+            ["https://kro-ogli.livejournal.com/", "Kro Ogli", "blue-2", "KO", ""]
+        ]
+    }]
+}

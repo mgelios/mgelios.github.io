@@ -39,4 +39,8 @@ const categories =
     title: "🚅 Travel",
     text: "Travel",
     name: "travel"
+}, {
+    title: "🖥️ CG",
+    text: "CG related",
+    name: "cg"
 }];
