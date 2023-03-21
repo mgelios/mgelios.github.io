@@ -43,4 +43,8 @@ const categories =
     title: "🖥️ CG",
     text: "CG related",
     name: "cg"
+}, {
+    title: "Games",
+    text: "Games relate",
+    name: "games"
 }];

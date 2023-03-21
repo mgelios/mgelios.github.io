@@ -63,12 +63,5 @@
             ["https://www.window-swap.com/","Windows swap","orange-3","WS",""],
             ["http://nightbbs.ru/index.html","Night bbs","light-3","NB","dark-3"]
         ]
-    }, {
-        "title": "Games",
-        "description": "games related links",
-        "color": "light",
-        "links": [
-            ["https://colonist.io/", "Colonist", "blue-3", "C", ""]
-        ]
     }]
  }

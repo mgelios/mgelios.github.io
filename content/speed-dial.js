@@ -75,35 +75,11 @@ const speed_dial_links =
     badgeText: "L",
     badgeTextColor: "light-3"
 }, {
-    title: "Gwer's K",
-    link: "https://gwer.github.io/kitchen/",
-    linkButtonText: "Go Gwer's K",
-    color: "success",
-    badgeColor: "green-1",
-    badgeText: "GK",
-    badgeTextColor: "light-3"
-}, {
-    title: "Razrabs",
-    link: "https://razrabs.ru/",
-    linkButtonText: "Go Razrabs",
+    title: "ChatGPT",
+    link: "https://chat.openai.com",
+    linkButtonText: "Go ChatGPT",
     color: "secondary",
-    badgeColor: "dark-1",
-    badgeText: "R",
+    badgeColor: "green-2",
+    badgeText: "C",
     badgeTextColor: "light-3"
-}, {
-    title: "Onliner",
-    link: "https://www.onliner.by",
-    linkButtonText: "Go Onliner",
-    color: "danger",
-    badgeColor: "red-3",
-    badgeText: "O",
-    badgeTextColor: "light-3"
-}, {
-    title: "Render.ru",
-    link: "https://www.render.ru",
-    linkButtonText: "Go Render.ru",
-    color: "info",
-    badgeColor: "green-1",
-    badgeText: "R",
-    badgeTextColor: "light-3"
-}, ];
+}];
