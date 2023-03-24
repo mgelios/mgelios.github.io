@@ -18,5 +18,14 @@
             ["https://www.ozon.ru/", "Ozon", "blue-3", "O", ""],
             ["https://www.wildberries.ru/", "Wildberries", "red-3", "W", ""]
         ]
+    }, {
+        "title": "Govermental",
+        "description": "govermental resources",
+        "color": "danger",
+        "links": [
+            ["https://platform.gov.by", "Портал электронных услуг", "red-3", "П", ""],
+            ["https://www.oac.gov.by/", "ОАЦ", "red-3", "O", ""],
+            ["https://portal.gov.by", "Старый портал", "red-3", "П", ""]
+        ]
     }]
 }

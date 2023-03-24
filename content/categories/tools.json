@@ -4,7 +4,6 @@
         "description":"Util web resources",
         "color":"secondary",
         "links":[
-            ["https://github.com/","GitHub","dark-1","Git",""],
             ["https://trello.com/","Trello","blue-2","T",""],
             ["https://notion.so/","Notion","light-3","[N]","dark-1"],
             ["https://miro.com/","Miro","dark-1","M",""],
@@ -16,8 +15,6 @@
         "color":"secondary",
         "links":[
             ["https://jwt.io/","jwt.io","dark-1","JWT",""],
-            ["https://linkedin.com/","LinkedIn","blue-2","L",""],
-            ["https://resume.io/","ResumeIO","purple-3","R",""],
             ["https://www.jsviews.com/#home","JSViews/JSRender","light-3","J","dark-1"],
             ["https://wkhtmltopdf.org/", "WKHTMLtoPDF", "blue-2", "W", ""],
             ["https://bootswatch.com/","Bootstrap themes","blue-1","B",""]
@@ -56,7 +53,8 @@
         "links": [
             ["https://chat.openai.com", "ChatGPT", "dark-3", "C", ""],
             ["https://share-docs.clickup.com/25598832/d/h/rd6vg-14247/0b79ca1dc0f7429/rd6vg-12207", "AI Tools list", "dark-1", "AI", ""],
-            ["https://github.com/ai-collection/ai-collection", "AI collection", "dark-1", "AI", ""]
+            ["https://github.com/ai-collection/ai-collection", "AI collection", "dark-1", "AI", ""],
+            ["https://laion.ai/", "LAION", "blue-2", "L", ""]
         ]
     }]
  }

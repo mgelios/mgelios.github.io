@@ -1,0 +1,38 @@
+{
+    "cards":[{
+        "title": "Source code",
+        "description": "Source code resources",
+        "color": "primary",
+        "links": [
+            ["https://github.com/","GitHub","dark-1","Git",""],
+            ["https://bitbucket.org/", "Bitbucket", "blue-2", "B", ""],
+            ["https://gitlab.com/", "GitLab", "dark-1", "G", ""],
+            ["https://git-scm.com/", "Git", "dark-1", "G", ""],
+            ["https://huggingface.co", "Hugging Face", "light-3", "HF", "dark-2"]
+        ]
+    }, {
+        "title":"NEWS",
+        "description":"Dev ru websites",
+        "color":"dark",
+        "links":[
+            ["https://bbbl.dev/","Bubble dev","blue-2","B",""],
+            ["https://razrabs.ru/","Razrabs","dark-1","R",""],
+            ["https://gwer.github.io/kitchen/","Gwer Kitchen","green-2","GK",""],
+            ["https://www.linux.org.ru","Linux.org.ru","dark-1","L",""],
+            ["https://3dnews.ru/","3D news","blue-2","3D",""],
+            ["https://www.opennet.ru/","Opennet","light-3","O","dark-4"],
+            ["https://www.ixbt.com/","iXBT","purple-3","iX",""],
+            ["https://www.devby.io","Dev.by","blue-2","D",""],
+            ["https://www.dou.ua","DOU","dark-1","D",""],
+            ["https://www.ebanoe.it","Ebanoe","dark-1","E",""]
+        ]
+    }, {
+        "title": "Communities",
+        "description": "Communities",
+        "color": "primary",
+        "links":[
+            ["https://phreedom.club/","Phreedom","light-1","Ph","dark-5"],
+            ["https://vas3k.club/", "Vas3k Club", "dark-1", "V", ""]
+        ]
+    }]
+}

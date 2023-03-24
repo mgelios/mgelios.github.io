@@ -45,6 +45,10 @@ const categories =
     name: "cg"
 }, {
     title: "Games",
-    text: "Games relate",
+    text: "Games related",
     name: "games"
+}, {
+    title: "Software development",
+    text: "SDE related",
+    name: "software_development"
 }];

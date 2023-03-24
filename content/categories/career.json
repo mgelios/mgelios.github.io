@@ -1,0 +1,39 @@
+{
+    "cards":[{
+        "title": "Socal networks",
+        "description": "career related social networks",
+        "color": "dark-1",
+        "links": [
+            ["https://linkedin.com/","LinkedIn","blue-2","L",""]
+        ]
+    }, {
+        "title": "Job boards",
+        "description": "job boards",
+        "color": "dark-1",
+        "links": [
+            ["https://indeed.com/","Indeed","blue-2","I",""],
+            ["https://monster.com/","Monster","blue-2","M",""],
+            ["https://glassdoor.com/","Glassdoor","blue-2","G",""],
+            ["https://dice.com/","Dice","blue-2","D",""],
+            ["https://careerbuilder.com/","Careerbuilder","blue-2","C",""],
+            ["https://ziprecruiter.com/","Ziprecruiter","blue-2","Z",""],
+            ["https://simplyhired.com/","Simplyhired","blue-2","S",""],
+            ["https://jobs.net/","Jobs.net","blue-2","J", ""]
+        ]
+    }, {
+        "title": "Resume",
+        "description": "resume",
+        "color": "dark-1",
+        "links": [
+            ["https://resume.io/","ResumeIO","purple-3","R",""]
+        ]
+    }, {
+        "title": "Salary",
+        "description": "salary",
+        "color": "dark-1",
+        "links": [
+            ["https://glassdoor.com/","Glassdoor","blue-2","G",""],
+            ["https://salary.com/","Salary","blue-2","S",""]
+        ]
+    }]
+}
