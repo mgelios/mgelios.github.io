@@ -31,22 +31,6 @@
             ["https://docs.google.com/spreadsheets/u/0/","Sheets","green-2","E",""]
         ]
     }, {
-        "title":"<span class=\"badge backgroud-red-3\">Y</span> Yandex",
-        "description":"Yandex web resources",
-        "color":"danger",
-        "links":[
-            ["https://yandex.ru/maps/","Maps","red-3","M",""],
-            ["https://passport.yandex.ru/","Passport","orange-2","P",""]
-        ]
-    }, {
-        "title": "Static site generators",
-        "description": "Static site generators",
-        "color": "primary",
-        "links": [
-            ["https://docs.getpelican.com/en/latest/", "Pelican", "blue-3", "P", ""],
-            ["https://gohugo.io/", "Hugo", "blue-2", "H", ""]
-        ]
-    }, {
         "title": "A.I. powered tools",
         "description": "links to AI tools",
         "color": "primary",

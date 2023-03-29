@@ -1,0 +1,28 @@
+{
+    "cards":[{
+        "title": "Blogs",
+        "description": "Blogs",
+        "color": "danger",
+        "links": [
+            ["https://vas3k.blog/", "Vas3k BLOG", "dark-1", "V", ""],
+            ["https://vas3k.com", "Vas3k COM", "dark-1", "V", ""],
+            ["https://phreedom.club/~tolstoevsky/", "Tolstoevsky", "dark-1", "T", ""],
+            ["https://satyrs.eu/", "Staryr's forest", "purple-2", "S", ""],
+            ["https://adityatelange.in/", "Aditya Telange", "dark-1", "A", ""],
+            ["https://neustadt.fr/", "Parimal Satyal", "dark-1", "P", ""]
+        ]
+    }, {
+        "title": "News",
+        "description": "News",
+        "color": "danger",
+        "links": [
+            ["https://infomate.club/","Infomate","dark-1","I",""],
+            ["https://scientifically.info/","Scientifically","dark-1","S",""],
+            ["https://www.linux.org.ru","Linux.org.ru","dark-1","L",""],
+            ["https://3dnews.ru/","3D news","blue-2","3D",""],
+            ["https://www.opennet.ru/","Opennet","light-3","O","dark-4"],
+            ["https://www.ixbt.com/","iXBT","purple-3","iX",""]
+
+        ]
+    }]
+}

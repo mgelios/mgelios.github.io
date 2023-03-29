@@ -18,13 +18,12 @@
             ["https://bbbl.dev/","Bubble dev","blue-2","B",""],
             ["https://razrabs.ru/","Razrabs","dark-1","R",""],
             ["https://gwer.github.io/kitchen/","Gwer Kitchen","green-2","GK",""],
-            ["https://www.linux.org.ru","Linux.org.ru","dark-1","L",""],
-            ["https://3dnews.ru/","3D news","blue-2","3D",""],
-            ["https://www.opennet.ru/","Opennet","light-3","O","dark-4"],
-            ["https://www.ixbt.com/","iXBT","purple-3","iX",""],
             ["https://www.devby.io","Dev.by","blue-2","D",""],
             ["https://www.dou.ua","DOU","dark-1","D",""],
-            ["https://www.ebanoe.it","Ebanoe","dark-1","E",""]
+            ["https://www.ebanoe.it","Ebanoe","dark-1","E",""],
+            ["https://www.habr.com/","Habr","blue-2","H",""],
+            ["https://www.medium.com","Medium","dark-1","M",""]
+
         ]
     }, {
         "title": "Communities",
@@ -33,6 +32,35 @@
         "links":[
             ["https://phreedom.club/","Phreedom","light-1","Ph","dark-5"],
             ["https://vas3k.club/", "Vas3k Club", "dark-1", "V", ""]
+        ]
+    }, {
+        "title": "Blogs",
+        "description": "Blogs",
+        "color": "primary",
+        "links": [
+            ["https://dotsandbrackets.com/", "Dots and brackets", "blue-3", "D", ""],
+            ["https://du-blog.ru/", "One dude", "light-2", "DU", "dark-4"],
+            ["https://kovchinnikov.info/", "Kovchinnikov's blog", "blue-3", "K", ""],
+            ["https://www.swyx.io/", "Swyx", "light-4", "[S]", "dark-3"],
+            ["https://cupsofcode.com/","Cups of code","orange-2","C",""],
+            ["https://vvsevolodovich.dev/","Vladimir Ivanov's blog","dark-1","V",""],
+            ["http://danluu.com/","Danluu","light-3","D","dark-3"],
+            ["https://jinesh.codes/","Jinesh","green-2","J",""],
+            ["https://borchun.name/main/","Borchun","blue-2","B",""],
+            ["https://tonsky.livejournal.com/","Tonsky blog","blue-2","T",""],
+            ["https://dirtyinode.me/", "MURG", "dark-1", "M", "green-3"],
+            ["http://sereja.me/", "Sergey Slotin", "light-3", "S", "dark-3"],
+            ["https://prettycoffee.github.io/", "Pretty Coffee", "blue-1", "P", ""],
+            ["https://tonsky.me/", "Tonsky", "orange-4", "T", "dark-2"]
+
+        ]
+    }, {
+        "title": "Static site generators",
+        "description": "Static site generators",
+        "color": "primary",
+        "links": [
+            ["https://docs.getpelican.com/en/latest/", "Pelican", "blue-3", "P", ""],
+            ["https://gohugo.io/", "Hugo", "blue-2", "H", ""]
         ]
     }]
 }

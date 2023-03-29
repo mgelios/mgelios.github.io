@@ -24,5 +24,24 @@
             ["https://34travel.me/", "Travel 34", "dark-2", "T", ""],
             ["https://vandrouki.by/", "Vandrouki", "dark-3", "V", ""]
         ]
+    }, {
+        "title": "Navigation",
+        "description": "navigation",
+        "color": "danger",
+        "links": [
+            ["https://www.google.com/maps", "Google Maps", "blue-3", "G", ""],
+            ["https://yandex.ru/maps", "Yandex Maps", "red-2", "Y", ""],
+            ["https://www.openstreetmap.org/", "OpenStreetMap", "blue-2", "O", ""]
+        ]
+    }, {
+        "title": "Blogs",
+        "description": "blogs",
+        "color": "danger",
+        "links": [
+            ["https://www.nomadicmatt.com/", "Nomadic Matt", "blue-3", "N", ""],
+            ["https://www.lonelyplanet.com/", "Lonely Planet", "red-2", "L", ""],
+            ["https://www.travelblog.org/", "Travel Blog", "blue-2", "T", ""],
+            ["https://weintravel.blogspot.com/","We in travel","orange-4","W","dark-2"]
+        ]
     }]
 }
