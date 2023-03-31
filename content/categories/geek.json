@@ -9,7 +9,11 @@
             ["https://phreedom.club/~tolstoevsky/", "Tolstoevsky", "dark-1", "T", ""],
             ["https://satyrs.eu/", "Staryr's forest", "purple-2", "S", ""],
             ["https://adityatelange.in/", "Aditya Telange", "dark-1", "A", ""],
-            ["https://neustadt.fr/", "Parimal Satyal", "dark-1", "P", ""]
+            ["https://neustadt.fr/", "Parimal Satyal", "dark-1", "P", ""],
+            ["http://4xpro.ru/", "4x pro", "blue-2", "4", ""],
+            ["http://lionovsky.ru/", "Lionovsky", "red-3","L", ""],
+            ["https://coom.tech/MainPage", "Coom Tech", "light-3", "CT", "dark-3"],
+            ["https://based.coom.tech/", "Based sites", "blue-1", "B", ""]
         ]
     }, {
         "title": "News",
