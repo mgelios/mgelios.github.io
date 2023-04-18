@@ -33,7 +33,9 @@
             ["http://flibusta.site/", "Flibusta", "blue-3", "F", ""],
             ["https://render.ru/ru/magazine", "Render magazine", "green-2", "R", ""],
             ["https://borchun.name/main/32-aktualnye-opds-katalogi.html", "Opds collection Borchun", "dark-1", "B", ""],
-            ["https://libgen.lc/", "Library Genesis", "blue-2", "L", ""]
+            ["https://libgen.lc/", "Library Genesis", "blue-2", "L", ""],
+            ["https://magzdb.org/", "MagzDB", "blue-3", "M", ""],
+            ["https://orpk.org/", "ORPK", "light-4", "O", "dark-3"]
         ]
     }]
 }

@@ -7,7 +7,9 @@
             ["https://trello.com/","Trello","blue-2","T",""],
             ["https://notion.so/","Notion","light-3","[N]","dark-1"],
             ["https://miro.com/","Miro","dark-1","M",""],
-            ["https://www.desmos.com/","Desmos","blue-2","D",""]
+            ["https://www.desmos.com/","Desmos","blue-2","D",""],
+            ["https://huetone.ardov.me/", "Huetone", "dark-3", "H", ""],
+            ["https://oklch.com", "OKLCH", "dark-3", "O", ""]
         ]
     }, {
         "title":"&#128296; Info",
