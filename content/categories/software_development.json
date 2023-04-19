@@ -62,5 +62,13 @@
             ["https://docs.getpelican.com/en/latest/", "Pelican", "blue-3", "P", ""],
             ["https://gohugo.io/", "Hugo", "blue-2", "H", ""]
         ]
+    }, {
+        "title": "Hostings",
+        "description": "hostings",
+        "color": "primary",
+        "links": [
+            ["https://hostinger.com", "Hostinger", "purple-3", "H", ""]
+        ]
+
     }]
 }
