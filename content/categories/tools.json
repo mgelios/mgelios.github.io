@@ -9,7 +9,8 @@
             ["https://miro.com/","Miro","dark-1","M",""],
             ["https://www.desmos.com/","Desmos","blue-2","D",""],
             ["https://huetone.ardov.me/", "Huetone", "dark-3", "H", ""],
-            ["https://oklch.com", "OKLCH", "dark-3", "O", ""]
+            ["https://oklch.com", "OKLCH", "dark-3", "O", ""],
+            ["https://pictogrammers.com/library/mdi/", "MD icons", "purple-3", "M", ""]
         ]
     }, {
         "title":"&#128296; Info",

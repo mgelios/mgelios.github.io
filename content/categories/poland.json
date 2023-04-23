@@ -54,7 +54,8 @@
             ["https://mediamarkt.pl/", "MediaMarkt", "red-3", "M", ""],
             ["https://www.mediaexpert.pl/", "MediaExpert", "yellow-3", "M", "dark-1"],
             ["https://www.komputronik.pl/", "Komputronik", "blue-3", "K", ""],
-            ["https://www.euro.com.pl/", "RTV EURO AGD", "yellow-3", "E", "dark-1"]
+            ["https://www.euro.com.pl/", "RTV EURO AGD", "yellow-3", "E", "dark-1"],
+            ["https://apex24.pl/", "Apex 24", "blue-3", "A", ""]
         ]
     }, {
         "title": "House Shopping",
