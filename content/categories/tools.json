@@ -10,7 +10,9 @@
             ["https://www.desmos.com/","Desmos","blue-2","D",""],
             ["https://huetone.ardov.me/", "Huetone", "dark-3", "H", ""],
             ["https://oklch.com", "OKLCH", "dark-3", "O", ""],
-            ["https://pictogrammers.com/library/mdi/", "MD icons", "purple-3", "M", ""]
+            ["https://pictogrammers.com/library/mdi/", "MD icons", "purple-3", "M", ""],
+            ["https://hub.docker.com/", "Docker hub", "blue-3", "D", ""],
+            ["https://stackoverflow.com", "Stackoverflow", "orange-2", "S", ""]
         ]
     }, {
         "title":"&#128296; Info",
@@ -41,7 +43,8 @@
             ["https://chat.openai.com", "ChatGPT", "dark-3", "C", ""],
             ["https://share-docs.clickup.com/25598832/d/h/rd6vg-14247/0b79ca1dc0f7429/rd6vg-12207", "AI Tools list", "dark-1", "AI", ""],
             ["https://github.com/ai-collection/ai-collection", "AI collection", "dark-1", "AI", ""],
-            ["https://laion.ai/", "LAION", "blue-2", "L", ""]
+            ["https://laion.ai/", "LAION", "blue-2", "L", ""],
+            ["https://chat.chatbot.sex/chat/", "ChatGPT-4 free", "purple-2", "C", ""]
         ]
     }]
  }

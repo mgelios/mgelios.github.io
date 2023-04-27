@@ -30,7 +30,9 @@
         "color": "secondary",
         "links": [
             ["https://www.olx.pl/", "OLX PL", "green-3", "O", ""],
-            ["https://allegro.pl/", "Allegro", "orange-3", "A", ""]
+            ["https://allegro.pl/", "Allegro", "orange-3", "A", ""],
+            ["https://www.amazon.com/", "Amazon", "orange-2", "A", ""],
+            ["https://www.etsy.com/", "ETSY", "orange-3", "E", ""]
         ]
     }, {
         "title": "Food Shopping",
