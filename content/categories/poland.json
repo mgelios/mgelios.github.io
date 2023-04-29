@@ -1,6 +1,6 @@
 {
     "cards": [{
-        "title": "Goverment",
+        "title": "🏛️ Goverment",
         "description": "goverment related",
         "color": "secondary",
         "links": [
@@ -8,7 +8,7 @@
             ["https://secure.e-konsulat.gov.pl/", "Visa registration", "red-3", "V", ""]
         ]
     }, {
-        "title": "Health",
+        "title": "🏥 Health",
         "description": "health",
         "color": "secondary",
         "links": [
@@ -17,7 +17,7 @@
             ["https://pacjent.gov.pl/aktualnosc/mojeikp-na-komorke-lub-tablet", "Receipts", "red-3", "R", ""]
         ]
     }, {
-        "title": "Rent apartment",
+        "title": "🏠 Rent apartment",
         "description": "rent apartments",
         "color": "secondary",
         "links": [
@@ -25,7 +25,7 @@
             ["https://www.facebook.com/groups/1829384610708402", "FB group", "blue-3", "F", ""]
         ]
     }, {
-        "title": "Shopping",
+        "title": "🛒 Shopping",
         "description": "shopping",
         "color": "secondary",
         "links": [
@@ -35,7 +35,7 @@
             ["https://www.etsy.com/", "ETSY", "orange-3", "E", ""]
         ]
     }, {
-        "title": "Food Shopping",
+        "title": "🏪 Food Shopping",
         "description": "food shopping",
         "color": "secondary",
         "links": [
@@ -49,7 +49,7 @@
             ["https://www.zabka.pl/", "Zabka", "greed-3", "Z", ""]
         ]
     }, {
-        "title": "Electronics Shopping",
+        "title": "🖥️ Electronics Shopping",
         "description": "electronics shopping",
         "color": "secondary",
         "links": [
@@ -60,7 +60,7 @@
             ["https://apex24.pl/", "Apex 24", "blue-3", "A", ""]
         ]
     }, {
-        "title": "House Shopping",
+        "title": "🔨 House Shopping",
         "description": "house shopping",
         "color": "secondary",
         "links": [
@@ -73,7 +73,7 @@
             ["https://expertszewski.pl/", "Expert szewski", "red-3", "E", ""]
         ]
     }, {
-        "title": "Services",
+        "title": "📡 Services",
         "description": "services",
         "color": "secondary",
         "links": [
@@ -85,7 +85,7 @@
             ["https://www.pkobp.pl/", "PKO bank", "blue-3", "P", ""]
         ]
     }, {
-        "title": "Events",
+        "title": "📅 Events",
         "description": "events",
         "color": "secondary",
         "links": [
@@ -93,7 +93,7 @@
             ["https://www.meetup.com/pl-PL/find/pl--warsaw/", "Meetup Warsaw", "red-3", "M", ""]
         ]
     }, {
-        "title": "News",
+        "title": "📰 News",
         "description": "news",
         "color": "secondary",
         "links": [

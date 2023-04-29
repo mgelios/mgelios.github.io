@@ -1,6 +1,6 @@
 {
     "cards":[{
-        "title": "Source code",
+        "title": "💻 Source code",
         "description": "Source code resources",
         "color": "primary",
         "links": [
@@ -11,7 +11,7 @@
             ["https://huggingface.co", "Hugging Face", "light-3", "HF", "dark-2"]
         ]
     }, {
-        "title":"NEWS",
+        "title":"📰 NEWS",
         "description":"Dev ru websites",
         "color":"dark",
         "links":[
@@ -26,7 +26,7 @@
 
         ]
     }, {
-        "title": "Communities",
+        "title": "🦄 Communities",
         "description": "Communities",
         "color": "primary",
         "links":[
@@ -34,7 +34,7 @@
             ["https://vas3k.club/", "Vas3k Club", "dark-1", "V", ""]
         ]
     }, {
-        "title": "Blogs",
+        "title": "📓 Blogs",
         "description": "Blogs",
         "color": "primary",
         "links": [
@@ -63,12 +63,13 @@
             ["https://gohugo.io/", "Hugo", "blue-2", "H", ""]
         ]
     }, {
-        "title": "Hostings",
+        "title": "🌐 Hostings",
         "description": "hostings",
         "color": "primary",
         "links": [
-            ["https://hostinger.com", "Hostinger", "purple-3", "H", ""]
+            ["https://hostinger.com", "Hostinger", "purple-3", "H", ""],
+            ["https://www.hetzner.com/", "Hetzner", "red-3", "H", ""],
+            ["https://wordpress.com/", "Wordpress", "blue-3", "W", ""]
         ]
-
     }]
 }

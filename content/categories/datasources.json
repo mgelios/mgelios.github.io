@@ -1,6 +1,6 @@
 {
     "cards": [{
-        "title": "Cloud",
+        "title": "☁️ Cloud",
         "description": "Cloud storage providers",
         "color": "secondary",
         "links": [
@@ -9,7 +9,7 @@
             ["https://www.dropbox.com/", "Dropbox", "blue-2", "D", ""]
         ]
     }, {
-        "title": "Torrent",
+        "title": "🌪️ Torrent",
         "description": "Torrent trackers",
         "color": "secondary",
         "links": [
@@ -18,7 +18,7 @@
             ["https://kickasstorrents.to/", "Kickasstorrents", "dark-2", "K", ""]
         ]
     },{
-        "title": "FTP",
+        "title": "💾 FTP",
         "description": "FTP servers",
         "color": "primary",
         "links": [
@@ -26,7 +26,7 @@
             ["https://scientifically.info/publ/7-1-0-52", "Scientifically FTP collection", "dark-1", "S",""]
         ]
     }, {
-        "title": "Books",
+        "title": "📚 Books",
         "description": "Sources of books/magazines",
         "color": "danger",
         "links": [
@@ -35,7 +35,9 @@
             ["https://borchun.name/main/32-aktualnye-opds-katalogi.html", "Opds collection Borchun", "dark-1", "B", ""],
             ["https://libgen.lc/", "Library Genesis", "blue-2", "L", ""],
             ["https://magzdb.org/", "MagzDB", "blue-3", "M", ""],
-            ["https://orpk.org/", "ORPK", "light-4", "O", "dark-3"]
+            ["https://orpk.org/", "ORPK", "light-4", "O", "dark-3"],
+            ["https://comtext.space/", "Comtext", "green-2", "C", ""],
+            ["https://www.gutenberg.org/", "Gutenberg", "red-3", "G", ""]
         ]
     }]
 }
