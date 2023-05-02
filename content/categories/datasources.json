@@ -17,7 +17,17 @@
             ["https://thepiratebay.org/index.html", "The Pirate Bay","light-3","T", "dark-5"],
             ["https://kickasstorrents.to/", "Kickasstorrents", "dark-2", "K", ""]
         ]
-    },{
+    }, {
+        "title": "📦 Seedboxes",
+        "description": "Seedbox servers",
+        "color": "secondary",
+        "links": [
+            ["https://ultra.cc/", "Ultra", "green-2", "U", ""],
+            ["https://www.rapidseedbox.com/", "Rapid seedbox", "blue-2", "R", ""],
+            ["https://www.seedboxco.net/", "Seedboxco", "blue-3", "S", ""],
+            ["https://www.seedboxws.com/", "Seedbox WS", "blue-3", "S", ""]
+        ]
+    }, {
         "title": "💾 FTP",
         "description": "FTP servers",
         "color": "primary",
