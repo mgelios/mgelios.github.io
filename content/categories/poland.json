@@ -32,7 +32,8 @@
             ["https://www.olx.pl/", "OLX PL", "green-3", "O", ""],
             ["https://allegro.pl/", "Allegro", "orange-3", "A", ""],
             ["https://www.amazon.com/", "Amazon", "orange-2", "A", ""],
-            ["https://www.etsy.com/", "ETSY", "orange-3", "E", ""]
+            ["https://www.etsy.com/", "ETSY", "orange-3", "E", ""],
+            ["https://www.ceneo.pl/", "Ceneo", "orange-3", "C", ""]
         ]
     }, {
         "title": "🏪 Food Shopping",
@@ -57,7 +58,15 @@
             ["https://www.mediaexpert.pl/", "MediaExpert", "yellow-3", "M", "dark-1"],
             ["https://www.komputronik.pl/", "Komputronik", "blue-3", "K", ""],
             ["https://www.euro.com.pl/", "RTV EURO AGD", "yellow-3", "E", "dark-1"],
-            ["https://apex24.pl/", "Apex 24", "blue-3", "A", ""]
+            ["https://apex24.pl/", "Apex 24", "blue-3", "A", ""],
+            ["https://cenowarka.pl", "Cenowarka", "blue-2", "C", ""]
+        ]
+    }, {
+        "title": "🎸 Music shopping",
+        "description": "music shopping",
+        "color": "secondary",
+        "links": [
+            ["https://www.thomann.de", "Thomann", "blue-2", "T", ""]
         ]
     }, {
         "title": "🔨 House Shopping",

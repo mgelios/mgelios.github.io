@@ -5,7 +5,8 @@
         "color": "light",
         "links": [
             ["https://colonist.io/", "Colonist", "blue-3", "C", ""],
-            ["https://pixelplanet.fun/", "Pixel Planet", "dark-1", "P", ""]
+            ["https://pixelplanet.fun/", "Pixel Planet", "dark-1", "P", ""],
+            ["https://yesnogame.net/", "YesNoGame", "Y", "red-3", ""]
         ]
     }, {
         "title": "Game sources",

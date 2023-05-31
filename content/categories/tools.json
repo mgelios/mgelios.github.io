@@ -12,7 +12,8 @@
             ["https://oklch.com", "OKLCH", "dark-3", "O", ""],
             ["https://pictogrammers.com/library/mdi/", "MD icons", "purple-3", "M", ""],
             ["https://hub.docker.com/", "Docker hub", "blue-3", "D", ""],
-            ["https://stackoverflow.com", "Stackoverflow", "orange-2", "S", ""]
+            ["https://stackoverflow.com", "Stackoverflow", "orange-2", "S", ""],
+            ["https://www.pendrivelinux.com/", "Multiboot pendrives", "blue-3", "M", ""]
         ]
     }, {
         "title":"&#128296; Info",
