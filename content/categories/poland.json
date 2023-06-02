@@ -91,7 +91,8 @@
             ["https://inpost.pl/", "InPost", "orange-2", "In", ""],
             ["https://www.groupon.pl", "Groupon", "blue-3", "G", ""],
             ["https://docs.google.com/spreadsheets/d/1c7wAYTjBs1WsDZ-04aj-vrCtITxMyizKuP69W0qS0AM/htmlview#gid=0", "Bank list", "green-2", "B", ""],
-            ["https://www.pkobp.pl/", "PKO bank", "blue-3", "P", ""]
+            ["https://www.pkobp.pl/", "PKO bank", "blue-3", "P", ""],
+            ["https://panton.pl/", "Panton", "orange-2", "P", ""]
         ]
     }, {
         "title": "📅 Events",
