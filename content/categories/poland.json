@@ -88,11 +88,20 @@
         "links": [
             ["https://bymapka.me/", "BY MAPKA", "red-3", "B", ""],
             ["https://booksy.com/en-us/", "Booksy", "green-3", "B", ""],
-            ["https://inpost.pl/", "InPost", "orange-2", "In", ""],
             ["https://www.groupon.pl", "Groupon", "blue-3", "G", ""],
             ["https://docs.google.com/spreadsheets/d/1c7wAYTjBs1WsDZ-04aj-vrCtITxMyizKuP69W0qS0AM/htmlview#gid=0", "Bank list", "green-2", "B", ""],
             ["https://www.pkobp.pl/", "PKO bank", "blue-3", "P", ""],
             ["https://panton.pl/", "Panton", "orange-2", "P", ""]
+        ]
+    }, {
+        "title": "📦 Delivery",
+        "description": "delivery",
+        "color": "secondary",
+        "links": [
+            ["https://inpost.pl/", "InPost", "orange-2", "In", ""],
+            ["https://www.dpd.com/", "DPD", "red-3", "D", ""],
+            ["https://www.dhl.com", "DHL", "yellow-3", "D", "red-3"],
+            ["https://www.ups.com", "UPS", "dark-3", "U", "orange-3"]
         ]
     }, {
         "title": "📅 Events",

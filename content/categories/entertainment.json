@@ -50,7 +50,8 @@
         "description":"Music related links",
         "color":"secondary",
         "links":[
-            ["https://music.yandex.ru/","Yandex Music","red-3","Y",""]
+            ["https://music.yandex.ru/","Yandex Music","red-3","Y",""],
+            ["https://www.songsterr.com", "Songsterr", "blue-3", "S", ""]
         ]
     }, {
         "title":"&#127922; Fan sites",
