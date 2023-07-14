@@ -16,6 +16,10 @@ const categories =
     text: "Entertainment",
     name: "entertainment"
 }, {
+    title: "👔 Career",
+    text: "career",
+    name: "career"
+}, {
     title: "🚅 Travel",
     text: "Travel",
     name: "travel"

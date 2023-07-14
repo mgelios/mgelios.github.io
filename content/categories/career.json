@@ -21,8 +21,8 @@
             ["https://jobs.net/","Jobs.net","blue-2","J", ""]
         ]
     }, {
-        "title": "Resume",
-        "description": "resume",
+        "title": "CV",
+        "description": "CV",
         "color": "dark-1",
         "links": [
             ["https://resume.io/","ResumeIO","purple-3","R",""]
@@ -33,7 +33,19 @@
         "color": "dark-1",
         "links": [
             ["https://glassdoor.com/","Glassdoor","blue-2","G",""],
-            ["https://salary.com/","Salary","blue-2","S",""]
+            ["https://salary.com/","Salary","blue-2","S",""],
+            ["https://www.levels.fyi", "Levels", "blue-2", "L", ""],
+            ["https://www.teamblind.com", "Blind", "red-1", "B", ""],
+            ["https://techpays.com/", "Techpays", "green-3", "T", ""],
+            ["https://www.payscale.com/research-and-insights/", "Payscale", "blue-3", "P", ""]
+
+        ]
+    }, {
+        "title": "Blogs",
+        "description": "blogs",
+        "color": "dark-1",
+        "links": [
+            ["https://blog.pragmaticengineer.com/", "Pragmaticengineer", "dark-5", "P", ""]
         ]
     }]
 }

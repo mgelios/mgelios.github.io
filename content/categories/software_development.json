@@ -70,7 +70,9 @@
         "links": [
             ["https://hostinger.com", "Hostinger", "purple-3", "H", ""],
             ["https://www.hetzner.com/", "Hetzner", "red-3", "H", ""],
-            ["https://wordpress.com/", "Wordpress", "blue-3", "W", ""]
+            ["https://wordpress.com/", "Wordpress", "blue-3", "W", ""],
+            ["https://lowendbox.com/", "LowerEndBox", "green-3", "L", ""],
+            ["https://www.cloudflare.com/", "Cloudflare", "orange-2", "C", ""]
         ]
     }]
 }
