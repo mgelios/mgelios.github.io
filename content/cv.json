@@ -1,31 +1,214 @@
 {
     "first_name": "Anton",
     "second_name": "Nadyozhkin",
-    "short_description": "Backend Java developer/Fullstack (Java+Vue.js) developer/Data engineer with more than 7 years of experience",
-    "skills": {
+    "short_description": "Highly skilled and motivated software engineer with expertise in data engineering and a strong background in Java, Python, and JavaScript. Experienced in a variety of frameworks, libraries, cloud platforms, and version control systems. Proficient in Agile methodologies and task management tools. Bachelor's degree in Computer Science from BSUIR.",
+    "hard_skills": {
         "Natural Languages": ["English (B2+)", "Belarusian (B1)", "Russian (Native)"],
-        "Programming languages": ["Java", "Javascript", "Python"],
-        "Frameworks/Libraries": ["Spring Core", "Spring Cloud", "Spring Data", "Hibernate", "Apache Camel", "Apache Spark"],
-        "Build tools": ["Maven", "Gradle"],
+        "Programming languages": ["Java", "Python", "Javascript"],
+        "Frameworks/Libraries": ["Spring Core", "Spring Cloud", "Spring Data", "Hibernate", "Apache Camel", "Apache Spark", "VueJS", "JUnit", "Mockito", "Cucumber"],
+        "Build tools": ["Maven", "Gradle", "GraalVM"],
         "Containers": ["Docker"],
         "Version control systems": ["Git, Subversion"],
-        "Tools": ["Intellij IDEA", "VS Code, Postman", "Jmeter", "Soap UI"],
+        "Tools": ["Intellij IDEA", "VS Code, Postman", "Jmeter", "Soap UI", "Databricks"],
         "Management frameworks": ["Scrum", "Agile", "Spiral", "Waterfall"],
-        "Task management": ["Jira", "Trello"]
+        "Task management": ["Jira", "Trello"],
+        "Cloud": ["Azure", "Hetzner"],
+        "Database": ["PostgreSQL", "OracleSQL", "MySQL"],
+        "Messaging": ["Kafka"],
+        "Other": ["HTML5", "CSS3", "Liquibase"]
     },
     "contact_info": {
-        "E-mail": "antonnadezhkin@gmail.com",
-        "Phone": "+48572355127",
-        "Country, City": "Warsaw, Poland"
+        "email": "antonnadezhkin@gmail.com",
+        "phone": "+48572355127",
+        "location": "Warsaw, Poland",
+        "linkedin": "https://www.linkedin.com/in/anton-nadyozhkin/",
+        "github": "https://github.com/mgelios"
     },
     "education": {
-        "Univercity": "BSUIR, Bachelor's degree"
+        "univercity": "BSUIR, Bachelor's degree in Computer Science"
     },
     "prizes_appraisals": [
-        "",
-        "",
-        ""
+        "2nd diploma diploma of Republic Olympiad in informatics 2010.",
+        "Participant of ACM IСPC Belarus and Baltics Regional Contest (ACM 1/4 finals).",
+        "Participant of ВКОШП of 2008-2009, 2009-2010."
     ],
-    "work-experience": [],
-    "courses": ""
+    "work-experience": [
+        {
+            "employer": "Akvelon",
+            "period": "07.07.2022 - now",
+            "achievments": [
+                "Obtained knowledge and experience in a new area of software development - data engineering",
+                "Completed Udemy course Azure Databricks & Spark For Data Engineers (PySpark / SQL)"
+            ],
+            "projects": [
+                {
+                    "client": "Intapp",
+                    "name": "Dataplatform",
+                    "period": "07.07.2022 - now",
+                    "description": "Event driven data platform with self-servicing support",
+                    "technologies": "Python, PySpark, Azure Databricks, PostgreSQL, Liquibase, Kafka, Git, Linux, Docker, JIRA",
+                    "responsibilities": "Implementation of data engineering solutions, bug fixing, analyzing and grooming tickets."
+                }
+            ]
+        },
+        {
+            "employer": "Ericsson Nikola Tesla (ETK)",
+            "period": "21.06.2021 - 23.06.2022",
+            "achievments": [
+                "Took initiative to do performance testing of several approaches on R'n'D stage of development.",
+                "Faced undocumented and unpredictable behaviour in interaction between apache camel and spring boot actuator prometheus and came up with working solution (wrote an article about it).",
+                "Developed and implemented way to configure complex routes in Apache Camel with content based conditions and incoming-outcoming throttling."
+            ],
+            "projects": [
+                {
+                    "client": "World Bank & Ministry of Health (Belarus)",
+                    "name": "Ehealth",
+                    "period": "21.06.2021 - 23.06.2022",
+                    "description": "Web platform for IT support of health industry in Belarus sponsored by World Bank (Including patents-doctors functionalities, portal for pharmacies).",
+                    "technologies": "Java 11, Apache Camel, Microservices, Spring Boot 2+, String (Data, MVC, Cloud, Test), Keycloak, Liquibase, PostgreSQL, Docker, HTML5, CSS3.",
+                    "responsibilities": "Back-end development and support, providing documentation, helding demos to the management, bug fixing, participated in development of architecture of several services and business requirements."
+                }                
+            ]
+        },
+        {
+            "employer": "Seavus",
+            "period": "10.07.2018 - 11.06.2021",
+            "achievments": [
+                "Technically lead small TangoVote demo project (2 people) from beginning to the end. Done this with mentorship of the head of oracle department of the company.",
+                "Had been an author of several architectural decisions about how to implement several services and interaction between them. Also took part in implementing them."
+            ],
+            "projects": [
+                {
+                    "client": "Heart for Health (H4H)",
+                    "name": "Ehealth",
+                    "period": "13.03.2019 - 11.06.2021",
+                    "description": "Web platform for patients, doctors, call-center support to store, manipulate and share medical data.",
+                    "technologies": "Java 13, Javascript, Microservices, Spring Boot 2.1, Vue.js 2, Spring (Data, MVC, Cloud), Google pubsub, Liquibase, Keycloak, Docker, Kubernetes, HTML5, CSS3.",
+                    "responsibilities": "Fullstack (front-end and back-end) development and support, bug fixing, solution preparation, provided estimations, participated in development of business requirements."
+                },
+                {
+                    "client": "Heart for Health (H4H)",
+                    "name": "GP Portal",
+                    "period": "08.11.2019 - 12.03.2019",
+                    "description": "Web platform for general practitioners to interact with patient's data. Based on multiple services.",
+                    "technologies": "Java 8, Spring Boot 2.1, Spring 5, Spring Data, Spring MVC, Spring Cloud, Liquibase, Swagger 2, Keycloak, Javascript, Vue.js, Git, Docker, HTML5, CSS3",
+                    "responsibilities": "Fullstack (front-end and back-end) development and support, bug fixing, solution preparation, provided estimations, participated in development of business requirements."
+                },
+                {
+                    "client": "Heart for Health (H4H)",
+                    "name": "Patient Portal",
+                    "period": "23.09.2019 - 07.11.2019",
+                    "description": "Web platform to manupulate medical data transfered through FHIR network.",
+                    "technologies": "Java 12, Spring Boot 2.1, Spring 5, Spring MVC, Spring Data, Keycloak, Swagger 2, MySQL, Git, Docker",
+                    "responsibilities": "Back-end development and support, bug fixing."
+                },
+                {
+                    "client": "Seavus",
+                    "name": "HRRoom",
+                    "period": "22.05.2019 - 20.06.2019",
+                    "description": "Web platform to automate HR activities.",
+                    "technologies": "Java 8, Spring Boot 2, Spring 5, Spring Data, Spring MVC, Spring Cloud, Mapstruct, Lombok, PostgreSQL, Git",
+                    "responsibilities": "Back-end development, bug fixing."
+                },
+                {
+                    "client": "TangoVote",
+                    "name": "TangoVote prototype",
+                    "period": "19.04.2019-22.05.2019",
+                    "description": "Web platfrom to count votes for debate streams.",
+                    "technologies": "Java 8, Spring Boot 2, Spring 5, Mapstruct, Lombok, PostgreSQL, Git, HTML5, CSS3, Swagger 2.",
+                    "responsibilities": "Prepared solution desription, back-end development. Writing tests."
+                },
+                {
+                    "client": "Seavus",
+                    "name": "Karaka, Katami",
+                    "period": "01.03.2019 - 18.04.2019, 23.05.2019-22.09.19",
+                    "description": "Web platfrom to manage and tack experts and their expertises.",
+                    "technologies": "Java 11, Spring Boot 2, Spring (Data, MVC, Security), Lombok, Mapstruct PostgreSQL, Git, Swagger.",
+                    "responsibilities": "Back-end development and support, bug fixing."
+                },
+                {
+                    "client": "Compumark",
+                    "name": "Clarivate analitycs, Pto web offload",
+                    "period": "13.07.2018 - 01.03.2019",
+                    "description": " B2B Plathform to fetch, analyze and provide additional data regarding trademarks in different countries.",
+                    "technologies": "Java 8, Spring Boot 2, Spring 5, Spring Data, Spring MVC, Lombok, Mapstruct, Git, Swagger",
+                    "responsibilities": "Back-end development and support, bug fixing, provided estimations."
+                }
+            ]
+        },
+        {
+            "employer": "Forte Group",
+            "period": "20.01.2016 - 08.07.2018",
+            "achievments": [
+                "Designed pretty complex solution for integration Knockout.JS and Google Maps + Places API to support dynamic view of client stores. Additional complexety was about using inly FREE tier of API with all it's limitations.",
+                "Supported and took part into the development of several projects at the same time. That included collecting info about the issues, bug fixing, making the calls to the customer, bringing ideas of different solutions, small optimizations, providing estimations with breakdown."
+            ],
+            "projects": [
+                {
+                    "client": "Columbia Pipe",
+                    "name": "Columbia Pipe",
+                    "period": "2017.11.01-2018.01.01 (support)",
+                    "description": "B2C eCommerce website: https://www.columbiapipe.com/",
+                    "technologies": "Java 8, ATG, BCC, Endeca, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice integration, HTML5, CSS3",
+                    "responsibilities": "Back-end development and support, bug fixing, provided estimations, participated in development of business requirements"
+                },
+                {
+                    "client": "Pureformulas",
+                    "name": "Pureformulas",
+                    "period": "2017.07.01-2017.08.01 (support)",
+                    "description": "B2C eCommerce website: https://www.pureformulas.com/",
+                    "technologies": "Java 8, ATG, BCC, Endeca, KnockoutJS, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice integration, HTML5, CSS3",
+                    "responsibilities": "Fullstack development and support (front-end and back-end), bug fixing, provided estimations, participated in development of business requirements."
+
+                },
+                {
+                    "client": "Gildan",
+                    "name": "MyGildan",
+                    "period": "2017.04.15 - 2018.07.08 (support)",
+                    "description": "B2C eCommerce website: mygildan.com",
+                    "technologies": "Java 8, ATG, BCC, Endeca, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice integration, HTML5, CSS3",
+                    "responsibilities": "Back-end development and support, bug fixing, provided estimations, participated in development of business requirements"
+
+                },
+                {
+                    "client": "Gildan",
+                    "name": "GildanOnline, SecretSilky (multisite)",
+                    "period": "2017.03.01 - 2017.05.01 (initial development), 2017.05.01- 2018.07.08 (support)",
+                    "description": "B2C eCommerce website: secretsilky.com",
+                    "technologies": "Java 8, ATG, BCC, Endeca, KnockoutJS, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice integration, HTML5, CSS3",
+                    "responsibilities": "fullstack development and support (front-end and back-end), bug fixing, provided estimations, participated in development of business requirements."
+                },
+                {
+                    "client": "HealthyDirections",
+                    "name": "HealthyDirections",
+                    "period": "2016.12.15 - 2017.03.01 (initial development)",
+                    "description": "B2C eCommerce website: https://www.healthydirections.com",
+                    "technologies": "Java 8, ATG, BCC, Endeca, KnockoutJS, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice integration, HTML5, CSS3",
+                    "responsibilities": "fullstack development and support (front-end and back-end), bug fixing, provided estimations, participated in development of business requirements"
+                },
+                {
+                    "client": "Gildan",
+                    "name": "Goldtoe, Powersox (multisite)",
+                    "period": "2016.06.16-2016.11.20 (initial development), 2016.11.21-2018.06.30 (support)",
+                    "description": "B2C eCommerce website: https://www.goldtoe.com/",
+                    "technologies": "Java 7-8, ATG, BCC, Endeca, KnockoutJS, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice integration, Google Places integration, Google Maps integration, HTML5, CSS3",
+                    "responsibilities": "Fullstack development and support (front-end and back-end), bug fixing, provided estimations, participated in development of business requirements"
+                },
+                {
+                    "client": "Forte group",
+                    "name": "FTT (Forte time tracking system)",
+                    "period": "2016.01.20 - 2016.06.15",
+                    "description": "Timetracking system for internal needs. Third party integrations for accountant-related business.",
+                    "technologies": "Java 7, Java 8, Spring MVC, Spring Data, Spring Security, MySQL, Liquibase, Subversion (SVN), JSP, HTML5, CSS3, Bootstrap, Git, Bash",
+                    "responsibilities": "Back-end development and support, bug fixing, provided estimations, participated in development of business requirements. Writing tests."
+                }
+            ]
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Azure Databricks & Spark For Data Engineers (PySpark / SQL)",
+            "link": "https://www.udemy.com/certificate/UC-75574392-269f-4a14-93f6-5bba41d3dd8e/"
+        }
+    ]
 }
