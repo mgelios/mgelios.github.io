@@ -2,21 +2,60 @@
     "first_name": "Anton",
     "second_name": "Nadyozhkin",
     "short_description": "Highly skilled and motivated software engineer with expertise in data engineering and a strong background in Java, Python, and JavaScript. Experienced in a variety of frameworks, libraries, cloud platforms, and version control systems. Proficient in Agile methodologies and task management tools. Bachelor's degree in Computer Science from BSUIR.",
-    "hard_skills": {
-        "Natural Languages": ["English (B2+)", "Belarusian (B1)", "Russian (Native)"],
-        "Programming languages": ["Java", "Python", "Javascript"],
-        "Frameworks/Libraries": ["Spring Core", "Spring Cloud", "Spring Data", "Hibernate", "Apache Camel", "Apache Spark", "VueJS", "JUnit", "Mockito", "Cucumber"],
-        "Build tools": ["Maven", "Gradle", "GraalVM"],
-        "Containers": ["Docker"],
-        "Version control systems": ["Git, Subversion"],
-        "Tools": ["Intellij IDEA", "VS Code, Postman", "Jmeter", "Soap UI", "Databricks"],
-        "Management frameworks": ["Scrum", "Agile", "Spiral", "Waterfall"],
-        "Task management": ["Jira", "Trello"],
-        "Cloud": ["Azure", "Hetzner"],
-        "Database": ["PostgreSQL", "OracleSQL", "MySQL"],
-        "Messaging": ["Kafka"],
-        "Other": ["HTML5", "CSS3", "Liquibase"]
-    },
+    "hard_skills": [
+        {
+            "name": "Natural Languages",
+            "list": ["English (B2+)", "Belarusian (B1)", "Russian (Native)"]
+        },
+        {
+            "name": "Programming languages",
+            "list": ["Java", "Python", "Javascript"]
+        },
+        {
+            "name": "Frameworks/Libraries",
+            "list": ["Spring Core", "Spring Cloud", "Spring Data", "Hibernate", "Apache Camel", "Apache Spark", "VueJS", "JUnit", "Mockito", "Cucumber"]
+        },
+        {
+            "name": "Build tools",
+            "list": ["Maven", "Gradle", "GraalVM"]
+        },
+        {   
+            "name": "Containers",
+            "list": ["Docker"]
+        },
+        {
+            "name": "Version control systems",
+            "list": ["Git, Subversion"]
+        },
+        {
+            "name": "Tools",
+            "list": ["Intellij IDEA", "VS Code, Postman", "Jmeter", "Soap UI", "Databricks"]
+        },
+        {
+            "name": "Management frameworks",
+            "list": ["Scrum", "Agile", "Spiral", "Waterfall"]
+        },
+        {
+            "name": "Task management",
+            "list": ["Jira", "Trello"]
+        },
+        {
+            "name": "Cloud",
+            "list": ["Azure", "Hetzner"]
+        },
+        {
+            "name": "Database",
+            "list": ["PostgreSQL", "OracleSQL", "MySQL", "Liquibase"]
+        },
+        {
+            "name": "Messaging",
+            "list": ["Kafka", "Google PubSub"]
+        },
+        {
+            "name": "Other",
+            "list": ["HTML5", "CSS3"]
+        }
+    ],
     "contact_info": {
         "email": "antonnadezhkin@gmail.com",
         "phone": "+48572355127",
@@ -24,15 +63,18 @@
         "linkedin": "https://www.linkedin.com/in/anton-nadyozhkin/",
         "github": "https://github.com/mgelios"
     },
-    "education": {
-        "univercity": "BSUIR, Bachelor's degree in Computer Science"
-    },
+    "education": [
+        {
+            "name": "BSUIR, Bachelor's degree in Computer Science",
+            "period": "2010-2016"
+        }
+    ],
     "prizes_appraisals": [
         "2nd diploma diploma of Republic Olympiad in informatics 2010.",
         "Participant of ACM IСPC Belarus and Baltics Regional Contest (ACM 1/4 finals).",
         "Participant of ВКОШП of 2008-2009, 2009-2010."
     ],
-    "work-experience": [
+    "experience": [
         {
             "employer": "Akvelon",
             "period": "07.07.2022 - now",

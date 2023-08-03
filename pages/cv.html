@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Anton Nadyozhkin's CV</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+    <link rel="manifest" href="../img/site.webmanifest">
+
+    <script src="../content/speed-dial.js" ></script>
+    <script src="../script/jsrender.min.js" ></script>
+    <script src="../script/common.js"></script>
+
+    <meta name="theme-color" content="#000000">
+</head>
+<body>
+    <script id="personal" type="text/x-jsrender">
+        <h1>{{:first_name}} {{:second_name}}</h1>
+    </script>
+
+    <script id="contact-info" type="text/x-jsrender">
+        <h3>{{:location}}</h3>
+        <h3>{{:phone}}</h3>
+        <h3>{{:email}}</h3>
+        <h3>{{:linkedin}}</h3>
+        <h3>{{:github}}</h3>
+    </script>
+
+    <script id="skills" type="text/x-jsrender">
+        <ul>
+            {{for}}
+                <li>
+                    <h3>{{:name}}: {{:list}}</h1>
+                </li>
+            {{/for}}
+        </ul>
+    </script>
+
+    <script id="education" type="text/x-jsrender">
+        {{for}}
+            <h1>{{:name}}</h1>
+            <h3>{{:period}}</h3>
+        {{/for}}
+    </script>
+
+    <script id="experience" type="text/x-jsrender">
+        {{for}}
+            <h1>{{:employer}}</h1>
+        {{/for}}
+    </script>
+
+    <script id="certificates" type="text/x-jsrender">
+        {{for}}
+            <h1>{{:name}}</h1>
+            <h3>{{:link}}</h3>
+        {{/for}}
+    </script>
+
+
+    <div class="flex-container">
+        <section id="personal-container">
+        </section>
+    </div>
+
+    <div class="flex-container">
+        <h2>Contact Info:</h2>
+        <section id="contact-info-container">
+        </section>
+    </div>
+
+    <div class="flex-container">
+        <h2>Skills:</h2>
+        <section id="skills-container">
+        </section>
+    </div>
+
+    <div class="flex-container">
+        <h2>Education:</h2>
+        <section id="education-container">
+        </section>
+    </div>
+
+    <div class="flex-container">
+        <h2>Experience:</h2>
+        <section id="experience-container">
+        </section>
+    </div>
+
+    <div class="flex-container">
+        <h2>Certificates:</h2>
+        <section id="certificates-container">
+        </section>
+    </div>
+
+    <script>
+        JSONFromURL("../content/cv.json")
+            .then(content => {
+                renderTemplateWithData(content, "personal", "personal-container");
+                renderTemplateWithData(content.contact_info, "contact-info", "contact-info-container");
+                renderTemplateWithData(content.hard_skills, "skills", "skills-container");
+                renderTemplateWithData(content.education, "education", "education-container");
+                renderTemplateWithData(content.experience, "experience", "experience-container");
+                renderTemplateWithData(content.certificates, "certificates", "certificates-container");
+            });
+    </script>
+</body>
+</html>
+

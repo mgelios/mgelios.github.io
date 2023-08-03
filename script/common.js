@@ -18,6 +18,13 @@ function renderTemplateWithData(data, templateName, targetElementID) {
     let tmpl = $.templates("#" + templateName);
     let html = tmpl.render(data);
     document.getElementById(targetElementID).innerHTML = html;
+}
+
+function renderTemplateWithDataAndApplyMasonry(data, templateName, targetElementID) {
+    let $ = window.jsrender;
+    let tmpl = $.templates("#" + templateName);
+    let html = tmpl.render(data);
+    document.getElementById(targetElementID).innerHTML = html;
     new Masonry("#" + targetElementID);
 }
 
