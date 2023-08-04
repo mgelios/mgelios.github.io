@@ -51,7 +51,7 @@
     <script>
         JSONFromURL("../content/categories/" + getURLParam("category") + ".json")
             .then(content => {
-                renderTemplateWithData(content.cards, "cards", "cards-container");
+                renderTemplateWithDataAndApplyMasonry(content.cards, "cards", "cards-container");
                 updateCategoryPageWithName(getURLParam("category"));
             });
     </script>
