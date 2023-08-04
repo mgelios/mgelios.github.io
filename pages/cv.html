@@ -6,6 +6,8 @@
 
     <title>Anton Nadyozhkin's CV</title>
 
+    <link rel="stylesheet" type="text/css" href="../style/cv.css">
+
     <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
@@ -20,24 +22,33 @@
 <body>
     <script id="personal" type="text/x-jsrender">
         <h1>{{:first_name}} {{:second_name}}</h1>
+        <h1>{{:title}}</h1>
     </script>
 
     <script id="contact-info" type="text/x-jsrender">
-        <h3>{{:location}}</h3>
-        <h3>{{:phone}}</h3>
-        <h3>{{:email}}</h3>
-        <h3>{{:linkedin}}</h3>
-        <h3>{{:github}}</h3>
+        <div><p>{{:location}}</p></div>
+        <div><p>{{:phone}}</p></div>
+        <div><p>{{:email}}</p></div>
+        <div><p>{{:linkedin}}</p></div>
+        <div><p>{{:github}}</p></div>
     </script>
 
-    <script id="skills" type="text/x-jsrender">
+    <script id="bullets" type="text/x-jsrender">
         <ul>
             {{for}}
                 <li>
-                    <h3>{{:name}}: {{:list}}</h1>
+                    <p>{{:#data}}</p>
                 </li>
             {{/for}}
         </ul>
+    </script>
+
+    <script id="skills" type="text/x-jsrender">
+        {{for}}
+            <div class="skill-item-container">
+                <b>{{:name}}:</b><p> {{:list}}</p>
+            </div>
+        {{/for}}
     </script>
 
     <script id="education" type="text/x-jsrender">
@@ -49,7 +60,15 @@
 
     <script id="experience" type="text/x-jsrender">
         {{for}}
-            <h1>{{:employer}}</h1>
+            <div>
+                <h2>{{:position}}</h2>
+                <h4>{{:employer}}</h4>
+                <ul>
+                    {{for bullets}}
+                        <li>{{:#data}}</li>
+                    {{/for}}
+                </ul>
+            </div>
         {{/for}}
     </script>
 
@@ -62,35 +81,37 @@
 
 
     <div class="flex-container">
-        <section id="personal-container">
+        <section id="personal-container" class="name">
+        </section>
+
+        <section id="contact-info-container" class="contact-info">
         </section>
     </div>
 
     <div class="flex-container">
-        <h2>Contact Info:</h2>
-        <section id="contact-info-container">
+        <section id="bullets-container">
         </section>
     </div>
 
-    <div class="flex-container">
+    <div>
         <h2>Skills:</h2>
-        <section id="skills-container">
+        <section id="skills-container" class="flex-container">
         </section>
     </div>
 
-    <div class="flex-container">
+    <div>
+        <h2>Work experience:</h2>
+        <section id="experience-container">
+        </section>
+    </div>
+
+    <div>
         <h2>Education:</h2>
         <section id="education-container">
         </section>
     </div>
 
-    <div class="flex-container">
-        <h2>Experience:</h2>
-        <section id="experience-container">
-        </section>
-    </div>
-
-    <div class="flex-container">
+    <div>
         <h2>Certificates:</h2>
         <section id="certificates-container">
         </section>
@@ -101,10 +122,11 @@
             .then(content => {
                 renderTemplateWithData(content, "personal", "personal-container");
                 renderTemplateWithData(content.contact_info, "contact-info", "contact-info-container");
-                renderTemplateWithData(content.hard_skills, "skills", "skills-container");
+                renderTemplateWithData(content.skills, "skills", "skills-container");
                 renderTemplateWithData(content.education, "education", "education-container");
                 renderTemplateWithData(content.experience, "experience", "experience-container");
                 renderTemplateWithData(content.certificates, "certificates", "certificates-container");
+                renderTemplateWithData(content.bullets, "bullets", "bullets-container");
             });
     </script>
 </body>
