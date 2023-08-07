@@ -1,13 +1,40 @@
-h1, h2 {
+body {
+    padding: 1em;
+}
+
+h1 {
+    font-size: xx-large;
     font-weight: 900;
 }
 
-h3, h4, h5, h6 {
+h2 {
+    font-size: larger;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: small;
+}
+
+h4, h5, h6 {
     font-weight: 500;
 }
 
 h1, h2, h3, h4, h5, h6, p {
     margin: .1em;
+}
+
+#bullets-container ul {
+    padding-left: 1em;
+}
+
+#experience-container ul {
+    padding-left: 1em;
 }
 
 .flex-container {
@@ -25,5 +52,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .skill-item-container {
+    flex: 50%;
+}
+
+.position-container {
+    flex: 50%;
+}
+
+.position-period-container {
+    text-align: right;
     flex: 50%;
 }

@@ -4,12 +4,14 @@
     "title": "Senior Software Engineer",
     "short_description": "Highly skilled and motivated software engineer with expertise in data engineering and a strong background in Java, Python, and JavaScript. Experienced in a variety of frameworks, libraries, cloud platforms, and version control systems. Proficient in Agile methodologies and task management tools. Bachelor's degree in Computer Science from BSUIR.",
     "bullets": [
-        "7+ years of hands-on experience in develping web platforms in different business domains",
+        "7+ years of hands-on experience in software engineering in different business domains",
+        "Software development skills: Able to write readable, optimal and scalable code",
         "Results-Driven Achievements: Delivered solutions for challenging interactions between technologies. Led a small team to complete the TangoVote prototype",
         "Data Engineering Proficiency: Hands-on experience in Python, PySpark, and Azure Databricks. Completed Udemy course on Azure Databricks & Spark for Data Engineers",
         "Leadership & Solution Design: Led projects, made architectural decisions, and developed solutions for successful project delivery",
         "Cloud & Database Expertise: Knowledgeable in cloud platforms (Azure, Hetzner) and databases (PostgreSQL, OracleSQL, MySQL, Liquibase) for scalable and efficient application development.",
-        "Highly Skilled Software Engineer: Proficient in Java, Python, and JavaScript with expertise in data engineering. Experienced in frameworks, libraries, cloud platforms, and version control systems."
+        "Wide range of expertises: Proficient in Java, Python, and JavaScript with expertise in data engineering. Experienced in frameworks, libraries, cloud platforms, and version control systems.",
+        "Architectural proficiency: Desinging services architecture, architecture of services interactions, databases structures. Providing improvements to existing solutions"
     ],
     "skills": [
         {
@@ -46,7 +48,7 @@
         },
         {
             "name": "Task management",
-            "list": ["Jira", "Trello"]
+            "list": ["JIRA", "Trello", "Confluence"]
         },
         {
             "name": "Cloud",
@@ -59,6 +61,14 @@
         {
             "name": "Messaging",
             "list": ["Kafka", "Google PubSub"]
+        },
+        {
+            "name": "Architectures",
+            "list": ["Microservices", "Service-oriented", "Hexagonal(Onion, Ports and Adapters)", "Monolith"]
+        },
+        {
+            "name": "CI/CD",
+            "list": "Jenkins"
         },
         {
             "name": "Other",
@@ -86,11 +96,12 @@
     "experience": [
         {
             "employer": "Akvelon",
-            "period": "07.07.2022 - now",
+            "period": "Jul 2022 - now",
             "position": "Senior Software Engineer / Data Engineer",
             "bullets": [
-                "Obtained knowledge and experience in a new area of software development - data engineering",
-                "Completed Udemy course Azure Databricks & Spark For Data Engineers (PySpark / SQL)"
+                "Implemented logging solution which increased clarity of execution of the pipelines (up to 50% more of collected data)",
+                "Learned data engineering from scratch and expanded capacity of team in terms of DE tasks",
+                "Completed Udemy course Azure Databricks & Spark For Data Engineers (PySpark / SQL) which increased productivity in data engineering tasks"
             ],
             "projects": [
                 {
@@ -105,12 +116,12 @@
         },
         {
             "employer": "Ericsson Nikola Tesla (ETK)",
-            "period": "21.06.2021 - 23.06.2022",
+            "period": "Jun 2021 - Jun 2022",
             "position": "Senior Software Engineer",
             "bullets": [
-                "Took initiative to do performance testing of several approaches on R'n'D stage of development.",
+                "Took initiative to do performance testing on R'n'D stage of development.",
                 "Faced undocumented and unpredictable behaviour in interaction between apache camel and spring boot actuator prometheus and came up with working solution (wrote an article about it).",
-                "Developed and implemented way to configure complex routes in Apache Camel with content based conditions and incoming-outcoming throttling."
+                "Investigated and implemented way to build complex routes in Apache Camel with content based conditions and two way throttling"
             ],
             "projects": [
                 {
@@ -125,11 +136,12 @@
         },
         {
             "employer": "Seavus",
-            "period": "10.07.2018 - 11.06.2021",
+            "period": "Jul 2018 - Jun 2021",
             "position": "Senior Software Engineer",
             "bullets": [
-                "Technically lead small TangoVote demo project (2 people) from beginning to the end. Done this with mentorship of the head of oracle department of the company.",
-                "Had been an author of several architectural decisions about how to implement several services and interaction between them. Also took part in implementing them."
+                "Learned VueJS from scratch and increased front-end capasity of the team in first year of implementation (H4H).",
+                "Technically lead small TangoVote demo project (2 people) which was successfully delivered and demoed to a client",
+                "Proposed architectural decisions which were accepted and implemented by a team during H4H projects. They have solved a problem of complexity in implementation."
             ],
             "projects": [
                 {
@@ -192,11 +204,13 @@
         },
         {
             "employer": "Forte Group",
-            "period": "20.01.2016 - 08.07.2018",
+            "period": "Jan 2016 - Jul 2018",
             "position": "Java/ATG Developer",
             "bullets": [
+                "Successfuly delivered 6 e-commerce projects in tight cooperation with customer",
+                "Upgraded one internal project to newer version of tools, provided precise estimations (dropdown up to 2h) for a next two months of implementation",
                 "Designed complex solution for integration Knockout.JS and Google Maps + Places API to support dynamic view of client stores.",
-                "Supported and took part into the development of several projects at the same time. That included collecting info about the issues, bug fixing, making the calls to the customer, bringing ideas of different solutions, small optimizations, providing estimations with breakdown."
+                "Optimized RQL queries to reduce number of records to process by 100 times, which lead to reduction of latency from 10s to 0.5s"
             ],
             "projects": [
                 {

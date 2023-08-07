@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Anton Nadyozhkin's CV</title>
+    <title>Anton_Nadyozhkin_CV</title>
 
     <link rel="stylesheet" type="text/css" href="../style/cv.css">
 
@@ -26,11 +26,11 @@
     </script>
 
     <script id="contact-info" type="text/x-jsrender">
-        <div><p>{{:location}}</p></div>
-        <div><p>{{:phone}}</p></div>
-        <div><p>{{:email}}</p></div>
-        <div><p>{{:linkedin}}</p></div>
-        <div><p>{{:github}}</p></div>
+        <div><p>location: {{:location}}</p></div>
+        <div><p>phone: {{:phone}}</p></div>
+        <div><p>e-mail: {{:email}}</p></div>
+        <div><p>linkedin: <a href="{{:linkedin}}">{{:linkedin}}</a></p></div>
+        <div><p>github: <a href="{{:github}}">{{:github}}</a></p></div>
     </script>
 
     <script id="bullets" type="text/x-jsrender">
@@ -53,29 +53,38 @@
 
     <script id="education" type="text/x-jsrender">
         {{for}}
-            <h1>{{:name}}</h1>
-            <h3>{{:period}}</h3>
+            <h3>{{:name}}</h3>
+            <h4>{{:period}}</h4>
         {{/for}}
     </script>
 
     <script id="experience" type="text/x-jsrender">
         {{for}}
             <div>
-                <h2>{{:position}}</h2>
-                <h4>{{:employer}}</h4>
-                <ul>
-                    {{for bullets}}
-                        <li>{{:#data}}</li>
-                    {{/for}}
-                </ul>
-            </div>
+                <div class="flex-container">
+                    <div class="position-container">
+                        <h2>{{:position}}</h2>
+                        <h3>{{:employer}}</h3>
+                    </div>
+                    <div class="position-period-container">
+                        <h4>{{:period}}</h4> 
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        {{for bullets}}
+                            <li>{{:#data}}</li>
+                        {{/for}}
+                    </ul>
+                </div>
+            <div>
         {{/for}}
     </script>
 
     <script id="certificates" type="text/x-jsrender">
         {{for}}
-            <h1>{{:name}}</h1>
-            <h3>{{:link}}</h3>
+            <h3>{{:name}}</h4>
+            <a href="{{:link}}"><h4>{{:link}}</h4></a>
         {{/for}}
     </script>
 
