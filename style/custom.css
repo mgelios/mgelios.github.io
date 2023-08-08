@@ -48,6 +48,12 @@
     --purple-4: hsl(270 60% 50%);
     --purple-5: hsl(270 60% 60%);
 
+    --pink-1: hsl(300 60% 20%);
+    --pink-2: hsl(300 60% 30%);
+    --pink-3: hsl(300 60% 40%);
+    --pink-4: hsl(300 60% 50%);
+    --pink-5: hsl(300 60% 60%);
+
     --main-font-family: sans-serif;
 }
 
@@ -99,6 +105,12 @@
 .backgroud-purple-3 { background-color: var(--purple-3); }
 .backgroud-purple-4 { background-color: var(--purple-4); }
 .backgroud-purple-5 { background-color: var(--purple-5); }
+
+.backgroud-pink-1 { background-color: var(--pink-1); }
+.backgroud-pink-2 { background-color: var(--pink-2); }
+.backgroud-pink-3 { background-color: var(--pink-3); }
+.backgroud-pink-4 { background-color: var(--pink-4); }
+.backgroud-pink-5 { background-color: var(--pink-5); }
 
 .text-color-dark-1 { color: var(--dark-1); }
 .text-color-dark-2 { color: var(--dark-2); }

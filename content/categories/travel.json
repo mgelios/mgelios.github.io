@@ -22,7 +22,8 @@
         "color": "danger",
         "links": [
             ["https://34travel.me/", "Travel 34", "dark-2", "T", ""],
-            ["https://vandrouki.by/", "Vandrouki", "dark-3", "V", ""]
+            ["https://vandrouki.by/", "Vandrouki", "dark-3", "V", ""],
+            ["https://nomadlist.com/", "Nomadlist", "pink-3", "N", ""]
         ]
     }, {
         "title": "Navigation",

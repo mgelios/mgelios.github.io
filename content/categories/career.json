@@ -37,7 +37,8 @@
             ["https://www.levels.fyi", "Levels", "blue-2", "L", ""],
             ["https://www.teamblind.com", "Blind", "red-1", "B", ""],
             ["https://techpays.com/", "Techpays", "green-3", "T", ""],
-            ["https://www.payscale.com/research-and-insights/", "Payscale", "blue-3", "P", ""]
+            ["https://www.payscale.com/research-and-insights/", "Payscale", "blue-3", "P", ""],
+            ["https://goodsalary.com", "Goodsalary", "blue-3", "G", ""]
 
         ]
     }, {
