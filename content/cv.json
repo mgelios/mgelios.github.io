@@ -99,6 +99,8 @@
             "period": "Jul 2022 - now",
             "position": "Senior Software Engineer / Data Engineer",
             "bullets": [
+                "Developed services and microservices in service-oriented environments",
+                "Took part in requirements discussion and solutions design",
                 "Implemented logging solution which increased clarity of execution of the pipelines (up to 50% more of collected data)",
                 "Learned data engineering from scratch and expanded capacity of team in terms of DE tasks",
                 "Completed Udemy course Azure Databricks & Spark For Data Engineers (PySpark / SQL) which increased productivity in data engineering tasks"
@@ -119,6 +121,8 @@
             "period": "Jun 2021 - Jun 2022",
             "position": "Senior Software Engineer",
             "bullets": [
+                "Developed services and microservices in service-oriented environments",
+                "Took part in requirements discussion and solutions design",
                 "Took initiative to do performance testing on R'n'D stage of development.",
                 "Faced undocumented and unpredictable behaviour in interaction between apache camel and spring boot actuator prometheus and came up with working solution (wrote an article about it).",
                 "Investigated and implemented way to build complex routes in Apache Camel with content based conditions and two way throttling"
@@ -139,9 +143,11 @@
             "period": "Jul 2018 - Jun 2021",
             "position": "Senior Software Engineer",
             "bullets": [
+                "Developed services and microservices in service-oriented environments",
+                "Took part in requirements discussion and solutions design",
+                "Supported projects in several directions - refactoring, bug fixing, implementation of new features",
                 "Learned VueJS from scratch and increased front-end capasity of the team in first year of implementation (H4H).",
-                "Technically lead small TangoVote demo project (2 people) which was successfully delivered and demoed to a client",
-                "Proposed architectural decisions which were accepted and implemented by a team during H4H projects. They have solved a problem of complexity in implementation."
+                "Technically lead small TangoVote demo project (2 people) which was successfully delivered and demoed to a client"
             ],
             "projects": [
                 {
@@ -209,6 +215,7 @@
             "bullets": [
                 "Successfuly delivered 6 e-commerce projects in tight cooperation with customer",
                 "Upgraded one internal project to newer version of tools, provided precise estimations (dropdown up to 2h) for a next two months of implementation",
+                "Gained experience in e-commerce domain and such technologies as ATG, Java, Spring, KnockoutJS",
                 "Designed complex solution for integration Knockout.JS and Google Maps + Places API to support dynamic view of client stores.",
                 "Optimized RQL queries to reduce number of records to process by 100 times, which lead to reduction of latency from 10s to 0.5s"
             ],
@@ -218,7 +225,7 @@
                     "name": "Columbia Pipe",
                     "period": "2017.11.01-2018.01.01 (support)",
                     "description": "B2C eCommerce website: https://www.columbiapipe.com/",
-                    "technologies": "Java 8, ATG, BCC, Endeca, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice integration, HTML5, CSS3",
+                    "technologies": "Java 8, ATG, BCC, Endeca, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice, HTML5, CSS3",
                     "responsibilities": "Back-end development and support, bug fixing, provided estimations, participated in development of business requirements"
                 },
                 {
@@ -226,7 +233,7 @@
                     "name": "Pureformulas",
                     "period": "2017.07.01-2017.08.01 (support)",
                     "description": "B2C eCommerce website: https://www.pureformulas.com/",
-                    "technologies": "Java 8, ATG, BCC, Endeca, KnockoutJS, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice integration, HTML5, CSS3",
+                    "technologies": "Java 8, ATG, BCC, Endeca, KnockoutJS, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice, HTML5, CSS3",
                     "responsibilities": "Fullstack development and support (front-end and back-end), bug fixing, provided estimations, participated in development of business requirements."
 
                 },
@@ -235,7 +242,7 @@
                     "name": "MyGildan",
                     "period": "2017.04.15 - 2018.07.08 (support)",
                     "description": "B2C eCommerce website: mygildan.com",
-                    "technologies": "Java 8, ATG, BCC, Endeca, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice integration, HTML5, CSS3",
+                    "technologies": "Java 8, ATG, BCC, Endeca, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice, HTML5, CSS3",
                     "responsibilities": "Back-end development and support, bug fixing, provided estimations, participated in development of business requirements"
 
                 },
@@ -244,7 +251,7 @@
                     "name": "GildanOnline, SecretSilky (multisite)",
                     "period": "2017.03.01 - 2017.05.01 (initial development), 2017.05.01- 2018.07.08 (support)",
                     "description": "B2C eCommerce website: secretsilky.com",
-                    "technologies": "Java 8, ATG, BCC, Endeca, KnockoutJS, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice integration, HTML5, CSS3",
+                    "technologies": "Java 8, ATG, BCC, Endeca, KnockoutJS, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice, HTML5, CSS3",
                     "responsibilities": "fullstack development and support (front-end and back-end), bug fixing, provided estimations, participated in development of business requirements."
                 },
                 {
@@ -252,7 +259,7 @@
                     "name": "HealthyDirections",
                     "period": "2016.12.15 - 2017.03.01 (initial development)",
                     "description": "B2C eCommerce website: https://www.healthydirections.com",
-                    "technologies": "Java 8, ATG, BCC, Endeca, KnockoutJS, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice integration, HTML5, CSS3",
+                    "technologies": "Java 8, ATG, BCC, Endeca, KnockoutJS, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice, HTML5, CSS3",
                     "responsibilities": "fullstack development and support (front-end and back-end), bug fixing, provided estimations, participated in development of business requirements"
                 },
                 {
@@ -260,7 +267,7 @@
                     "name": "Goldtoe, Powersox (multisite)",
                     "period": "2016.06.16-2016.11.20 (initial development), 2016.11.21-2018.06.30 (support)",
                     "description": "B2C eCommerce website: https://www.goldtoe.com/",
-                    "technologies": "Java 7-8, ATG, BCC, Endeca, KnockoutJS, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice integration, Google Places integration, Google Maps integration, HTML5, CSS3",
+                    "technologies": "Java 7-8, ATG, BCC, Endeca, KnockoutJS, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice, Google Places integration, Google Maps integration, HTML5, CSS3",
                     "responsibilities": "Fullstack development and support (front-end and back-end), bug fixing, provided estimations, participated in development of business requirements"
                 },
                 {
