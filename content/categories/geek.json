@@ -28,5 +28,14 @@
             ["https://www.ixbt.com/","iXBT","purple-3","iX",""]
 
         ]
+    }, {
+        "title": "🦄 Communities",
+        "description": "Communities",
+        "color": "primary",
+        "links":[
+            ["https://phreedom.club/","Phreedom","light-1","Ph","dark-5"],
+            ["https://vas3k.club/", "Vas3k Club", "dark-1", "V", ""],
+            ["https://quietplace.xyz/", "Quietplace", "green-3", "Q", ""]
+        ]
     }]
 }

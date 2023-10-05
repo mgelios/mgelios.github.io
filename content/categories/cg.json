@@ -4,11 +4,11 @@
         "description":"CG news websites",
         "color":"success",
         "links":[
-            ["https://www.render.ru","Render.ru","green-2","R",""],
-            ["https://www.blenderguru.com/","Blender Guru","light-3","B","dark-1"],
-            ["https://www.poliigon.com/","Poligon assets","dark-1","P",""],
-            ["https://www.artstation.com/","Artstation","blue-2","A",""],
-            ["https://www.deviantart.com/","Deviantart","green-2","D",""]
+            ["https://render.ru","Render.ru","green-2","R",""],
+            ["https://blenderguru.com/","Blender Guru","light-3","B","dark-1"],
+            ["https://poliigon.com/","Poligon assets","dark-1","P",""],
+            ["https://artstation.com/","Artstation","blue-2","A",""],
+            ["https://deviantart.com/","Deviantart","green-2","D",""]
         ]
     }, {
         "title":"Blogs",

@@ -75,6 +75,46 @@ const speed_dial_links =
     badgeText: "L",
     badgeTextColor: "light-3"
 }, {
+    title: "Vas3k club",
+    link: "https://vas3k.club/",
+    linkButtonText: "Go Vas3k",
+    color: "secondary",
+    badgeColor: "dark-2",
+    badgeText: "V",
+    badgeTextColor: "light-3"
+}, {
+    title: "3D news",
+    link: "https://3dnews.ru/",
+    linkButtonText: "Go 3D news",
+    color: "secondary",
+    badgeColor: "blue-2",
+    badgeText: "3D",
+    badgeTextColor: "light-3"
+}, {
+    title: "Render",
+    link: "https://render.ru",
+    linkButtonText: "Go Render",
+    color: "secondary",
+    badgeColor: "green-2",
+    badgeText: "R",
+    badgeTextColor: "light-3"
+}, {
+    title: "Onliner",
+    link: "https://www.onliner.by",
+    linkButtonText: "Go Onliner",
+    color: "secondary",
+    badgeColor: "red-3",
+    badgeText: "O",
+    badgeTextColor: "light-3"
+}, {
+    title: "The Warsaw",
+    link: "https://www.the-warsaw.com/",
+    linkButtonText: "Go LOR",
+    color: "secondary",
+    badgeColor: "blue-4",
+    badgeText: "T",
+    badgeTextColor: "light-3"
+}, {
     title: "ChatGPT",
     link: "https://chat.openai.com",
     linkButtonText: "Go ChatGPT",

@@ -109,7 +109,9 @@
         "color": "secondary",
         "links": [
             ["https://allevents.in/warsaw#", "AlleventsIN", "blue-2", "A", ""],
-            ["https://www.meetup.com/pl-PL/find/pl--warsaw/", "Meetup Warsaw", "red-3", "M", ""]
+            ["https://www.meetup.com/pl-PL/find/pl--warsaw/", "Meetup Warsaw", "red-3", "M", ""],
+            ["https://warsawcomiccon.pl/en/", "Warsaw comic con", "purple-3", "W", ""],
+            ["https://festiwal.animatsuri.pl/", "Animatsuri", "blue-3", "A", ""]
         ]
     }, {
         "title": "📰 News",

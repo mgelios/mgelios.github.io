@@ -19,6 +19,7 @@
         "color": "secondary",
         "links": [
             ["https://baeldung.com/", "Baeldung", "green-2", "B", ""],
+            ["https://www.baeldung.com/cs/", "Baeldung on CS", "blue-3", "B", ""],
             ["https://refactoring.guru/ru", "Refactoring Guru", "red-3", "RefGuru", ""],
             ["https://www.w3schools.com/", "W3Schools", "green-2", "W3", ""],
             ["https://www.geeksforgeeks.org/", "Geeks for geeks", "dark-1", "Geeks"]
