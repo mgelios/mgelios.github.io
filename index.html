@@ -37,6 +37,14 @@
         {{/for}}
     </script>
 
+    <script id="secret-bookmarks" type="text/x-jsrender">
+        {{for}}
+            <a href="{{:link}}" class="grid-item" target="_blank">
+                <p><span class="badge backgroud-{{:badgeColor}} text-color-{{:badgeTextColor}}">{{:badgeText}}</span> {{:title}}</p>
+            </a>
+        {{/for}}
+    </script>
+
     <script id="secret-categories" type="text/x-jsrender">
         {{for}}
             <a href="./pages/secret-category.html?category={{:title}}" class="grid-item">
@@ -78,6 +86,8 @@
         <section class="container-header">
             <h1>Secret</h1>
         </section>
+        <section id="secret-bookmarks-container" class="grid-container">
+        </section>
         <section id="secret-categories-container" class="grid-container">
         </section>
     </div>
@@ -92,8 +102,13 @@
         var bookmarksCategoriesHtml = bookmarksCategoriesTemplate.render(categories);
         document.getElementById("bookmarks-categories-container").innerHTML = bookmarksCategoriesHtml;
 
+        var secretBookmarksTemplate = $.templates("#secret-bookmarks");
+        var secretBookmarks = JSON.parse(window.localStorage.getItem("secrets")).bookmarks;
+        var secretBookmarksHtml = secretBookmarksTemplate.render(secretBookmarks);
+        document.getElementById("secret-bookmarks-container").innerHTML = secretBookmarksHtml;
+
         var secretCategoriesTemplate = $.templates("#secret-categories");
-        var secretCategories = JSON.parse(window.localStorage.getItem("secret_categories"));
+        var secretCategories = JSON.parse(window.localStorage.getItem("secrets")).categories;
         var secretCategoriesHtml = secretCategoriesTemplate.render(secretCategories);
         document.getElementById("secret-categories-container").innerHTML = secretCategoriesHtml;
     </script>
