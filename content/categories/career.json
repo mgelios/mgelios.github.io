@@ -21,6 +21,18 @@
             ["https://jobs.net/","Jobs.net","blue-2","J", ""]
         ]
     }, {
+        "title": "Poland job boards",
+        "description": "Poland job boards",
+        "color": "dark-1",
+        "links": [
+            ["https://justjoin.it/", "JustJoin","light-5","JJ","purple-3"],
+            ["https://www.pracuj.pl/", "Pracuj", "blue-2", "P", ""],
+            ["https://rocketjobs.pl/", "RocketJobs", "dark-1", "R", ""],
+            ["https://www.praca.pl/", "Praca", "blue-2", "P", ""],
+            ["https://inhire.io/", "InHire", "dark-2", "I", "green-3"],
+            ["https://flagma.pl/", "Flagma", "blue-1", "F", ""]
+        ]
+    }, {
         "title": "CV",
         "description": "CV",
         "color": "dark-1",

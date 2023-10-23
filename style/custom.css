@@ -136,6 +136,17 @@
 .text-color-yellow-4 { color: var(--yellow-4); }
 .text-color-yellow-5 { color: var(--yellow-5); }
 
+.text-color-green-1 { color: var(--green-1); }
+.text-color-green-2 { color: var(--green-2); }
+.text-color-green-3 { color: var(--green-3); }
+.text-color-green-4 { color: var(--green-4); }
+.text-color-green-5 { color: var(--green-5); }
+
+.text-color-purple-1 { color: var(--purple-1); }
+.text-color-purple-2 { color: var(--purple-2); }
+.text-color-purple-3 { color: var(--purple-3); }
+.text-color-purple-4 { color: var(--purple-4); }
+.text-color-purple-5 { color: var(--purple-5); }
 /* concrete elements section */
 body {
     background-color: var(--dark-1);

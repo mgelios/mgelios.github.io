@@ -39,5 +39,12 @@
             ["https://monkeytype.com/", "Monkeytype", "dark-2", "M", "yellow-2"],
             ["https://cccstore.ru/school/kubik-rubika-3x3x3/beginners/", "CCC store", "light-3", "C", "dark-2"]
         ]
+    }, {
+        "title": "Uniques",
+        "description": "unique items",
+        "color": "primary",
+        "links": [
+            ["http://floor796.com", "Floor796", "dark-3", "F", ""]
+        ]
     }]
 }
