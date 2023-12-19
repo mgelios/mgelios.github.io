@@ -51,4 +51,8 @@ const categories =
     title: "⬜🟥⬜ Belarus",
     text: "Belarus related",
     name: "belarus"
+}, {
+    title: "💼 Leathercraft",
+    text: "Leathercraft related",
+    name: "leathercraft"
 }];

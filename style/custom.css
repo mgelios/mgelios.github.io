@@ -54,6 +54,12 @@
     --pink-4: hsl(300 60% 50%);
     --pink-5: hsl(300 60% 60%);
 
+    --brown-1: hsl(30, 100%, 20%);
+    --brown-2: hsl(30, 100%, 25%);
+    --brown-3: hsl(30, 100%, 30%);
+    --brown-4: hsl(30, 100%, 35%);
+    --brown-5: hsl(30, 100%, 40%);
+
     --main-font-family: sans-serif;
 }
 
@@ -112,6 +118,12 @@
 .backgroud-pink-4 { background-color: var(--pink-4); }
 .backgroud-pink-5 { background-color: var(--pink-5); }
 
+.backgroud-brown-1 { background-color: var(--brown-1); }
+.backgroud-brown-2 { background-color: var(--brown-2); }
+.backgroud-brown-3 { background-color: var(--brown-3); }
+.backgroud-brown-4 { background-color: var(--brown-4); }
+.backgroud-brown-5 { background-color: var(--brown-5); }
+
 .text-color-dark-1 { color: var(--dark-1); }
 .text-color-dark-2 { color: var(--dark-2); }
 .text-color-dark-3 { color: var(--dark-3); }
@@ -147,6 +159,12 @@
 .text-color-purple-3 { color: var(--purple-3); }
 .text-color-purple-4 { color: var(--purple-4); }
 .text-color-purple-5 { color: var(--purple-5); }
+
+.text-color-brown-1 { color: var(--brown-1); }
+.text-color-brown-2 { color: var(--brown-2); }
+.text-color-brown-3 { color: var(--brown-3); }
+.text-color-brown-4 { color: var(--brown-4); }
+.text-color-brown-5 { color: var(--brown-5); }
 /* concrete elements section */
 body {
     background-color: var(--dark-1);

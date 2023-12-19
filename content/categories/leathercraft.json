@@ -1,0 +1,53 @@
+{
+    "cards":[{
+        "title": "Polish shops",
+        "description": "Shops with materials and tools in Poland",
+        "color": "danger",
+        "links": [
+            ["https://juchcik.pl", "Juchcik", "brown-2", "J", ""],
+            ["https://craft-point.com", "CraftPoint", "dark-1", "C", ""]
+        ]
+    }, {
+        "title": "Reddit",
+        "description": "Related subreddits",
+        "color": "danger",
+        "links": [
+            ["https://www.reddit.com/r/Leathercraft/", "r/Leathercraft", "orange-2", "L", ""]
+        ]
+    }, {
+        "title": "Youtube",
+        "description": "youtube channel",
+        "color": "danger",
+        "links": [
+            ["https://www.youtube.com/@LittleKingGoods", "Little King Goods", "red-3", "L", ""],
+            ["https://www.youtube.com/@Corter", "Corter Leather", "red-3", "C", ""],
+            ["https://www.youtube.com/@Oldcoyoteleathergoods", "Old Coyote", "red-3", "O", ""],
+            ["https://www.youtube.com/@ClaridgeLeather", "Claridge Leather", "red-3", "C", ""],
+            ["https://www.youtube.com/@strhandmade", "STR Handmade", "red-3", "S", ""],
+            ["https://www.youtube.com/@plan.b", "Plan.B", "red-3", "P", ""],
+            ["https://www.youtube.com/@badweatherworkshop", "Bad Weather", "red-3", "B"]
+        ]
+    }, {
+        "title": "Pinterest",
+        "description": "pinterest boards",
+        "color": "danger",
+        "links": [
+            ["https://www.pinterest.com/mastergelios/edc/", "EDC board", "red-3", "E", ""],
+            ["https://www.pinterest.com/mastergelios/diy-leather/", "DIY Leather board", "red-3", "D", ""]
+        ]
+    }, {
+        "title": "Inspiration Shops",
+        "description": "inspirational shops",
+        "color": "danger",
+        "links": [
+            ["https://www.marcjacobs.com/default/the-marc-jacobs/wallets/view-all-wallets/", "Marc Jacobs", "dark-1", "M", ""],
+            ["https://kmmco.com/", "KMM", "dark-1", "K", ""],
+            ["https://littlekinggoods.com/", "Little King Goods", "dark-1", "L", ""],
+            ["https://www.patepluma.nl/", "Patepluma", "dark-1", "P", ""],
+            ["https://corterleather.com/", "Corter Leather", "dark-1", "C", ""],
+            ["https://littlekingsupplyco.com/", "Little King Supply", "dark-1", "L", ""],
+            ["https://www.jhleather.co.uk/", "JH Leather", "dark-1", "J", ""],
+            ["https://www.masconleather.com/", "Mascon Leather", "dark-1", "M", ""]
+        ]
+    }]
+}
