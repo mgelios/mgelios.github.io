@@ -17,12 +17,13 @@
             ["https://pacjent.gov.pl/aktualnosc/mojeikp-na-komorke-lub-tablet", "Receipts", "red-3", "R", ""]
         ]
     }, {
-        "title": "🏠 Rent apartment",
+        "title": "🏠 Apartments",
         "description": "rent apartments",
         "color": "secondary",
         "links": [
             ["https://www.otodom.pl/", "Otodom", "green-3", "O", ""],
-            ["https://www.facebook.com/groups/1829384610708402", "FB group", "blue-3", "F", ""]
+            ["https://www.facebook.com/groups/1829384610708402", "FB group", "blue-3", "F", ""],
+            ["https://rynekpierwotny.pl/", "Rynok pierwotny", "yellow-3", "R", "dark-1"]
         ]
     }, {
         "title": "🛒 Shopping",
@@ -121,7 +122,15 @@
         "links": [
             ["https://warsawinsider.pl/", "Warsaw insider", "red-3", "W", ""],
             ["https://www.the-warsaw.com/", "The Warsaw", "blue-4", "T", ""],
-            ["https://warsawtour.pl/en/main-page/", "Warsaw TOUR", "red-3", "W", ""]
+            ["https://warsawtour.pl/en/main-page/", "Warsaw TOUR", "red-3", "W", ""],
+            ["https://noizz.pl/", "Noizz", "dark-1", "N", ""]
+        ]
+    }, {
+        "title": "Cars",
+        "description": "cars",
+        "color": "secondary",
+        "links": [
+            ["https://carsmile.pl/", "Carsmile", "yellow-3", "C", "dark-1"]
         ]
     }]
 }
