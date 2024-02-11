@@ -65,5 +65,29 @@
             ["https://lowendbox.com/", "LowerEndBox", "green-3", "L", ""],
             ["https://www.cloudflare.com/", "Cloudflare", "orange-2", "C", ""]
         ]
+    }, {
+        "title": "Python",
+        "description": "python-related",
+        "color": "primary",
+        "links": [
+            ["https://www.djangoproject.com/", "Django", "green-2", "D", ""],
+            ["https://djangogirls.org/en/", "Djangogirls", "orange-2", "D", ""]
+        ]
+    }, {
+        "title": "Java",
+        "description": "java related",
+        "color": "primary",
+        "links": [
+            ["https://spring.io/", "Spring", "green-2", "S", ""]
+        ]
+    }, {
+        "title": "Rust",
+        "description": "rust related",
+        "color": "primary",
+        "links": [
+            ["https://rust-book.cs.brown.edu/experiment-intro.html", "Rust book experiment", "blue-1", "R", ""],
+            ["https://doc.rust-lang.org/book/", "Rust book", "blue-1", "R", ""],
+            ["https://actix.rs/", "Actix web", "dark-1", "A", ""]
+        ]
     }]
 }
