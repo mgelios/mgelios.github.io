@@ -1,0 +1,35 @@
+{
+    "cards":[{
+        "title": "Computer/Laptop",
+        "description": "computer hardware",
+        "color": "danger",
+        "links": [
+            ["https://devandgear.com","Devandgear","dark-1","D",""],
+            ["https://minifree.org/","MiniFree","light-3","M","dark-3"],
+            ["https://system76.com/","System76","dark-5","76",""],
+            ["https://n-o-d-e.net/index.html", "NODE", "dark-1", "N", ""],
+            ["https://frame.work", "Framework", "dark-1", "F", ""],
+            ["https://www.backmarket.com/", "Backmarket", "dark-1", "B", ""],
+            ["https://www.clockworkpi.com/", "ClockworkPi", "light-4", "C", "dark-3"]
+        ]
+    }, {
+        "title": "Audio",
+        "description": "audio hardware",
+        "color": "primary",
+        "links": [
+            ["https://store.hiby.com/collections/music-player", "HiBy", "dark-1", "H", ""],
+            ["https://www.hidizs.net/collections/portable-music-player", "Hidizs", "dark-1", "H", ""],
+            ["https://focusrite.com/", "Focusrite", "red-2", "F", ""],
+            ["https://moonlit.market/products/ipod-with-classic-connect?variant=44869824905484", "Moonlit iPod", "dark-1", "M", ""],
+            ["https://kz-audio.com/", "KZ Audio", "green-2", "K", ""],
+            ["https://voxamps.com/", "VOX amps", "dark-1", "V", ""]
+        ]
+    }, {
+        "title": "Clothes",
+        "description": "clothes hardware",
+        "color": "primary",
+        "links": [
+            ["https://techweargiants.com/", "Techwear giants", "dark-1", "T", ""]
+        ]
+    }]
+}

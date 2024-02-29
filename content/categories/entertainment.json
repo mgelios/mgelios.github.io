@@ -9,11 +9,6 @@
             ["https://www.reddit.com","Reddit","red-3","R",""],
             ["https://www.joyreactor.cc","Joyreactor","orange-2","J",""],
             ["https://www.pikabu.ru","Pikabu","green-2","P",""],
-            ["https://devandgear.com","Devandgear","dark-1","D",""],
-            ["https://minifree.org/","MiniFree","light-3","M","dark-3"],
-            ["https://system76.com/","System76","dark-5","76",""],
-            ["https://n-o-d-e.net/index.html", "NODE", "dark-1", "N", ""],
-            ["https://frame.work", "Framework", "dark-1", "F", ""],
             ["https://kbin.social/", "KBIN [reddit]", "purple-2", "K", ""],
             ["https://lemmy.ml", "Lemmy [reddit]", "dark-2", "L", ""]
         ]

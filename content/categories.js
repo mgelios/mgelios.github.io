@@ -55,4 +55,8 @@ const categories =
     title: "💼 Leathercraft",
     text: "Leathercraft related",
     name: "leathercraft"
+}, {
+    title: "Hardware",
+    text: "hardware related",
+    name: "hardware"
 }];

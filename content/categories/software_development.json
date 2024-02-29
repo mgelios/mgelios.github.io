@@ -22,8 +22,8 @@
             ["https://www.dou.ua","DOU","dark-1","D",""],
             ["https://www.ebanoe.it","Ebanoe","dark-1","E",""],
             ["https://www.habr.com/","Habr","blue-2","H",""],
-            ["https://www.medium.com","Medium","dark-1","M",""]
-
+            ["https://www.medium.com","Medium","dark-1","M",""],
+            ["https://geek.justjoin.it/", "Geek Justjoin", "green-1", "G", ""]
         ]
     }, {
         "title": "📓 Blogs",
@@ -43,8 +43,8 @@
             ["https://dirtyinode.me/", "MURG", "dark-1", "M", "green-3"],
             ["http://sereja.me/", "Sergey Slotin", "light-3", "S", "dark-3"],
             ["https://prettycoffee.github.io/", "Pretty Coffee", "blue-1", "P", ""],
-            ["https://tonsky.me/", "Tonsky", "orange-4", "T", "dark-2"]
-
+            ["https://tonsky.me/", "Tonsky", "orange-4", "T", "dark-2"],
+            ["https://blog.pragmaticengineer.com", "Pragmatic engineer", "blue-1", "P", ""]
         ]
     }, {
         "title": "Static site generators",
