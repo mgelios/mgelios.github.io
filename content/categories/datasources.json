@@ -16,7 +16,8 @@
             ["https://rutracker.org/forum/index.php", "Rutracker", "blue-2", "R", ""],
             ["https://thepiratebay.org/index.html", "The Pirate Bay","light-3","T", "dark-5"],
             ["https://kickasstorrents.to/", "Kickasstorrents", "dark-2", "K", ""],
-            ["https://www.reddit.com/r/Piracy/wiki/megathread", "Reddit megathread", "red-3", "R", ""]
+            ["https://www.reddit.com/r/Piracy/wiki/megathread", "Reddit megathread", "red-3", "R", ""],
+            ["https://rentry.co/megathread", "Megathread", "dark-1", "M", ""]
         ]
     }, {
         "title": "📦 Seedboxes",

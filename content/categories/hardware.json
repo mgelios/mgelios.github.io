@@ -13,6 +13,17 @@
             ["https://www.clockworkpi.com/", "ClockworkPi", "light-4", "C", "dark-3"]
         ]
     }, {
+        "title": "Accessories",
+        "description": "accessories hardware",
+        "color": "danger",
+        "links": [
+            ["https://www.anker.com", "Anker", "dark-1", "A", ""],
+            ["https://www.ugreen.pl", "Ugreen", "dark-1", "U", ""],
+            ["https://e-baseus.com", "Baseus", "dark-1", "B", ""],
+            ["https://slimq.life", "SlimQ", "dark-1", "S", ""],
+            ["https://sharge.com/", "Sharge", "dark-1", "S", ""]
+        ]
+    }, {
         "title": "Audio",
         "description": "audio hardware",
         "color": "primary",

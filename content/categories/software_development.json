@@ -89,5 +89,13 @@
             ["https://doc.rust-lang.org/book/", "Rust book", "blue-1", "R", ""],
             ["https://actix.rs/", "Actix web", "dark-1", "A", ""]
         ]
+    }, {
+        "title": "CSS",
+        "description": "css related",
+        "color": "primary",
+        "links": [
+            ["https://tailwindcss.com/", "Tailwind CSS", "purple-2", "T", ""],
+            ["https://getbootstrap.com/", "Bootstrap", "purple-1", "B", ""]
+        ]
     }]
 }
