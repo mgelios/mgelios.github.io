@@ -10,7 +10,10 @@
             ["https://n-o-d-e.net/index.html", "NODE", "dark-1", "N", ""],
             ["https://frame.work", "Framework", "dark-1", "F", ""],
             ["https://www.backmarket.com/", "Backmarket", "dark-1", "B", ""],
-            ["https://www.clockworkpi.com/", "ClockworkPi", "light-4", "C", "dark-3"]
+            ["https://www.clockworkpi.com/", "ClockworkPi", "light-4", "C", "dark-3"],
+            ["https://www.minisforum.com/", "Minisforum", "purple-2", "M", ""],
+            ["https://www.gl-inet.com/", "GL.inet", "blue-2", "G", ""],
+            ["https://www.kaiostech.com/", "Kai OS", "purple-3", "K", ""]
         ]
     }, {
         "title": "Accessories",
@@ -21,7 +24,8 @@
             ["https://www.ugreen.pl", "Ugreen", "dark-1", "U", ""],
             ["https://e-baseus.com", "Baseus", "dark-1", "B", ""],
             ["https://slimq.life", "SlimQ", "dark-1", "S", ""],
-            ["https://sharge.com/", "Sharge", "dark-1", "S", ""]
+            ["https://sharge.com/", "Sharge", "dark-1", "S", ""],
+            ["https://nuphy.com/", "NuPhy", "yellow-3", "N", "dark-1"]
         ]
     }, {
         "title": "Audio",
@@ -40,7 +44,8 @@
         "description": "clothes hardware",
         "color": "primary",
         "links": [
-            ["https://techweargiants.com/", "Techwear giants", "dark-1", "T", ""]
+            ["https://techweargiants.com/", "Techwear giants", "dark-1", "T", ""],
+            ["https://www.fjallraven.com/eu/en-gb", "Fjallraven", "dark-5", "F", ""]
         ]
     }]
 }

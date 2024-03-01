@@ -44,7 +44,10 @@
             ["http://sereja.me/", "Sergey Slotin", "light-3", "S", "dark-3"],
             ["https://prettycoffee.github.io/", "Pretty Coffee", "blue-1", "P", ""],
             ["https://tonsky.me/", "Tonsky", "orange-4", "T", "dark-2"],
-            ["https://blog.pragmaticengineer.com", "Pragmatic engineer", "blue-1", "P", ""]
+            ["https://blog.pragmaticengineer.com", "Pragmatic engineer", "blue-1", "P", ""],
+            ["https://www.ivankapcov.ru/", "Ivan Kapcov", "dark-1", "I", ""],
+            ["https://y-b.one/", "Doing things right", "dark-4", "D", ""],
+            ["https://yorko.github.io/", "New Yorko times", "dark-2", "N", ""]
         ]
     }, {
         "title": "Static site generators",
@@ -55,13 +58,21 @@
             ["https://gohugo.io/", "Hugo", "blue-2", "H", ""]
         ]
     }, {
+        "title": "Site constructors",
+        "description": "Site constructors",
+        "color": "primary",
+        "links": [
+            ["https://wordpress.com/", "Wordpress", "blue-3", "W", ""],
+            ["https://www.squarespace.com", "Squarespace", "dark-3", "S", ""],
+            ["https://www.wix.com/", "WIX", "dark-2", "W", ""]
+        ]
+    }, {
         "title": "🌐 Hostings",
         "description": "hostings",
         "color": "primary",
         "links": [
             ["https://hostinger.com", "Hostinger", "purple-3", "H", ""],
             ["https://www.hetzner.com/", "Hetzner", "red-3", "H", ""],
-            ["https://wordpress.com/", "Wordpress", "blue-3", "W", ""],
             ["https://lowendbox.com/", "LowerEndBox", "green-3", "L", ""],
             ["https://www.cloudflare.com/", "Cloudflare", "orange-2", "C", ""]
         ]

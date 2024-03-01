@@ -4,7 +4,8 @@
         "description": "career related social networks",
         "color": "dark-1",
         "links": [
-            ["https://linkedin.com/","LinkedIn","blue-2","L",""]
+            ["https://linkedin.com/","LinkedIn","blue-2","L",""],
+            ["https://layoffs.fyi/", "Layoffs FYI", "blue-1", "L", ""]
         ]
     }, {
         "title": "Job boards",
@@ -51,7 +52,6 @@
             ["https://techpays.com/", "Techpays", "green-3", "T", ""],
             ["https://www.payscale.com/research-and-insights/", "Payscale", "blue-3", "P", ""],
             ["https://goodsalary.com", "Goodsalary", "blue-3", "G", ""]
-
         ]
     }, {
         "title": "Blogs",
