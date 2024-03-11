@@ -113,7 +113,9 @@
             ["https://www.meetup.com/pl-PL/find/pl--warsaw/", "Meetup Warsaw", "red-3", "M", ""],
             ["https://warsawcomiccon.pl/en/", "Warsaw comic con", "purple-3", "W", ""],
             ["https://festiwal.animatsuri.pl/", "Animatsuri", "blue-3", "A", ""],
-            ["https://bielany.um.warszawa.pl/kalendarz", "Bielany events", "red-2", "B", ""]
+            ["https://bielany.um.warszawa.pl/kalendarz", "Bielany events", "red-2", "B", ""],
+            ["https://targifantastyki.pl/", "Targi fantastyki", "blue-1", "T", ""],
+            ["https://dev.events", "Dev events", "red-2", "D", ""]
         ]
     }, {
         "title": "📰 News",

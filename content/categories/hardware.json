@@ -13,7 +13,8 @@
             ["https://www.clockworkpi.com/", "ClockworkPi", "light-4", "C", "dark-3"],
             ["https://www.minisforum.com/", "Minisforum", "purple-2", "M", ""],
             ["https://www.gl-inet.com/", "GL.inet", "blue-2", "G", ""],
-            ["https://www.kaiostech.com/", "Kai OS", "purple-3", "K", ""]
+            ["https://www.kaiostech.com/", "Kai OS", "purple-3", "K", ""],
+            ["https://kobol.io/", "Open source NAS", "purple-3", "K", ""]
         ]
     }, {
         "title": "Accessories",
@@ -46,6 +47,25 @@
         "links": [
             ["https://techweargiants.com/", "Techwear giants", "dark-1", "T", ""],
             ["https://www.fjallraven.com/eu/en-gb", "Fjallraven", "dark-5", "F", ""]
+        ]
+    }, {
+        "title": "EDC",
+        "description": "edc related",
+        "color": "primary",
+        "links": [
+            ["https://www.knipex.com/", "Knipex", "red-3", "K", ""],
+            ["https://www.leatherman.com", "Leatherman", "dark-3", "L", ""],
+            ["https://www.gerbergear.com/", "Gerber", "orange-3", "G", ""]
+        ]
+    }, {
+        "title": "Stationery",
+        "description": "Stationery related",
+        "color": "primary",
+        "links": [
+            ["https://filofax.com/", "Filofax", "green-5", "F", ""],
+            ["https://www.moleskine.com/home/", "Moleskine", "dark-1", "M", ""],
+            ["https://www.leuchtturm.com/", "Leuchtturm", "blue-2", "L", ""],
+            ["https://www.spacepen.com/", "Space pen", "blue-3", "S", ""]
         ]
     }]
 }
