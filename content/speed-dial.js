@@ -122,4 +122,20 @@ const speed_dial_links =
     badgeColor: "green-2",
     badgeText: "C",
     badgeTextColor: "light-3"
+}, {
+    title: "Joyreactor",
+    link: "https://www.joyreactor.cc",
+    linkButtonText: "Go joyreactor",
+    color: "secondary",
+    badgeColor: "orange-2",
+    badgeText: "J",
+    badgeTextColor: "light-3"
+}, {
+    title: "LinkedIn",
+    link: "https://linkedin.com/",
+    linkButtonText: "Go linkedin",
+    color: "secondary",
+    badgeColor: "blue-2",
+    badgeText: "L",
+    badgeTextColor: "light-3"
 }];
