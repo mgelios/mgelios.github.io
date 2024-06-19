@@ -241,9 +241,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .badge {
     display: inline-block;
-    max-height: 1.2em;
     font-size: 0.8em;
-    padding: .1em .3em .27em .3em;
+    padding: .1em .3em .1em .3em;
     border-radius: .2em;
     min-width: 1em;
     text-align: center;

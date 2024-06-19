@@ -5,7 +5,10 @@
         "color": "secondary",
         "links": [
             ["https://www.gov.pl/", "Goverment portal", "red-3", "G", ""],
-            ["https://secure.e-konsulat.gov.pl/", "Visa registration", "red-3", "V", ""]
+            ["https://secure.e-konsulat.gov.pl/", "Visa registration", "red-3", "V", ""],
+            ["https://www.mobywatel.gov.pl/", "mObywatel", "blue-3", "m", ""],
+            ["https://epuap.gov.pl/", "ePuap", "blue-3", "e", ""],
+            ["https://www.zus.pl/portal/obszar-ogolny.npi", "ZUS", "green-3", "Z", ""]
         ]
     }, {
         "title": "🏥 Health",
