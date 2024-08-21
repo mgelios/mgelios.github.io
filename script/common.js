@@ -29,7 +29,6 @@ function renderTemplateWithDataAndApplyMasonry(data, templateName, targetElement
 }
 
 function updateCategoryPageWithName(name) {
-    let capitalizedName = name.charAt(0).toUpperCase() + name.slice(1);
-    document.getElementById("home-link-name").innerText = capitalizedName;
-    document.title = capitalizedName;
+    document.getElementById("home-link-name").innerText = name;
+    document.title = name;
 }

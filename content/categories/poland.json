@@ -1,4 +1,10 @@
 {
+    "name": "🇵🇱 Poland",
+    "categories":[{
+        "title": "Healthcare",
+        "path": "/poland/healthcare",
+        "text": "Some poland healthcare related"
+    }],
     "cards": [{
         "title": "🏛️ Goverment",
         "description": "goverment related",
