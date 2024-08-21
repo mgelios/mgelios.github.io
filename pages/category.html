@@ -23,12 +23,10 @@
 
     <script id="categories" type="text/x-jsrender">
         {{for}}
-        <div class="card-wrapper">
-            <a href="./pages/category.html?category={{:path}}" class="grid-item">
-                <h3>{{:title}}</h3>
-                <p>{{:text}}</p>
-            </a>
-        </div>
+        <a href="./pages/category.html?category={{:path}}" class="grid-item">
+            <h3>{{:title}}</h3>
+            <p>{{:text}}</p>
+        </a>
         {{/for}}
     </script>
 
@@ -58,7 +56,7 @@
         <section class="cards-container">
             <section id="categories-container" class="cards-container" data-masonry='{"percentPosition": true }'>
             </section>
-            <section id="cards-container" class="cards-container" data-masonry='{"percentPosition": true }'>
+            <section id="cards-container" class="cards-container card-wrapper" data-masonry='{"percentPosition": true }'>
             </section>
         </section>
     </div>
