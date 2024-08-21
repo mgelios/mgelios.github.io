@@ -23,10 +23,12 @@
 
     <script id="categories" type="text/x-jsrender">
         {{for}}
-        <a href="./pages/category.html?category={{:path}}" class="grid-item">
-            <h3>{{:title}}</h3>
-            <p>{{:text}}</p>
-        </a>
+        <div class="card-wrapper">
+            <a href="./pages/category.html?category={{:path}}" class="grid-item">
+                <h3>{{:title}}</h3>
+                <p>{{:text}}</p>
+            </a>
+        </div>
         {{/for}}
     </script>
 
