@@ -1,0 +1,13 @@
+{
+    "name": "🇵🇱 Poland",
+    "cards": [{
+        "title": "🏥 Health",
+        "description": "health",
+        "color": "secondary",
+        "links": [
+            ["https://www.luxmed.pl/", "Luxmed", "green-2", "L", ""],
+            ["https://www.znanylekarz.pl/", "Znanylekarz", "green-3", "Z", ""],
+            ["https://pacjent.gov.pl/aktualnosc/mojeikp-na-komorke-lub-tablet", "Receipts", "red-3", "R", ""]
+        ]
+    }]
+}
