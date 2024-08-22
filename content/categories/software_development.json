@@ -26,30 +26,6 @@
             ["https://geek.justjoin.it/", "Geek Justjoin", "green-1", "G", ""]
         ]
     }, {
-        "title": "📓 Blogs",
-        "description": "Blogs",
-        "color": "primary",
-        "links": [
-            ["https://dotsandbrackets.com/", "Dots and brackets", "blue-3", "D", ""],
-            ["https://du-blog.ru/", "One dude", "light-2", "DU", "dark-4"],
-            ["https://kovchinnikov.info/", "Kovchinnikov's blog", "blue-3", "K", ""],
-            ["https://www.swyx.io/", "Swyx", "light-4", "[S]", "dark-3"],
-            ["https://cupsofcode.com/","Cups of code","orange-2","C",""],
-            ["https://vvsevolodovich.dev/","Vladimir Ivanov's blog","dark-1","V",""],
-            ["http://danluu.com/","Danluu","light-3","D","dark-3"],
-            ["https://jinesh.codes/","Jinesh","green-2","J",""],
-            ["https://borchun.name/main/","Borchun","blue-2","B",""],
-            ["https://tonsky.livejournal.com/","Tonsky blog","blue-2","T",""],
-            ["https://dirtyinode.me/", "MURG", "dark-1", "M", "green-3"],
-            ["http://sereja.me/", "Sergey Slotin", "light-3", "S", "dark-3"],
-            ["https://prettycoffee.github.io/", "Pretty Coffee", "blue-1", "P", ""],
-            ["https://tonsky.me/", "Tonsky", "orange-4", "T", "dark-2"],
-            ["https://blog.pragmaticengineer.com", "Pragmatic engineer", "blue-1", "P", ""],
-            ["https://www.ivankapcov.ru/", "Ivan Kapcov", "dark-1", "I", ""],
-            ["https://y-b.one/", "Doing things right", "dark-4", "D", ""],
-            ["https://yorko.github.io/", "New Yorko times", "dark-2", "N", ""]
-        ]
-    }, {
         "title": "Static site generators",
         "description": "Static site generators",
         "color": "primary",

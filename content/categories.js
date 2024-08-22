@@ -12,9 +12,9 @@ const categories =
     text: "Different datasources",
     name: "datasources"
 }, {
-    title: "🍿 Entertainment",
-    text: "Entertainment",
-    name: "entertainment"
+    title: "Hobby",
+    text: "Hobby",
+    name: "hobby"
 }, {
     title: "👔 Career",
     text: "career",
@@ -55,8 +55,4 @@ const categories =
     title: "💼 Leathercraft",
     text: "Leathercraft related",
     name: "leathercraft"
-}, {
-    title: "Hardware",
-    text: "hardware related",
-    name: "hardware"
 }];

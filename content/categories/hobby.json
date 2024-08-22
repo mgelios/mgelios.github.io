@@ -1,4 +1,14 @@
 {
+    "name": "Hobby",
+    "categories":[{
+        "title": "Blogs",
+        "path": "/hobby/blogs",
+        "text": "Blogs"
+    }, {
+        "title": "Hardware",
+        "path": "/hobby/hardware",
+        "text": "Hardware"
+    }],
     "cards":[{
         "title":"&#128173; Inspiration",
         "description":"Some websites where I take inspiration",
