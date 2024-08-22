@@ -35,14 +35,6 @@ const speed_dial_links =
     badgeText: "Git",
     badgeTextColor: "light-3"
 }, {
-    title: "Trello",
-    link: "https://trello.com/",
-    linkButtonText: "Go trello",
-    color: "primary",
-    badgeColor: "blue-2",
-    badgeText: "T",
-    badgeTextColor: "light-3"
-}, {
     title: "Youtube",
     link: "https://www.youtube.com",
     linkButtonText: "Go youtube",
@@ -57,14 +49,6 @@ const speed_dial_links =
     color: "danger",
     badgeColor: "red-3",
     badgeText: "Z",
-    badgeTextColor: "light-3"
-}, {
-    title: "Dev.by",
-    link: "https://www.devby.io",
-    linkButtonText: "Go dev.by",
-    color: "primary",
-    badgeColor: "blue-2",
-    badgeText: "D",
     badgeTextColor: "light-3"
 }, {
     title: "Linux.org.ru",
@@ -97,14 +81,6 @@ const speed_dial_links =
     color: "secondary",
     badgeColor: "green-2",
     badgeText: "R",
-    badgeTextColor: "light-3"
-}, {
-    title: "Onliner",
-    link: "https://www.onliner.by",
-    linkButtonText: "Go Onliner",
-    color: "secondary",
-    badgeColor: "red-3",
-    badgeText: "O",
     badgeTextColor: "light-3"
 }, {
     title: "The Warsaw",
