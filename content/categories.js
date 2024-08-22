@@ -36,10 +36,6 @@ const categories =
     text: "SDE related",
     name: "software_development"
 }, {
-    title: "🤓 Geek",
-    text: "Geek related",
-    name: "geek"
-}, {
     title: "🇵🇱 Poland",
     text: "Poland related",
     name: "poland"

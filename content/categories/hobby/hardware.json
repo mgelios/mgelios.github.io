@@ -67,5 +67,29 @@
             ["https://www.leuchtturm.com/", "Leuchtturm", "blue-2", "L", ""],
             ["https://www.spacepen.com/", "Space pen", "blue-3", "S", ""]
         ]
+    }, {
+        "title": "Hardware",
+        "description": "hardware items",
+        "color": "primary",
+        "links": [
+            ["https://devandgear.com","Devandgear","dark-1","D",""],
+            ["https://minifree.org/","MiniFree","light-3","M","dark-3"],
+            ["https://system76.com/","System76","dark-5","76",""],
+            ["https://n-o-d-e.net/index.html", "NODE", "dark-1", "N", ""],
+            ["https://frame.work", "Framework", "dark-1", "F", ""]
+        ]
+    }, {
+        "title": "News",
+        "description": "News",
+        "color": "danger",
+        "links": [
+            ["https://infomate.club/","Infomate","dark-1","I",""],
+            ["https://scientifically.info/","Scientifically","dark-1","S",""],
+            ["https://www.linux.org.ru","Linux.org.ru","dark-1","L",""],
+            ["https://3dnews.ru/","3D news","blue-2","3D",""],
+            ["https://www.opennet.ru/","Opennet","light-3","O","dark-4"],
+            ["https://www.ixbt.com/","iXBT","purple-3","iX",""]
+
+        ]
     }]
 }
