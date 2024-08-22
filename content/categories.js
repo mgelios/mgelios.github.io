@@ -24,14 +24,6 @@ const categories =
     text: "Travel",
     name: "travel"
 }, {
-    title: "🖥️ CG",
-    text: "CG related",
-    name: "cg"
-}, {
-    title: "🎮 Games",
-    text: "Games related",
-    name: "games"
-}, {
     title: "👨‍💻 Software development",
     text: "SDE related",
     name: "software_development"
@@ -47,8 +39,4 @@ const categories =
     title: "⬜🟥⬜ Belarus",
     text: "Belarus related",
     name: "belarus"
-}, {
-    title: "💼 Leathercraft",
-    text: "Leathercraft related",
-    name: "leathercraft"
 }];
