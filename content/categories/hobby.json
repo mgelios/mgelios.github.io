@@ -5,6 +5,22 @@
         "path": "/hobby/blogs",
         "text": "Blogs"
     }, {
+        "title": "CG",
+        "path": "/hobby/cg",
+        "text": "CG"
+    }, {
+        "title": "Games",
+        "path": "/hobby/games",
+        "text": "Games"
+    }, {
+        "title": "Geek",
+        "path": "/hobby/Geek",
+        "text": "Geek"
+    }, {
+        "title": "Leathercraft",
+        "path": "/hobby/leathercraft",
+        "text": "Leathercraft"
+    }, {
         "title": "Hardware",
         "path": "/hobby/hardware",
         "text": "Hardware"
