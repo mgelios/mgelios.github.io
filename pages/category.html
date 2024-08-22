@@ -54,7 +54,7 @@
             <a href="../index.html"><h1 id="home-link-name">Category</h1></a>
         </section>
         <section class="cards-container">
-            <section id="categories-container" class="cards-container" data-masonry='{"percentPosition": true }'>
+            <section id="categories-container" class="grid-container">
             </section>
             <section id="cards-container" class="cards-container" data-masonry='{"percentPosition": true }'>
             </section>
@@ -64,7 +64,6 @@
     <script>
         JSONFromURL("../content/categories/" + getURLParam("category") + ".json")
             .then(content => {
-                renderTemplateWithDataAndApplyMasonry(content.categories, "categories", "categories-container");
                 renderTemplateWithDataAndApplyMasonry(content.cards, "cards", "cards-container");
                 updateCategoryPageWithName(content.name);
             });
