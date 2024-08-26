@@ -1,17 +1,5 @@
 const categories = 
 [{
-    title: "⚒️ Tools",
-    text: "Web-resources to use as utils",
-    name: "tools"
-}, {
-    title: "🎓 Education",
-    text: "Web-resources to use as utils",
-    name: "education"
-}, {
-    title: "💽 Datasources",
-    text: "Different datasources",
-    name: "datasources"
-}, {
     title: "Hobby",
     text: "Hobby",
     name: "hobby"
