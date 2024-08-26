@@ -14,7 +14,7 @@
         "text": "Games"
     }, {
         "title": "Geek",
-        "path": "/hobby/Geek",
+        "path": "/hobby/geek",
         "text": "Geek"
     }, {
         "title": "Leathercraft",
@@ -24,6 +24,10 @@
         "title": "Hardware",
         "path": "/hobby/hardware",
         "text": "Hardware"
+    }, {
+        "title": "Datasources",
+        "path": "/hobby/datasources",
+        "text": "Datasource"
     }],
     "cards":[{
         "title":"&#128173; Inspiration",

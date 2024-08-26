@@ -1,4 +1,5 @@
 {
+    "name": "Datasources",
     "cards": [{
         "title": "☁️ Cloud",
         "description": "Cloud storage providers",

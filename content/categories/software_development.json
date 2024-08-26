@@ -1,4 +1,14 @@
 {
+    "name": "Software development",
+    "categories":[{
+        "title": "Education",
+        "path": "/software_development/education",
+        "text": "Some educational"
+    }, {
+        "title": "Tools",
+        "path": "/software_development/tools",
+        "text": "Some tools"
+    }],
     "cards":[{
         "title": "💻 Source code",
         "description": "Source code resources",
