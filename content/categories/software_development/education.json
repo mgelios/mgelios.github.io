@@ -31,7 +31,8 @@
         "color": "primary",
         "links": [
             ["https://www.udemy.com/", "Udemy", "light-3", "U", "dark-2"],
-            ["https://www.elementsofai.com/", "Elements of AI", "blue-2", "E", ""]
+            ["https://www.elementsofai.com/", "Elements of AI", "blue-2", "E", ""],
+            ["https://kodekloud.com/", "KodeKloud", "blue-2", "K", ""]
         ]
     }, {
         "title": "Vendor courses",

@@ -95,8 +95,27 @@
     ],
     "experience": [
         {
+            "employer": "UniCredit",
+            "period": "Sep 2024 - Now",
+            "position": "Centralized Infrastructure Engineer",
+            "bullets": [
+                "Developed services and microservices in service-oriented environments",
+                "Took part in requirements discussion and solutions design"
+            ],
+            "projects": [
+                {
+                    "client": "Intapp",
+                    "name": "Dataplatform",
+                    "period": "07.07.2022 - now",
+                    "description": "Event driven data platform with self-servicing support",
+                    "technologies": "Python, PySpark, Azure Databricks, PostgreSQL, Liquibase, Kafka, Git, Linux, Docker, JIRA",
+                    "responsibilities": "Implementation of data engineering solutions, bug fixing, analyzing and grooming tickets."
+                }
+            ]
+        },
+        {
             "employer": "Akvelon",
-            "period": "Jul 2022 - now",
+            "period": "Jul 2022 - Aug 2024",
             "position": "Senior Software Engineer / Data Engineer",
             "bullets": [
                 "Developed services and microservices in service-oriented environments",

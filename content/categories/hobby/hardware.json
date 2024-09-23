@@ -15,7 +15,8 @@
             ["https://www.minisforum.com/", "Minisforum", "purple-2", "M", ""],
             ["https://www.gl-inet.com/", "GL.inet", "blue-2", "G", ""],
             ["https://www.kaiostech.com/", "Kai OS", "purple-3", "K", ""],
-            ["https://kobol.io/", "Open source NAS", "purple-3", "K", ""]
+            ["https://kobol.io/", "Open source NAS", "purple-3", "K", ""],
+            ["https://www.8bitdo.com/", "8bitdo", "dark-3", "8", ""]
         ]
     }, {
         "title": "Accessories",
