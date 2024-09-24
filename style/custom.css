@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: var(--dark-5);
 }
 
-.card a {
+.card a, .card .cheatsheet-item {
     display: block;
     padding: .5em;
     border-color: var(--dark-5);
@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: var(--light-3);
 }
 
-.card a:last-child {
+.card a:last-child, .card .cheatsheet-item:last-child {
     border-bottom-width: 0;
 }
 
@@ -316,6 +316,22 @@ h1, h2, h3, h4, h5, h6, p {
 
 .card a:active {
     background-color: var(--dark-2);
+}
+
+.cheatsheet-body .cheatsheet-item {
+    display: flex;
+}
+
+.cheatsheet-body p {
+    display: block;
+    flex: 1;
+    font-size: .9em;
+}
+
+.cheatsheet-body code {
+    width: 100%;
+    flex: 1;
+    display: block;
 }
 
 @media only screen and (max-width: 600px) {
@@ -332,6 +348,9 @@ h1, h2, h3, h4, h5, h6, p {
     .card-wrapper {
         width: 33.3333%;
     }
+    .cheatsheet-container .card-wrapper {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -342,6 +361,9 @@ h1, h2, h3, h4, h5, h6, p {
     .card-wrapper {
         width: 33.3333%;
     }
+    .cheatsheet-container .card-wrapper {
+        width: 50%;
+    }
 } 
 
 @media only screen and (min-width: 992px) {
@@ -351,6 +373,9 @@ h1, h2, h3, h4, h5, h6, p {
 
     .card-wrapper {
         width: 25%;
+    }
+    .cheatsheet-container .card-wrapper {
+        width: 33.33333%;
     }
 }
 
@@ -369,5 +394,9 @@ h1, h2, h3, h4, h5, h6, p {
 
     .card-wrapper {
         width: 16.6667%;
+    }
+
+    .cheatsheet-container .card-wrapper {
+        width: 33.33333%;
     }
 }

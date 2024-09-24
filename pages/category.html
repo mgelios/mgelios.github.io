@@ -30,6 +30,16 @@
         {{/for}}
     </script>
 
+    <script id="cheatsheets" type="text/x-jsrender">
+        {{for}}
+        <a href="./cheatsheet.html?item={{:path}}" class="grid-item">
+            <h3>{{:title}}</h3>
+            <p>{{:text}}</p>
+        </a>
+        {{/for}}
+    </script>
+
+
     <script id="cards" type="text/x-jsrender">
         {{for}}
         <div class="card-wrapper">
@@ -56,6 +66,8 @@
         <section class="cards-container">
             <section id="categories-container" class="grid-container">
             </section>
+            <section id="cheatsheets-container" class="grid-container">
+            </section>
             <section id="cards-container" class="cards-container" data-masonry='{"percentPosition": true }'>
             </section>
         </section>
@@ -65,6 +77,7 @@
         JSONFromURL("../content/categories/" + getURLParam("category") + ".json")
             .then(content => {
                 renderTemplateWithData(content.categories, "categories", "categories-container");
+                renderTemplateWithData(content.cheatsheets, "cheatsheets", "cheatsheets-container");
                 renderTemplateWithDataAndApplyMasonry(content.cards, "cards", "cards-container");
                 updateCategoryPageWithName(content.name);
             });

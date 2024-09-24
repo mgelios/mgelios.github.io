@@ -9,6 +9,11 @@
         "path": "/software_development/tools",
         "text": "Some tools"
     }],
+    "cheatsheets":[{
+        "title": "Work cheatsheet",
+        "path": "work",
+        "text": "some work commands"
+    }],
     "cards":[{
         "title": "💻 Source code",
         "description": "Source code resources",

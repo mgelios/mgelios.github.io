@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cheatsheet</title>
+
+    <link rel="stylesheet" type="text/css" href="../style/custom.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+    <link rel="manifest" href="../img/site.webmanifest">
+
+    <script src="../script/jsrender.min.js" ></script>
+    <script src="../script/common.js"></script>
+
+    <meta name="theme-color" content="#000000">
+</head>
+<body>
+    <script src="../script/masonry.pkgd.min.js"></script>
+
+    <script id="cards" type="text/x-jsrender">
+        {{for}}
+        <div class="card-wrapper">
+            <div class="card">
+                <div class="card-header">
+                    <h3>{{:title}}</h3>
+                </div>
+                <div class="card-body cheatsheet-body">
+                    {{for items}}
+                        <div class="cheatsheet-item">
+                            <p>{{:#data[0]}}:</p><code>{{:#data[1]}}</code>
+                        </div>
+                    {{/for}}
+                </div>
+            </div>
+        </div>
+        {{/for}}
+    </script>
+
+    <div class="flex-container cheatsheet-container">
+        <section class="container-header">
+            <a href="../index.html"><h1 id="home-link-name">Cheatsheet</h1></a>
+        </section>
+        <section class="cards-container">
+            <section id="cards-container" class="cards-container" data-masonry='{"percentPosition": true }'>
+            </section>
+        </section>
+    </div>
+
+    <script>
+        JSONFromURL("../content/cheatsheets/" + getURLParam("item") + ".json")
+            .then(content => {
+                renderTemplateWithDataAndApplyMasonry(content.cards, "cards", "cards-container");
+                updateCategoryPageWithName(content.name);
+            });
+    </script>
+</body>
+</html>
+
