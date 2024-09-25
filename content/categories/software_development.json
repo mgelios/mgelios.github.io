@@ -1,17 +1,16 @@
 {
     "name": "Software development",
-    "categories":[{
+    "links":[{
         "title": "Education",
-        "path": "/software_development/education",
+        "path": "./category.html?category=/software_development/education",
         "text": "Some educational"
     }, {
         "title": "Tools",
-        "path": "/software_development/tools",
+        "path": "./category.html?category=/software_development/tools",
         "text": "Some tools"
-    }],
-    "cheatsheets":[{
+    }, {
         "title": "Work cheatsheet",
-        "path": "work",
+        "path": "./cheatsheet.html?item=dev",
         "text": "some work commands"
     }],
     "cards":[{

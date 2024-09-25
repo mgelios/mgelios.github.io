@@ -21,8 +21,17 @@
         "description": "Python",
         "color": "secondary",
         "items": [
-            ["Run static web server (from dir)", "python3 -m http.server"],
+            ["Run static web server (from dir)", "python3 -m http.server {port}"],
             ["Install dependencies from requirements file", "pip install -r {path}"]
+        ]
+    }, {
+        "title": "Linux",
+        "description": "Linux",
+        "color": "secondary",
+        "items": [
+            ["List of files", "ls -l"],
+            ["Change user to root", "sudo su"],
+            ["Change or set password for user", "passwd {user}"]
         ]
     }]
 }

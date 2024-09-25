@@ -21,24 +21,14 @@
 <body>
     <script src="../script/masonry.pkgd.min.js"></script>
 
-    <script id="categories" type="text/x-jsrender">
+    <script id="links" type="text/x-jsrender">
         {{for}}
-        <a href="./category.html?category={{:path}}" class="grid-item">
+        <a href="{{:path}}" class="grid-item">
             <h3>{{:title}}</h3>
             <p>{{:text}}</p>
         </a>
         {{/for}}
     </script>
-
-    <script id="cheatsheets" type="text/x-jsrender">
-        {{for}}
-        <a href="./cheatsheet.html?item={{:path}}" class="grid-item">
-            <h3>{{:title}}</h3>
-            <p>{{:text}}</p>
-        </a>
-        {{/for}}
-    </script>
-
 
     <script id="cards" type="text/x-jsrender">
         {{for}}
@@ -64,9 +54,7 @@
             <a href="../index.html"><h1 id="home-link-name">Category</h1></a>
         </section>
         <section class="cards-container">
-            <section id="categories-container" class="grid-container">
-            </section>
-            <section id="cheatsheets-container" class="grid-container">
+            <section id="links-container" class="grid-container">
             </section>
             <section id="cards-container" class="cards-container" data-masonry='{"percentPosition": true }'>
             </section>
@@ -76,8 +64,7 @@
     <script>
         JSONFromURL("../content/categories/" + getURLParam("category") + ".json")
             .then(content => {
-                renderTemplateWithData(content.categories, "categories", "categories-container");
-                renderTemplateWithData(content.cheatsheets, "cheatsheets", "cheatsheets-container");
+                renderTemplateWithData(content.links, "links", "links-container");
                 renderTemplateWithDataAndApplyMasonry(content.cards, "cards", "cards-container");
                 updateCategoryPageWithName(content.name);
             });

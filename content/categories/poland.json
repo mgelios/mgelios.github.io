@@ -1,8 +1,8 @@
 {
     "name": "🇵🇱 Poland",
-    "categories":[{
+    "links":[{
         "title": "Healthcare",
-        "path": "/poland/healthcare",
+        "path": "./category.html?category=/poland/healthcare",
         "text": "Some poland healthcare related"
     }],
     "cards": [{

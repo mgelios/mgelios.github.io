@@ -1,32 +1,32 @@
 {
     "name": "Hobby",
-    "categories":[{
+    "links":[{
         "title": "Blogs",
-        "path": "/hobby/blogs",
+        "path": "./category.html?category=/hobby/blogs",
         "text": "Blogs"
     }, {
         "title": "CG",
-        "path": "/hobby/cg",
+        "path": "./category.html?category=/hobby/cg",
         "text": "CG"
     }, {
         "title": "Games",
-        "path": "/hobby/games",
+        "path": "./category.html?category=/hobby/games",
         "text": "Games"
     }, {
         "title": "Geek",
-        "path": "/hobby/geek",
+        "path": "./category.html?category=/hobby/geek",
         "text": "Geek"
     }, {
         "title": "Leathercraft",
-        "path": "/hobby/leathercraft",
+        "path": "./category.html?category=/hobby/leathercraft",
         "text": "Leathercraft"
     }, {
         "title": "Hardware",
-        "path": "/hobby/hardware",
+        "path": "./category.html?category=/hobby/hardware",
         "text": "Hardware"
     }, {
         "title": "Datasources",
-        "path": "/hobby/datasources",
+        "path": "./category.html?category=/hobby/datasources",
         "text": "Datasource"
     }],
     "cards":[{
