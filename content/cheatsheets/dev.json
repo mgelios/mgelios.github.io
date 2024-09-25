@@ -3,7 +3,6 @@
     "cards": [{
         "title": "K8s, K3s",
         "description": "Kubernetes",
-        "color": "secondary",
         "items": [
             ["Get state of pods", "kubectl get pods"],
             ["Get logs of the pod", "kubectl logs -f {pod}"]
@@ -11,7 +10,6 @@
     }, {
         "title": "Docker",
         "description": "Docker",
-        "color": "secondary",
         "items": [
             ["Check containers running", "docker ps"],
             ["Run compose as daemon", "docker-compose up -d"]
@@ -19,7 +17,6 @@
     }, {
         "title": "Python",
         "description": "Python",
-        "color": "secondary",
         "items": [
             ["Run static web server (from dir)", "python3 -m http.server {port}"],
             ["Install dependencies from requirements file", "pip install -r {path}"]
@@ -27,11 +24,17 @@
     }, {
         "title": "Linux",
         "description": "Linux",
-        "color": "secondary",
         "items": [
             ["List of files", "ls -l"],
             ["Change user to root", "sudo su"],
             ["Change or set password for user", "passwd {user}"]
+        ]
+    }, {
+        "title": "Git",
+        "description": "git",
+        "items": [
+            ["Git set username", "git config --local user.name {username}"],
+            ["Git set email", "git config --local user.email {email}"]
         ]
     }]
 }
