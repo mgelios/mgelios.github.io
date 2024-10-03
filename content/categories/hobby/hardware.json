@@ -3,7 +3,6 @@
     "cards":[{
         "title": "Computer/Laptop",
         "description": "computer hardware",
-        "color": "danger",
         "links": [
             ["https://devandgear.com","Devandgear","dark-1","D",""],
             ["https://minifree.org/","MiniFree","light-3","M","dark-3"],
@@ -21,7 +20,6 @@
     }, {
         "title": "Accessories",
         "description": "accessories hardware",
-        "color": "danger",
         "links": [
             ["https://www.anker.com", "Anker", "dark-1", "A", ""],
             ["https://www.ugreen.pl", "Ugreen", "dark-1", "U", ""],
@@ -34,7 +32,6 @@
     }, {
         "title": "Audio",
         "description": "audio hardware",
-        "color": "primary",
         "links": [
             ["https://store.hiby.com/collections/music-player", "HiBy", "dark-1", "H", ""],
             ["https://www.hidizs.net/collections/portable-music-player", "Hidizs", "dark-1", "H", ""],
@@ -46,7 +43,6 @@
     }, {
         "title": "Clothes",
         "description": "clothes hardware",
-        "color": "primary",
         "links": [
             ["https://techweargiants.com/", "Techwear giants", "dark-1", "T", ""],
             ["https://www.fjallraven.com/eu/en-gb", "Fjallraven", "dark-5", "F", ""]
@@ -54,7 +50,6 @@
     }, {
         "title": "EDC",
         "description": "edc related",
-        "color": "primary",
         "links": [
             ["https://www.knipex.com/", "Knipex", "red-3", "K", ""],
             ["https://www.leatherman.com", "Leatherman", "dark-3", "L", ""],
@@ -63,7 +58,6 @@
     }, {
         "title": "Stationery",
         "description": "Stationery related",
-        "color": "primary",
         "links": [
             ["https://filofax.com/", "Filofax", "green-5", "F", ""],
             ["https://www.moleskine.com/home/", "Moleskine", "dark-1", "M", ""],
@@ -73,7 +67,6 @@
     }, {
         "title": "Hardware",
         "description": "hardware items",
-        "color": "primary",
         "links": [
             ["https://devandgear.com","Devandgear","dark-1","D",""],
             ["https://minifree.org/","MiniFree","light-3","M","dark-3"],
@@ -84,7 +77,6 @@
     }, {
         "title": "News",
         "description": "News",
-        "color": "danger",
         "links": [
             ["https://infomate.club/","Infomate","dark-1","I",""],
             ["https://scientifically.info/","Scientifically","dark-1","S",""],

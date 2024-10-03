@@ -3,7 +3,6 @@
     "cards": [{
         "title": "📓 Blogs",
         "description": "Blogs",
-        "color": "primary",
         "links": [
             ["https://dotsandbrackets.com/", "Dots and brackets", "blue-3", "D", ""],
             ["https://du-blog.ru/", "One dude", "light-2", "DU", "dark-4"],
@@ -27,7 +26,6 @@
     }, {
         "title": "Blogs",
         "description": "Blogs",
-        "color": "danger",
         "links": [
             ["https://vas3k.blog/", "Vas3k BLOG", "dark-1", "V", ""],
             ["https://vas3k.com", "Vas3k COM", "dark-1", "V", ""],

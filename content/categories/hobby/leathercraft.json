@@ -3,7 +3,6 @@
     "cards":[{
         "title": "Polish shops",
         "description": "Shops with materials and tools in Poland",
-        "color": "danger",
         "links": [
             ["https://juchcik.pl", "Juchcik", "brown-2", "J", ""],
             ["https://craft-point.com", "CraftPoint", "dark-1", "C", ""]
@@ -11,14 +10,12 @@
     }, {
         "title": "Reddit",
         "description": "Related subreddits",
-        "color": "danger",
         "links": [
             ["https://www.reddit.com/r/Leathercraft/", "r/Leathercraft", "orange-2", "L", ""]
         ]
     }, {
         "title": "Youtube",
         "description": "youtube channel",
-        "color": "danger",
         "links": [
             ["https://www.youtube.com/@LittleKingGoods", "Little King Goods", "red-3", "L", ""],
             ["https://www.youtube.com/@Corter", "Corter Leather", "red-3", "C", ""],
@@ -31,7 +28,6 @@
     }, {
         "title": "Pinterest",
         "description": "pinterest boards",
-        "color": "danger",
         "links": [
             ["https://www.pinterest.com/mastergelios/edc/", "EDC board", "red-3", "E", ""],
             ["https://www.pinterest.com/mastergelios/diy-leather/", "DIY Leather board", "red-3", "D", ""]
@@ -39,7 +35,6 @@
     }, {
         "title": "Inspiration Shops",
         "description": "inspirational shops",
-        "color": "danger",
         "links": [
             ["https://www.marcjacobs.com/default/the-marc-jacobs/wallets/view-all-wallets/", "Marc Jacobs", "dark-1", "M", ""],
             ["https://kmmco.com/", "KMM", "dark-1", "K", ""],

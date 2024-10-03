@@ -16,7 +16,6 @@
     "cards":[{
         "title": "💻 Source code",
         "description": "Source code resources",
-        "color": "primary",
         "links": [
             ["https://github.com/","GitHub","dark-1","Git",""],
             ["https://bitbucket.org/", "Bitbucket", "blue-2", "B", ""],
@@ -27,7 +26,6 @@
     }, {
         "title":"📰 NEWS",
         "description":"Dev ru websites",
-        "color":"dark",
         "links":[
             ["https://bbbl.dev/","Bubble dev","blue-2","B",""],
             ["https://razrabs.ru/","Razrabs","dark-1","R",""],
@@ -42,7 +40,6 @@
     }, {
         "title": "Static site generators",
         "description": "Static site generators",
-        "color": "primary",
         "links": [
             ["https://docs.getpelican.com/en/latest/", "Pelican", "blue-3", "P", ""],
             ["https://gohugo.io/", "Hugo", "blue-2", "H", ""]
@@ -50,7 +47,6 @@
     }, {
         "title": "Site constructors",
         "description": "Site constructors",
-        "color": "primary",
         "links": [
             ["https://wordpress.com/", "Wordpress", "blue-3", "W", ""],
             ["https://www.squarespace.com", "Squarespace", "dark-3", "S", ""],
@@ -59,7 +55,6 @@
     }, {
         "title": "🌐 Hostings",
         "description": "hostings",
-        "color": "primary",
         "links": [
             ["https://hostinger.com", "Hostinger", "purple-3", "H", ""],
             ["https://www.hetzner.com/", "Hetzner", "red-3", "H", ""],
@@ -69,7 +64,6 @@
     }, {
         "title": "Python",
         "description": "python-related",
-        "color": "primary",
         "links": [
             ["https://www.djangoproject.com/", "Django", "green-2", "D", ""],
             ["https://djangogirls.org/en/", "Djangogirls", "orange-2", "D", ""]
@@ -77,14 +71,12 @@
     }, {
         "title": "Java",
         "description": "java related",
-        "color": "primary",
         "links": [
             ["https://spring.io/", "Spring", "green-2", "S", ""]
         ]
     }, {
         "title": "Rust",
         "description": "rust related",
-        "color": "primary",
         "links": [
             ["https://rust-book.cs.brown.edu/experiment-intro.html", "Rust book experiment", "blue-1", "R", ""],
             ["https://doc.rust-lang.org/book/", "Rust book", "blue-1", "R", ""],
@@ -95,7 +87,6 @@
     }, {
         "title": "CSS",
         "description": "css related",
-        "color": "primary",
         "links": [
             ["https://tailwindcss.com/", "Tailwind CSS", "purple-2", "T", ""],
             ["https://getbootstrap.com/", "Bootstrap", "purple-1", "B", ""]

@@ -3,7 +3,6 @@
     "cards":[{
         "title":"CG news",
         "description":"CG news websites",
-        "color":"success",
         "links":[
             ["https://render.ru","Render.ru","green-2","R",""],
             ["https://blenderguru.com/","Blender Guru","light-3","B","dark-1"],
@@ -14,7 +13,6 @@
     }, {
         "title":"Blogs",
         "description":"Artists blogs",
-        "color":"info",
         "links":[
             ["https://blog.dahr.ru/", "Dahr's blog", "dark-1", "D", ""],
             ["https://karanak.livejournal.com/", "Karanak", "blue-2", "K", ""],

@@ -3,7 +3,6 @@
     "cards": [{
         "title": "Shopping",
         "description": "shopping",
-        "color": "secondary",
         "links": [
             ["https://novi.kupujemprodajem.com/", "KupujemProdajem", "light-5", "K", "red-3"],
             ["https://gigatron.rs/", "Gigatron", "dark-1", "G", "yellow-3"],
@@ -13,14 +12,12 @@
     }, {
         "title": "Entertainment",
         "description": "entertainment",
-        "color": "secondary",
         "links": [
             ["https://www.cineplexx.rs/", "Cineplexx", "dark-1", "C", "red-3"]
         ]
     }, {
         "title": "Delivery",
         "description": "entertainment",
-        "color": "secondary",
         "links": [
             ["https://www.posta.rs/index-stanovnistvo-eng.aspx", "Serbia Post", "blue-2", "SP", ""],
             ["https://www.dexpress.rs/", "DExpress", "red-3", "DE", ""],
@@ -29,7 +26,6 @@
     }, {
         "title": "Communication providers",
         "description": "communication",
-        "color": "danger",
         "links": [
             ["https://mts.rs/", "MTS", "red-3", "M", ""],
             ["https://www.yettel.rs/", "Yettel", "green-3", "Y", ""],

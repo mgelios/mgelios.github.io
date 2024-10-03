@@ -32,7 +32,6 @@
     "cards":[{
         "title":"&#128173; Inspiration",
         "description":"Some websites where I take inspiration",
-        "color":"warning",
         "links":[
             ["https://www.pinterest.com/","Pinterest","red-3","P",""],
             ["https://hackaday.io","Hackaday","dark-1","H",""],
@@ -45,7 +44,6 @@
     }, {
         "title":"&#128511; Social networks",
         "description":"Some social networks",
-        "color":"light",
         "links":[
             ["https://www.youtube.com","Youtube","red-3","You",""],
             ["https://vk.com/","VKontakte","blue-3","VK",""],
@@ -55,7 +53,6 @@
     }, {
         "title":"&#127911; Podcasts",
         "description":"Some podcasts websites",
-        "color":"primary",
         "links":[
             ["https://radio-t.com/","Radio-T","blue-3","T",""],
             ["https://beardycast.com/","Beardycast","orange-3","B",""],
@@ -65,7 +62,6 @@
     }, {
         "title":"&#127916; Movies",
         "description":"Movies related links",
-        "color":"secondary",
         "links":[
             ["https://hd.kinopoisk.ru/","Kinopoisk HD","orange-2","K",""],
             ["http://baskino.me/","Baskino.me","purple-2","B",""],
@@ -75,7 +71,6 @@
     }, {
         "title":"&#127925; Music",
         "description":"Music related links",
-        "color":"secondary",
         "links":[
             ["https://music.yandex.ru/","Yandex Music","red-3","Y",""],
             ["https://www.songsterr.com", "Songsterr", "blue-3", "S", ""]
@@ -83,7 +78,6 @@
     }, {
         "title":"&#127922; Fan sites",
         "description":"Fan sites",
-        "color":"light",
         "links":[
             ["https://wiby.me/","Wiby","purple-3","W",""],
             ["https://swalker.org/","Swalker","red-3","S",""],

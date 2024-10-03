@@ -3,7 +3,6 @@
     "cards": [{
         "title": "&#128187; Automatic cources",
         "description": "Automatic cources",
-        "color": "secondary",
         "links": [
             ["https://leetcode.com/", "Leetcode", "orange-5", "Leet", "dark-1"],
             ["https://hackerrank.com/", "Hackerrank", "dark-1", "Hacker", ""],
@@ -17,7 +16,6 @@
     }, {
         "title": "&#128196; Learning articles",
         "description": "Programming related resources",
-        "color": "secondary",
         "links": [
             ["https://baeldung.com/", "Baeldung", "green-2", "B", ""],
             ["https://www.baeldung.com/cs/", "Baeldung on CS", "blue-3", "B", ""],
@@ -28,7 +26,6 @@
     }, {
         "title": "&#128218; Online cources",
         "description": "Online cources",
-        "color": "primary",
         "links": [
             ["https://www.udemy.com/", "Udemy", "light-3", "U", "dark-2"],
             ["https://www.elementsofai.com/", "Elements of AI", "blue-2", "E", ""],
@@ -37,7 +34,6 @@
     }, {
         "title": "Vendor courses",
         "description": "Vendor specific courses",
-        "color": "primary",
         "links": [
             ["https://university.mongodb.com/", "MongoDB university", "green-1", "M", ""],
             ["https://aws.amazon.com/training/digital/?nc2=sb_tr_dt", "Learn AWS", "orange-5", "L", "dark-1"],

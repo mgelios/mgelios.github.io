@@ -3,7 +3,6 @@
     "cards":[{
         "title": "Socal networks",
         "description": "career related social networks",
-        "color": "dark-1",
         "links": [
             ["https://linkedin.com/","LinkedIn","blue-2","L",""],
             ["https://layoffs.fyi/", "Layoffs FYI", "blue-1", "L", ""]
@@ -11,7 +10,6 @@
     }, {
         "title": "Job boards",
         "description": "job boards",
-        "color": "dark-1",
         "links": [
             ["https://indeed.com/","Indeed","blue-2","I",""],
             ["https://monster.com/","Monster","blue-2","M",""],
@@ -25,7 +23,6 @@
     }, {
         "title": "Poland job boards",
         "description": "Poland job boards",
-        "color": "dark-1",
         "links": [
             ["https://justjoin.it/", "JustJoin","light-5","JJ","purple-3"],
             ["https://www.pracuj.pl/", "Pracuj", "blue-2", "P", ""],
@@ -37,7 +34,6 @@
     }, {
         "title": "CV",
         "description": "CV",
-        "color": "dark-1",
         "links": [
             ["https://resume.io/","ResumeIO","purple-3","R",""]
         ]
@@ -57,7 +53,6 @@
     }, {
         "title": "Blogs",
         "description": "blogs",
-        "color": "dark-1",
         "links": [
             ["https://blog.pragmaticengineer.com/", "Pragmaticengineer", "dark-5", "P", ""]
         ]

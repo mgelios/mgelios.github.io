@@ -3,7 +3,6 @@
     "cards":[{
         "title": "Transport",
         "description": "transportation",
-        "color": "danger",
         "links": [
             ["https://www.aviasales.ru/", "Aviasales", "blue-3", "A", ""],
             ["https://www.lot.com", "LOT airlines", "blue-2", "L", ""]
@@ -11,7 +10,6 @@
     }, {
         "title": "Housing/Hotels",
         "description": "where to stay",
-        "color": "danger",
         "links": [
             ["https://www.booking.com/", "Booking", "blue-3", "B", ""],
             ["https://www.airbnb.com/", "Airbnb", "red-3", "A", ""],
@@ -20,7 +18,6 @@
     }, {
         "title": "Guides/Compilations",
         "description": "guides",
-        "color": "danger",
         "links": [
             ["https://34travel.me/", "Travel 34", "dark-2", "T", ""],
             ["https://vandrouki.by/", "Vandrouki", "dark-3", "V", ""],
@@ -29,7 +26,6 @@
     }, {
         "title": "Navigation",
         "description": "navigation",
-        "color": "danger",
         "links": [
             ["https://www.google.com/maps", "Google Maps", "blue-3", "G", ""],
             ["https://yandex.ru/maps", "Yandex Maps", "red-2", "Y", ""],
@@ -38,7 +34,6 @@
     }, {
         "title": "Blogs",
         "description": "blogs",
-        "color": "danger",
         "links": [
             ["https://www.nomadicmatt.com/", "Nomadic Matt", "blue-3", "N", ""],
             ["https://www.lonelyplanet.com/", "Lonely Planet", "red-2", "L", ""],

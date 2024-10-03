@@ -3,7 +3,6 @@
     "cards":[{
         "title": "🦄 Communities",
         "description": "Communities",
-        "color": "primary",
         "links":[
             ["https://phreedom.club/","Phreedom","light-1","Ph","dark-5"],
             ["https://vas3k.club/", "Vas3k Club", "dark-1", "V", ""],
@@ -15,7 +14,6 @@
     }, {
         "title": "Uniques",
         "description": "unique items",
-        "color": "primary",
         "links": [
             ["http://floor796.com", "Floor796", "dark-3", "F", ""],
             ["https://thegoodroll.com/en-pl/toiletfun", "Toiletfun", "dark-3", "T", ""],
