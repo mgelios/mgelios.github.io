@@ -134,7 +134,8 @@
             ["https://warsawinsider.pl/", "Warsaw insider", "red-3", "W", ""],
             ["https://www.the-warsaw.com/", "The Warsaw", "blue-4", "T", ""],
             ["https://warsawtour.pl/en/main-page/", "Warsaw TOUR", "red-3", "W", ""],
-            ["https://noizz.pl/", "Noizz", "dark-1", "N", ""]
+            ["https://noizz.pl/", "Noizz", "dark-1", "N", ""],
+            ["https://mostmedia.io/", "MOST media", "purple-2", "M", ""]
         ]
     }, {
         "title": "Cars",

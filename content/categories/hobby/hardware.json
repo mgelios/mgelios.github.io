@@ -28,7 +28,8 @@
             ["https://e-baseus.com", "Baseus", "dark-1", "B", ""],
             ["https://slimq.life", "SlimQ", "dark-1", "S", ""],
             ["https://sharge.com/", "Sharge", "dark-1", "S", ""],
-            ["https://nuphy.com/", "NuPhy", "yellow-3", "N", "dark-1"]
+            ["https://nuphy.com/", "NuPhy", "yellow-3", "N", "dark-1"],
+            ["https://electronicmaterialsoffice.com/", "EM Office", "dark-1", "E", ""]
         ]
     }, {
         "title": "Audio",
@@ -90,8 +91,8 @@
             ["https://www.linux.org.ru","Linux.org.ru","dark-1","L",""],
             ["https://3dnews.ru/","3D news","blue-2","3D",""],
             ["https://www.opennet.ru/","Opennet","light-3","O","dark-4"],
-            ["https://www.ixbt.com/","iXBT","purple-3","iX",""]
-
+            ["https://www.ixbt.com/","iXBT","purple-3","iX",""],
+            ["https://universeofmemory.com/japanese-language-resources/", "Jap Lang learning", "dark-3", "J", ""]
         ]
     }]
 }

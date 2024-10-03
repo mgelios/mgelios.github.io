@@ -88,7 +88,9 @@
         "links": [
             ["https://rust-book.cs.brown.edu/experiment-intro.html", "Rust book experiment", "blue-1", "R", ""],
             ["https://doc.rust-lang.org/book/", "Rust book", "blue-1", "R", ""],
-            ["https://actix.rs/", "Actix web", "dark-1", "A", ""]
+            ["https://actix.rs/", "Actix web", "dark-1", "A", ""],
+            ["https://www.sheshbabu.com/posts/rust-wasm-yew-single-page-application/", "Rust WASM + backend", "dark-1", "R", ""],
+            ["https://bevyengine.org/", "Bevy game engine", "green-1", "B", ""]
         ]
     }, {
         "title": "CSS",
