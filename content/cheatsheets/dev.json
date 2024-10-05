@@ -30,7 +30,9 @@
             ["List of files", "ls -l"],
             ["Change user to root", "sudo su"],
             ["Change or set password for user", "passwd {user}"],
-            ["Folder size in linux", "du -sh {folder}"]
+            ["Folder size in linux", "du -sh {folder}"],
+            ["View long files", "less {file}"],
+            ["Scroll to the end of file in less", "Shift + G"]
         ]
     }, {
         "title": "Git",
