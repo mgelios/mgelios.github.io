@@ -5,14 +5,16 @@
         "description": "Kubernetes",
         "items": [
             ["Get state of pods", "kubectl get pods"],
-            ["Get logs of the pod", "kubectl logs -f {pod}"]
+            ["Get logs of the pod", "kubectl logs -f {pod}"],
+            ["Execute shell in pod", "kubectl exec --stdin --tty {pod} -- /bin/bash"]
         ]
     }, {
         "title": "Docker",
         "description": "Docker",
         "items": [
             ["Check containers running", "docker ps"],
-            ["Run compose as daemon", "docker-compose up -d"]
+            ["Run compose as daemon", "docker-compose up -d"],
+            ["Execute shell in docker image", "docker exec -it {container} sh"]
         ]
     }, {
         "title": "Python",
@@ -27,7 +29,8 @@
         "items": [
             ["List of files", "ls -l"],
             ["Change user to root", "sudo su"],
-            ["Change or set password for user", "passwd {user}"]
+            ["Change or set password for user", "passwd {user}"],
+            ["Folder size in linux", "du -sh {folder}"]
         ]
     }, {
         "title": "Git",
