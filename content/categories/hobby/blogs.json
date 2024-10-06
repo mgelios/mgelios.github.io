@@ -36,7 +36,9 @@
             ["http://4xpro.ru/", "4x pro", "blue-2", "4", ""],
             ["http://lionovsky.ru/", "Lionovsky", "red-3","L", ""],
             ["https://coom.tech/MainPage", "Coom Tech", "light-3", "CT", "dark-3"],
-            ["https://based.coom.tech/", "Based sites", "blue-1", "B", ""]
+            ["https://based.coom.tech/", "Based sites", "blue-1", "B", ""],
+            ["https://www.hanakano.com/", "Hanakano", "blue-1", "H", ""],
+            ["https://dharmx.is-a.dev/", "Dharmx", "blue-1", "D", ""]
         ]
     }]
 }

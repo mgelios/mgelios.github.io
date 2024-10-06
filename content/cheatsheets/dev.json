@@ -6,7 +6,8 @@
         "items": [
             ["Get state of pods", "kubectl get pods"],
             ["Get logs of the pod", "kubectl logs -f {pod}"],
-            ["Execute shell in pod", "kubectl exec --stdin --tty {pod} -- /bin/bash"]
+            ["Execute shell in pod", "kubectl exec --stdin --tty {pod} -- /bin/bash"],
+            ["Apply pod config", "kubectl apply -f {file}"]
         ]
     }, {
         "title": "Docker",
@@ -40,6 +41,13 @@
         "items": [
             ["Git set username", "git config --local user.name {username}"],
             ["Git set email", "git config --local user.email {email}"]
+        ]
+    }, {
+        "title": "Mongo",
+        "description": "mongo",
+        "items": [
+            ["Run mongo cli in container", "mongosh"],
+            []
         ]
     }]
 }

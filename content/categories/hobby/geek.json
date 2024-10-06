@@ -19,5 +19,11 @@
             ["https://thegoodroll.com/en-pl/toiletfun", "Toiletfun", "dark-3", "T", ""],
             ["https://wtfhappenedin1971.com/", "WTF 1971", "dark-2", "W", ""]
         ]
+    }, {
+        "title": "Soft",
+        "description": "soft",
+        "links": [
+            ["https://suckless.org/", "Suckless soft", "dark-2", ""]
+        ]
     }]
 }
