@@ -47,7 +47,17 @@
         "description": "mongo",
         "items": [
             ["Run mongo cli in container", "mongosh"],
-            []
+            ["Show dbs", "show dbs"],
+            ["Show current db", "db"],
+            ["Switch db", "user {db}"],
+            ["Drop", "db.dropDatabase()"],
+            ["Create collection", "db.createCollection('{collection}')"],
+            ["Show collections", "show collections"],
+            ["Get all rows", "db.{collection}.find()"],
+            ["Get rows formatted", "db.{collection}.find().pretty()"],
+            ["Insert Row", "db.{collection}.insert({ filed: 'FieldContent', otherField: 'AnotherField' })"],
+            ["Insert Multiple Rows", "db.{collection}.insertMany([{field:'Content'},{field:'Content2'}])"],
+            ["Find rows", "db.{collection}.find({filed:'content'})"]
         ]
     }]
 }
