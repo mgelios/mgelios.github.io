@@ -1,3 +1,9 @@
+async function MarkdownFromURL(url) {
+    let response = await fetch(url);
+    let body = await response.text();
+    return body;
+}
+
 async function JSONFromURL(url) {
     let response = await fetch(url);
     let body = await response.json();

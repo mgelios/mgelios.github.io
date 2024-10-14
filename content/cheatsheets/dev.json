@@ -15,7 +15,11 @@
         "items": [
             ["Check containers running", "docker ps"],
             ["Run compose as daemon", "docker-compose up -d"],
-            ["Execute shell in docker image", "docker exec -it {container} sh"]
+            ["Execute shell in docker image", "docker exec -it {container} sh"],
+            ["Build docker image", "docker build {user}/{image} ."],
+            ["Push docker image to hub", "docker push {user}/{image}"],
+            ["Pull fresh images", "docker-compose pull"],
+            ["Stats", "docker stats"]
         ]
     }, {
         "title": "Python",
@@ -33,7 +37,9 @@
             ["Change or set password for user", "passwd {user}"],
             ["Folder size in linux", "du -sh {folder}"],
             ["View long files", "less {file}"],
-            ["Scroll to the end of file in less", "Shift + G"]
+            ["Scroll to the end of file in less", "Shift + G"],
+            ["Certbot standalone", "sudo certbot certonly --standalone"],
+            ["Certbot webroot", "sudo certbot certonly --webroot"]
         ]
     }, {
         "title": "Git",

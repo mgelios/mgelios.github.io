@@ -28,6 +28,10 @@
         "title": "Datasources",
         "path": "./category.html?category=/hobby/datasources",
         "text": "Datasource"
+    }, {
+        "title": "Food",
+        "path": "./category.html?category=/hobby/food",
+        "text": "Food"
     }],
     "cards":[{
         "title":"&#128173; Inspiration",

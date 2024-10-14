@@ -14,7 +14,8 @@
             ["https://hub.docker.com/", "Docker hub", "blue-3", "D", ""],
             ["https://stackoverflow.com", "Stackoverflow", "orange-2", "S", ""],
             ["https://www.pendrivelinux.com/", "Multiboot pendrives", "blue-3", "M", ""],
-            ["https://codebeamer.com/cb/login.spr", "Codebeamer", "green-3", "C", ""]
+            ["https://codebeamer.com/cb/login.spr", "Codebeamer", "green-3", "C", ""],
+            ["https://certbot.eff.org/", "Certbot", "dark-1", "C", "red-2"]
         ]
     }, {
         "title":"&#128296; Info",
