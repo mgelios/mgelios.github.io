@@ -5,7 +5,7 @@
         "description": "food",
         "links": [
             ["./markdown.html?item=/recipes/bigos.md", "Bigos", "blue-3", "G", ""],
-            ["./markdown.html?item=/recipes/applie-pie.md", "Apple pie", "blue-3", "A", ""],
+            ["./markdown.html?item=/recipes/apple-pie.md", "Apple pie", "blue-3", "A", ""],
             ["./markdown.html?item=/recipes/pancakes.md", "Pancakes", "dark-1", "P", ""]
         ]
     }]

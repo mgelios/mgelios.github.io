@@ -123,7 +123,8 @@
             ["https://www.the-warsaw.com/", "The Warsaw", "blue-4", "T", ""],
             ["https://warsawtour.pl/en/main-page/", "Warsaw TOUR", "red-3", "W", ""],
             ["https://noizz.pl/", "Noizz", "dark-1", "N", ""],
-            ["https://mostmedia.io/", "MOST media", "purple-2", "M", ""]
+            ["https://mostmedia.io/", "MOST media", "purple-2", "M", ""],
+            ["https://novayapolsha.eu/", "Novaya Polsha", "red-3", "NP", ""]
         ]
     }, {
         "title": "Cars",

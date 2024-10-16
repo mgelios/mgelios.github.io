@@ -32,6 +32,10 @@
         "title": "Food",
         "path": "./category.html?category=/hobby/food",
         "text": "Food"
+    }, {
+        "title": "Articles",
+        "path": "./category.html?category=/hobby/articles",
+        "text": "Articles"
     }],
     "cards":[{
         "title":"&#128173; Inspiration",
