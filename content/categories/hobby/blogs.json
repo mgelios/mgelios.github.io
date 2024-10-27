@@ -21,7 +21,8 @@
             ["https://blog.pragmaticengineer.com", "Pragmatic engineer", "blue-1", "P", ""],
             ["https://www.ivankapcov.ru/", "Ivan Kapcov", "dark-1", "I", ""],
             ["https://y-b.one/", "Doing things right", "dark-4", "D", ""],
-            ["https://yorko.github.io/", "New Yorko times", "dark-2", "N", ""]
+            ["https://yorko.github.io/", "New Yorko times", "dark-2", "N", ""],
+            ["https://blog.briancmoses.com/", "Brian c moses", "blue-1", "B", ""]
         ]
     }, {
         "title": "Blogs",

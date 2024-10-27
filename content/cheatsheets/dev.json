@@ -7,7 +7,11 @@
             ["Get state of pods", "kubectl get pods"],
             ["Get logs of the pod", "kubectl logs -f {pod}"],
             ["Execute shell in pod", "kubectl exec --stdin --tty {pod} -- /bin/bash"],
-            ["Apply pod config", "kubectl apply -f {file}"]
+            ["Apply pod config", "kubectl apply -f {file}"],
+            ["Restart pods", "kubectl rollout restart deployment/pod -n namespace"],
+            ["Disable pods through scaling replicas", "kubectl scale deployment -n namespace —replicas 0"],
+            ["Get namespaces", "kubectl get namespaces"],
+            ["Get pods in namespaces", "kubectl get pods -n namespace"]
         ]
     }, {
         "title": "Docker",
@@ -46,7 +50,8 @@
         "description": "git",
         "items": [
             ["Git set username", "git config --local user.name {username}"],
-            ["Git set email", "git config --local user.email {email}"]
+            ["Git set email", "git config --local user.email {email}"],
+            ["Show git config", "git config -l"]
         ]
     }, {
         "title": "Mongo",

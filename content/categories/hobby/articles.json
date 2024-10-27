@@ -5,7 +5,8 @@
         "description": "articles",
         "links": [
             ["./markdown.html?item=/articles/fonts.md", "Fonts", "dark-1", "F", ""],
-            ["./markdown.html?item=/articles/metallica-warsaw-2024.md", "Metallica WAW 2024", "yellow-3", "M", "dark-1"]
+            ["./markdown.html?item=/articles/metallica-warsaw-2024.md", "Metallica WAW 2024", "yellow-3", "M", "dark-1"],
+            ["./markdown.html?item=/articles/kalyhanka.md", "Kalyhanka", "red-5", "K", ""]
         ]
     }]
 }

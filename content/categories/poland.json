@@ -4,6 +4,10 @@
         "title": "Healthcare",
         "path": "./category.html?category=/poland/healthcare",
         "text": "Some poland healthcare related"
+    }, {
+        "title": "Wesoła",
+        "path": "./category.html?category=/poland/wesola",
+        "text": "wesola related"
     }],
     "cards": [{
         "title": "🏛️ Goverment",

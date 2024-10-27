@@ -92,5 +92,17 @@
             ["https://tailwindcss.com/", "Tailwind CSS", "purple-2", "T", ""],
             ["https://getbootstrap.com/", "Bootstrap", "purple-1", "B", ""]
         ]
+    }, {
+        "title": "Go/Golang",
+        "description": "golang related",
+        "links": [
+            ["https://raka.hashnode.dev/complete-guide-for-using-golang-template", "Go templates guide", "purple-1", "R", ""]
+        ]
+    }, {
+        "title": "Mongo",
+        "description": "mongo related",
+        "links": [
+            ["https://gist.github.com/bradtraversy/f407d642bdc3b31681bc7e56d95485b6", "Mongo cheatsheet", "dark-1", "M", ""]
+        ]
     }]
 }
