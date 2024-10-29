@@ -40,5 +40,11 @@
             ["https://explore.skillbuilder.aws/pages/16/learner-dashboard", "AWS Learner dashboard", "orange-5", "A", "dark-1"],
             ["https://learn.microsoft.com/en-us/certifications/exams/dp-203", "Azure Data Engineering", "blue-2", "A", ""]
         ]
+    }, {
+        "title": "Japanese",
+        "description": "japanese",
+        "links": [
+            ["https://www.reddit.com/r/Japaneselanguage/comments/1e239qg/textbooks_for_self_study/", "Textbooks", "red-2", "T", ""]
+        ]
     }]
 }

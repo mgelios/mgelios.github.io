@@ -183,10 +183,6 @@ h1, h2, h3, h4, h5, h6, p {
     margin: .1em;
 }
 
-#search-section {
-    padding: 1em;
-}
-
 .text-input {
     flex: 1 1 auto;
     width: 1%;
@@ -201,14 +197,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: var(--light-3);
     border-radius: .5em;
 }
-
-#search-section form {
-    display: flex;
-}
-
-#search-section .button {
-    position: relative;
-} 
 
 #bookmarks-categories-container {
     height: fit-content;
@@ -332,6 +320,49 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100%;
     flex: 1;
     display: block;
+}
+
+#markdown-content {
+    padding: .5em;
+}
+
+#markdown-content h6 {
+    font-size: 1.1em;
+}
+
+#markdown-content h5 {
+    font-size: 1.3em;
+}
+
+#markdown-content h4 {
+    font-size: 1.5em;
+}
+
+#markdown-content h3 {
+    font-size: 1.6em;
+}
+
+#markdown-content h2 {
+    font-size: 1.8em;
+}
+
+#markdown-content h1 {
+    font-size: 2.2em;
+}
+
+#markdown-content li {
+    margin-bottom: .5em;
+}
+
+#markdown-content li:has(> a) {
+    margin-bottom: 1.2em;
+}
+
+#markdown-content a {
+    color: var(--light-5);
+    padding: .3em;
+    background-color: var(--dark-5);
+    border-radius: .5em;
 }
 
 @media only screen and (max-width: 600px) {

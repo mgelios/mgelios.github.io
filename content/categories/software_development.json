@@ -96,7 +96,8 @@
         "title": "Go/Golang",
         "description": "golang related",
         "links": [
-            ["https://raka.hashnode.dev/complete-guide-for-using-golang-template", "Go templates guide", "purple-1", "R", ""]
+            ["https://raka.hashnode.dev/complete-guide-for-using-golang-template", "Go templates guide", "purple-1", "R", ""],
+            ["https://www.newline.co/@kchan/integrating-jwt-authentication-with-go-and-chi-jwtauth-middleware--ff9a6cec", "Go JWT chi", "dark-2", "G", ""]
         ]
     }, {
         "title": "Mongo",

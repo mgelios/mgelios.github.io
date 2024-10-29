@@ -73,7 +73,10 @@
             ["https://system76.com/","System76","dark-5","76",""],
             ["https://n-o-d-e.net/index.html", "NODE", "dark-1", "N", ""],
             ["https://frame.work", "Framework", "dark-1", "F", ""],
-            ["https://garmin.watchfacebuilder.com/", "Garmin watchface", "dark-1", "G", ""]
+            ["https://garmin.watchfacebuilder.com/", "Garmin watchface", "dark-1", "G", ""],
+            ["https://volna42.com/en/", "Volna42", "dark-3", "V", ""],
+            ["https://meshtastic.liamcottle.net/", "Meshtastic", "green-1", "M", ""],
+            ["https://beta.btsearch.pl/?dataSource=locations&network=&standards=&bands=&center=52.264499%2C21.252001&zoom=13#google_vignette", "BT search", "green-2", "B", ""]
         ]
     }, {
         "title": "News",
