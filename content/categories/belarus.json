@@ -25,5 +25,13 @@
             ["https://www.oac.gov.by/", "ОАЦ", "red-3", "O", ""],
             ["https://portal.gov.by", "Старый портал", "red-3", "П", ""]
         ]
+    }, {
+        "title": "История",
+        "description": "history",
+        "links": [
+            ["https://dapamoznik.blogspot.com/2020/03/1923-1926.html", "Dapamoznik-1", "green-1", "D", ""],
+            ["https://dapamoznik.blogspot.com/2022/09/1927-28.html?m=1", "Dapamoznik-2", "green-1", "D", ""],
+            ["https://budzma.org/", "Budzma", "red-3", "B", ""]
+        ]
     }]
 }

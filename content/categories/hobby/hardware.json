@@ -27,7 +27,9 @@
             ["https://slimq.life", "SlimQ", "dark-1", "S", ""],
             ["https://sharge.com/", "Sharge", "dark-1", "S", ""],
             ["https://nuphy.com/", "NuPhy", "yellow-3", "N", "dark-1"],
-            ["https://electronicmaterialsoffice.com/", "EM Office", "dark-1", "E", ""]
+            ["https://electronicmaterialsoffice.com/", "EM Office", "dark-1", "E", ""],
+            ["https://worklouder.cc/nomad-e/", "Worklouder", "dark-1", "W", ""],
+            ["https://www.google.com/search?client=firefox-b-d&q=genius+kb06x", "My first keyboard", "blue-3", "G", ""]
         ]
     }, {
         "title": "Audio",
@@ -38,7 +40,8 @@
             ["https://focusrite.com/", "Focusrite", "red-2", "F", ""],
             ["https://moonlit.market/products/ipod-with-classic-connect?variant=44869824905484", "Moonlit iPod", "dark-1", "M", ""],
             ["https://kz-audio.com/", "KZ Audio", "green-2", "K", ""],
-            ["https://voxamps.com/", "VOX amps", "dark-1", "V", ""]
+            ["https://voxamps.com/", "VOX amps", "dark-1", "V", ""],
+            ["https://www.bluetoothgoodies.com/a2dp/download/", "A2DP Driver Win", "blue-3", "A", ""]
         ]
     }, {
         "title": "Clothes",

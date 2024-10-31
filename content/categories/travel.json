@@ -30,7 +30,8 @@
             ["https://www.google.com/maps", "Google Maps", "blue-3", "G", ""],
             ["https://yandex.ru/maps", "Yandex Maps", "red-2", "Y", ""],
             ["https://www.openstreetmap.org/", "OpenStreetMap", "blue-2", "O", ""],
-            ["https://maps.app.goo.gl/9zd4HL6h2RXHHJU99?g_st=it", "Spain restaurant", "blue-2", "S", ""]
+            ["https://maps.app.goo.gl/9zd4HL6h2RXHHJU99?g_st=it", "Spain restaurant", "blue-2", "S", ""],
+            ["https://edalnice.cz/en/#/validation", "Czezh roads", "blue-3", "C", ""]
         ]
     }, {
         "title": "Blogs",

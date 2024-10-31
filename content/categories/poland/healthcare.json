@@ -6,7 +6,9 @@
         "links": [
             ["https://www.luxmed.pl/", "Luxmed", "green-2", "L", ""],
             ["https://www.znanylekarz.pl/", "Znanylekarz", "green-3", "Z", ""],
-            ["https://pacjent.gov.pl/aktualnosc/mojeikp-na-komorke-lub-tablet", "Receipts", "red-3", "R", ""]
+            ["https://pacjent.gov.pl/aktualnosc/mojeikp-na-komorke-lub-tablet", "Receipts", "red-3", "R", ""],
+            ["https://terminyleczenia.nfz.gov.pl/", "Terminy Leczenia", "blue-2", "T", ""],
+            ["https://www.osoz.pl/", "Osoz", "blue-3", "O", ""]
         ]
     }]
 }

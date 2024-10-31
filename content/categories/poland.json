@@ -17,7 +17,11 @@
             ["https://secure.e-konsulat.gov.pl/", "Visa registration", "red-3", "V", ""],
             ["https://www.mobywatel.gov.pl/", "mObywatel", "blue-3", "m", ""],
             ["https://epuap.gov.pl/", "ePuap", "blue-3", "e", ""],
-            ["https://www.zus.pl/portal/obszar-ogolny.npi", "ZUS", "green-3", "Z", ""]
+            ["https://www.zus.pl/portal/obszar-ogolny.npi", "ZUS", "green-3", "Z", ""],
+            ["https://polishforbelarus.com/", "PolishForBelarus", "blue-4", "P", ""],
+            ["https://internet.gov.pl/map/?center=2363645.879035043%3B6845321.641276523&zoom=18.669784833643785", "Internet map", "blue-1", "I", ""],
+            ["https://www.podatki.gov.pl/podatki-i-oplaty-lokalne/", "Podatki", "red-3", "P", ""],
+            ["https://geoportal-krajowy.pl/na-mapie", "Geoportal", "blue-2", "G", ""]
         ]
     }, {
         "title": "🏥 Health",
@@ -45,7 +49,8 @@
             ["https://www.etsy.com/", "ETSY", "orange-3", "E", ""],
             ["https://www.ceneo.pl/", "Ceneo", "orange-3", "C", ""],
             ["https://znivien.pl/", "Znivien", "red-2", "Zn", ""],
-            ["https://www.gentlemanstore.pl/", "Gentelmanstore", "green-2", "G", ""]
+            ["https://www.gentlemanstore.pl/", "Gentelmanstore", "green-2", "G", ""],
+            ["https://bezet.com/en", "Bezet pl", "dark-1", "B", ""]
         ]
     }, {
         "title": "🏪 Food Shopping",
