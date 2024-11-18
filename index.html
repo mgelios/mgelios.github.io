@@ -13,8 +13,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
     <link rel="manifest" href="./img/site.webmanifest">
 
-    <script src="./content/speed-dial.js" ></script>
-    <script src="./content/categories.js" ></script>
+    <script src="../script/common.js"></script>
     <script src="./script/jsrender.min.js" ></script>
 
     <meta name="theme-color" content="#000000">
@@ -70,7 +69,7 @@
         </section>
     </div>
 
-    <div class="flex-container">
+    <!-- <div class="flex-container">
         <section class="container-header">
             <h1>S-Bookmarks</h1>
         </section>
@@ -84,28 +83,24 @@
         </section>
         <section id="secret-categories-container" class="grid-container">
         </section>
-    </div>
+    </div> -->
 
     <script>
-        var $ = window.jsrender;
-        var speedDialLinks = $.templates("#speed-dial-links");
-        var speedDialLinksHtml = speedDialLinks.render(speed_dial_links);
-        document.getElementById("speed-dial-container").innerHTML = speedDialLinksHtml;
+        JSONFromURL("../content/index-content.json")
+            .then(content => {
+                renderTemplateWithData(content["speed-dial"], "speed-dial-links", "speed-dial-container");
+                renderTemplateWithData(content["categories"], "bookmarks-categories", "bookmarks-categories-container");
+            });
 
-        var bookmarksCategoriesTemplate = $.templates("#bookmarks-categories");
-        var bookmarksCategoriesHtml = bookmarksCategoriesTemplate.render(categories);
-        document.getElementById("bookmarks-categories-container").innerHTML = bookmarksCategoriesHtml;
+        // var secretBookmarksTemplate = $.templates("#secret-bookmarks");
+        // var secretBookmarks = JSON.parse(window.localStorage.getItem("secrets")).bookmarks;
+        // var secretBookmarksHtml = secretBookmarksTemplate.render(secretBookmarks);
+        // document.getElementById("secret-bookmarks-container").innerHTML = secretBookmarksHtml;
 
-        var secretBookmarksTemplate = $.templates("#secret-bookmarks");
-        var secretBookmarks = JSON.parse(window.localStorage.getItem("secrets")).bookmarks;
-        var secretBookmarksHtml = secretBookmarksTemplate.render(secretBookmarks);
-        document.getElementById("secret-bookmarks-container").innerHTML = secretBookmarksHtml;
-
-        var secretCategoriesTemplate = $.templates("#secret-categories");
-        var secretCategories = JSON.parse(window.localStorage.getItem("secrets")).categories;
-        var secretCategoriesHtml = secretCategoriesTemplate.render(secretCategories);
-        document.getElementById("secret-categories-container").innerHTML = secretCategoriesHtml;
+        // var secretCategoriesTemplate = $.templates("#secret-categories");
+        // var secretCategories = JSON.parse(window.localStorage.getItem("secrets")).categories;
+        // var secretCategoriesHtml = secretCategoriesTemplate.render(secretCategories);
+        // document.getElementById("secret-categories-container").innerHTML = secretCategoriesHtml;
     </script>
 </body>
 </html>
-

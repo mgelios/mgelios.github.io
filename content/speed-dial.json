@@ -1,0 +1,91 @@
+[{
+    "title": "Notion",
+    "link": "https://notion.so/",
+    "badgeColor": "light-4",
+    "badgeText": "[N]",
+    "badgeTextColor": "dark-1"
+}, {
+    "title": "GMail",
+    "link": "https://mail.google.com/mail/u/0/",
+    "badgeColor": "orange-4",
+    "badgeText": "G",
+    "badgeTextColor": "dark-3"
+}, {
+    "title": "Calendar",
+    "link": "https://calendar.google.com/calendar/u/0/r",
+    "badgeColor": "blue-3",
+    "badgeText": "C",
+    "badgeTexColor": "light-3"
+}, {
+    "title": "GitHub",
+    "link": "https://github.com/",
+    "badgeColor": "dark-2",
+    "badgeText": "Git",
+    "badgeTexColor": "light-3"
+}, {
+    "title": "Youtube",
+    "link": "https://www.youtube.com",
+    "badgeColor": "red-3",
+    "badgeText": "You",
+    "badgeTexColor": "light-3"
+}, {
+    "title": "Zerkalo.io",
+    "link": "https://www.zerkalo.io",
+    "badgeColor": "red-3",
+    "badgeText": "Z",
+    "badgeTexColor": "light-3"
+}, {
+    "title": "Linux.org.ru",
+    "link": "https://www.linux.org.ru",
+    "badgeColor": "dark-2",
+    "badgeText": "L",
+    "badgeTexColor": "light-3"
+}, {
+    "title": "Vas3k club",
+    "link": "https://vas3k.club/",
+    "badgeColor": "dark-2",
+    "badgeText": "V",
+    "badgeTexColor": "light-3"
+}, {
+    "title": "3D news",
+    "link": "https://3dnews.ru/",
+    "badgeColor": "blue-2",
+    "badgeText": "3D",
+    "badgeTexColor": "light-3"
+}, {
+    "title": "Render",
+    "link": "https://render.ru",
+    "badgeColor": "green-2",
+    "badgeText": "R",
+    "badgeTexColor": "light-3"
+}, {
+    "title": "The Warsaw",
+    "link": "https://www.the-warsaw.com/",
+    "badgeColor": "blue-4",
+    "badgeText": "T",
+    "badgeTexColor": "light-3"
+}, {
+    "title": "ChatGPT",
+    "link": "https://chat.openai.com",
+    "badgeColor": "green-2",
+    "badgeText": "C",
+    "badgeTexColor": "light-3"
+}, {
+    "title": "Joyreactor",
+    "link": "https://www.joyreactor.cc",
+    "badgeColor": "orange-2",
+    "badgeText": "J",
+    "badgeTexColor": "light-3"
+}, {
+    "title": "linkedIn",
+    "link": "https://linkedin.com/",
+    "badgeColor": "blue-2",
+    "badgeText": "L",
+    "badgeTexColor": "light-3"
+}, {
+    "title": "Sakhtv",
+    "link": "https://sakhtv.ru/",
+    "badgeColor": "dark-1",
+    "badgeText": "S",
+    "badgeTexColor": "light-2"
+}]
