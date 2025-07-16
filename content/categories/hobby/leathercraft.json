@@ -30,13 +30,13 @@
         "description": "pinterest boards",
         "links": [
             ["https://www.pinterest.com/mastergelios/edc/", "EDC board", "red-3", "E", ""],
-            ["https://www.pinterest.com/mastergelios/diy-leather/", "DIY Leather board", "red-3", "D", ""]
+            ["https://www.pinterest.com/mastergelios/diy-leather/", "DIY Leather board", "red-3", "D", ""],
+            ["https://amdplus.ru/articles/vybiraem-shov-dlya-peretyazhki", "Stitches", "yellow-3", "S", "dark-3"]
         ]
     }, {
-        "title": "Inspiration Shops",
+        "title": "Inspiration Shops (Good)",
         "description": "inspirational shops",
         "links": [
-            ["https://www.marcjacobs.com/default/the-marc-jacobs/wallets/view-all-wallets/", "Marc Jacobs", "dark-1", "M", ""],
             ["https://kmmco.com/", "KMM", "dark-1", "K", ""],
             ["https://littlekinggoods.com/", "Little King Goods", "dark-1", "L", ""],
             ["https://www.patepluma.nl/", "Patepluma", "dark-1", "P", ""],
@@ -44,8 +44,14 @@
             ["https://littlekingsupplyco.com/", "Little King Supply", "dark-1", "L", ""],
             ["https://www.jhleather.co.uk/", "JH Leather", "dark-1", "J", ""],
             ["https://www.masconleather.com/", "Mascon Leather", "dark-1", "M", ""],
-            ["https://www.tauruscamp.com/", "Thaurus camp", "orange-2", "T", ""],
-            ["https://amdplus.ru/articles/vybiraem-shov-dlya-peretyazhki", "Stitches", "yellow-3", "S", "dark-3"]
+            ["https://www.tauruscamp.com/", "Thaurus camp", "orange-2", "T", ""]
+        ]
+    }, {
+        "title": "Inspiration Shops (WTF?)",
+        "description": "inspirational shops",
+        "links": [
+            ["https://www.marcjacobs.com/default/the-marc-jacobs/wallets/view-all-wallets/", "Marc Jacobs", "dark-1", "M", ""],
+            ["https://mitkater.com/pages/about-me", "Mitkater", "dark-1", "M", ""]            
         ]
     }]
 }

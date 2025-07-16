@@ -10,14 +10,5 @@
             ["https://artstation.com/","Artstation","blue-2","A",""],
             ["https://deviantart.com/","Deviantart","green-2","D",""]
         ]
-    }, {
-        "title":"Blogs",
-        "description":"Artists blogs",
-        "links":[
-            ["https://blog.dahr.ru/", "Dahr's blog", "dark-1", "D", ""],
-            ["https://karanak.livejournal.com/", "Karanak", "blue-2", "K", ""],
-            ["https://kro-ogli.livejournal.com/", "Kro Ogli", "blue-2", "KO", ""],
-            ["https://shulginphoto.ru/", "Shulgin photo", "dark-3", "S", ""]
-        ]
     }]
 }
