@@ -4,35 +4,35 @@
     "title": "Senior Software Engineer",
     "short_description": "Highly skilled and motivated software engineer with expertise in data engineering and a strong background in Java, Python, and JavaScript. Experienced in a variety of frameworks, libraries, cloud platforms, and version control systems. Proficient in Agile methodologies and task management tools. Bachelor's degree in Computer Science from BSUIR.",
     "bullets": [
-        "8+ years of hands-on experience in software engineering in different business domains",
+        "9+ years of hands-on experience in software engineering in different business domains",
         "Software development skills: Able to write readable, optimal and scalable code",
         "Results-Driven Achievements: Delivered solutions for challenging interactions between technologies. Led a small team to complete the TangoVote prototype",
         "Data Engineering Proficiency: Hands-on experience in Python, PySpark, and Azure Databricks. Completed Udemy course on Azure Databricks & Spark for Data Engineers",
         "Leadership & Solution Design: Led projects, made architectural decisions, and developed solutions for successful project delivery",
-        "Cloud & Database Expertise: Knowledgeable in cloud platforms (Azure, Hetzner) and databases (PostgreSQL, OracleSQL, MySQL, Liquibase) for scalable and efficient application development.",
+        "Cloud & Database Expertise: Knowledgeable in cloud platforms (Azure, Hetzner) and databases (MongoDB, PostgreSQL, OracleSQL, MySQL, Liquibase) for scalable and efficient application development.",
         "Wide range of expertises: Proficient in Java, Python, and JavaScript with expertise in data engineering. Experienced in frameworks, libraries, cloud platforms, and version control systems.",
         "Architectural proficiency: Desinging services architecture, architecture of services interactions, databases structures. Providing improvements to existing solutions"
     ],
     "skills": [
         {
             "name": "Natural Languages",
-            "list": ["English (B2+)", "Belarusian (B1)", "Russian (Native)"]
+            "list": ["English (B2+)", "Belarusian (B1)", "Russian (Native)", "Polish (A1-A2)"]
         },
         {
             "name": "Programming languages",
-            "list": ["Java", "Python", "Javascript"]
+            "list": ["Java", "Python", "Javascript", "Golang"]
         },
         {
             "name": "Frameworks/Libraries",
-            "list": ["Spring Core", "Spring Cloud", "Spring Data", "Hibernate", "Apache Camel", "Apache Spark", "VueJS", "JUnit", "Mockito", "Cucumber"]
+            "list": ["Flask", "Django", "Spring Core", "Spring Cloud", "Spring Data", "Hibernate", "Apache Camel", "Apache Spark", "VueJS", "JUnit", "Mockito", "Cucumber"]
         },
         {
             "name": "Build tools",
-            "list": ["Maven", "Gradle", "GraalVM"]
+            "list": ["pip", "poetry", "npm", "yarn", "Maven", "Gradle", "GraalVM"]
         },
         {   
             "name": "Containers",
-            "list": ["Docker"]
+            "list": ["Kubernetes", "K3S", "K8S", "Docker"]
         },
         {
             "name": "Version control systems",
@@ -52,11 +52,11 @@
         },
         {
             "name": "Cloud",
-            "list": ["Azure", "Hetzner"]
+            "list": ["GCP", "Azure", "Hetzner"]
         },
         {
             "name": "Database",
-            "list": ["PostgreSQL", "OracleSQL", "MySQL", "Liquibase"]
+            "list": ["Mongo", "PostgreSQL", "OracleSQL", "MySQL", "Liquibase"]
         },
         {
             "name": "Messaging",
@@ -68,7 +68,7 @@
         },
         {
             "name": "CI/CD",
-            "list": "Jenkins"
+            "list": ["Jenkins", "TeamCity"]
         },
         {
             "name": "Other",
@@ -90,7 +90,7 @@
     ],
     "prizes_appraisals": [
         "2nd diploma diploma of Republic Olympiad in informatics 2010.",
-        "Participant of ACM IСPC Belarus and Baltics Regional Contest (ACM 1/4 finals).",
+        "Participant of ACM ICPC Belarus and Baltics Regional Contest (ACM 1/4 finals).",
         "Participant of ВКОШП of 2008-2009, 2009-2010."
     ],
     "experience": [
@@ -104,12 +104,12 @@
             ],
             "projects": [
                 {
-                    "client": "Intapp",
-                    "name": "Dataplatform",
-                    "period": "07.07.2022 - now",
-                    "description": "Event driven data platform with self-servicing support",
-                    "technologies": "Python, PySpark, Azure Databricks, PostgreSQL, Liquibase, Kafka, Git, Linux, Docker, JIRA",
-                    "responsibilities": "Implementation of data engineering solutions, bug fixing, analyzing and grooming tickets."
+                    "client": "Internal Infrastructure",
+                    "name": "Optimus",
+                    "period": "01.09.2024 - now",
+                    "description": "Collection of services designed to automatic processing of ServiceNOW items utilizing REST, Redis and Ansible",
+                    "technologies": "Python, FastAPI, PostgreSQL, k3s, Redis, ServiceNOW, Ansible, AWX",
+                    "responsibilities": ""
                 }
             ]
         },
@@ -128,7 +128,7 @@
                 {
                     "client": "Intapp",
                     "name": "Dataplatform",
-                    "period": "07.07.2022 - now",
+                    "period": "07.07.2022 - 30.08.2024",
                     "description": "Event driven data platform with self-servicing support",
                     "technologies": "Python, PySpark, Azure Databricks, PostgreSQL, Liquibase, Kafka, Git, Linux, Docker, JIRA",
                     "responsibilities": "Implementation of data engineering solutions, bug fixing, analyzing and grooming tickets."
