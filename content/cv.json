@@ -110,7 +110,7 @@
                     "client": "Internal Platform Team",
                     "name": "Optimus (Cloud)",
                     "period": "01.11.2025 - now",
-                    "description": "Cloud native solution for building automatizations with specific business needs. Highly increased flexibility and variety of supported use cases and technologies in comparison with previous solution. Utilizes Azure services, async processing and is designed to be used as a library to be easily integrated into different services.",
+                    "description": "Cloud native solution for building automatizations with specific business needs. Highly increased flexibility and variety of supported use cases and technologies in comparison with previous solution. Utilizes Azure services, async processing and part of it designed to be used as a library to be easily integrated into different services.",
                     "technologies": "Python, AsyncIO, ServiceNow, Ansible, AWX, Azure, Azure Storage (Table, Queue), Pytest, Git, JIRA, Confluence",
                     "responsibilities": "Initial implementation of the solution, services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
                 },
