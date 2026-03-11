@@ -4,7 +4,7 @@
     "title": "Senior Software Engineer",
     "short_description": "Highly skilled and motivated software engineer with expertise in data engineering and a strong background in Java, Python, and JavaScript. Experienced in a variety of frameworks, libraries, cloud platforms, and version control systems. Proficient in Agile methodologies and task management tools. Bachelor's degree in Computer Science from BSUIR.",
     "bullets": [
-        "9+ years of hands-on experience in software engineering in different business domains",
+        "10+ years of hands-on experience in software engineering in different business domains",
         "Software development skills: Able to write readable, optimal and scalable code",
         "Results-Driven Achievements: Delivered solutions for challenging interactions between technologies. Led a small team to complete the TangoVote prototype",
         "Data Engineering Proficiency: Hands-on experience in Python, PySpark, and Azure Databricks. Completed Udemy course on Azure Databricks & Spark for Data Engineers",
@@ -16,7 +16,7 @@
     "skills": [
         {
             "name": "Natural Languages",
-            "list": ["English (B2+)", "Belarusian (B1)", "Russian (Native)", "Polish (A1-A2)"]
+            "list": ["English (B2+)", "Belarusian (B1)", "Russian (Native)", "Polish (A2)"]
         },
         {
             "name": "Programming languages",
@@ -24,7 +24,7 @@
         },
         {
             "name": "Frameworks/Libraries",
-            "list": ["Flask", "Django", "Spring Core", "Spring Cloud", "Spring Data", "Hibernate", "Apache Camel", "Apache Spark", "VueJS", "JUnit", "Mockito", "Cucumber"]
+            "list": ["pyspark", "pytest", "unittest", "AsyncIO", "FastAPI", "Django", "Spring Core", "Spring Cloud", "Spring Data", "Hibernate", "Apache Camel", "Apache Spark", "VueJS", "JUnit", "Mockito", "Cucumber"]
         },
         {
             "name": "Build tools",
@@ -36,11 +36,11 @@
         },
         {
             "name": "Version control systems",
-            "list": ["Git, Subversion"]
+            "list": ["Git", "Subversion"]
         },
         {
             "name": "Tools",
-            "list": ["Intellij IDEA", "VS Code, Postman", "Jmeter", "Soap UI", "Databricks"]
+            "list": ["Intellij IDEA", "VS Code", "Postman", "Jmeter", "Soap UI", "Databricks"]
         },
         {
             "name": "Management frameworks",
@@ -52,19 +52,19 @@
         },
         {
             "name": "Cloud",
-            "list": ["GCP", "Azure", "Hetzner"]
+            "list": ["Azure", "GCP (Google Cloud Platform)", "Hetzner (Managed VPS)"]
         },
         {
             "name": "Database",
-            "list": ["Mongo", "PostgreSQL", "OracleSQL", "MySQL", "Liquibase"]
+            "list": ["Mongo", "PostgreSQL", "OracleSQL", "MySQL"]
         },
         {
             "name": "Messaging",
-            "list": ["Kafka", "Google PubSub"]
+            "list": ["Kafka", "Redis", "Google PubSub"]
         },
         {
             "name": "Architectures",
-            "list": ["Microservices", "Service-oriented", "Hexagonal(Onion, Ports and Adapters)", "Monolith"]
+            "list": ["Medalion (Data Engineering)", "Microservices", "Service-oriented", "Hexagonal(Onion, Ports and Adapters)", "Monolith"]
         },
         {
             "name": "CI/CD",
@@ -97,19 +97,30 @@
         {
             "employer": "UniCredit",
             "period": "Sep 2024 - Now",
-            "position": "Centralized Infrastructure Engineer",
+            "position": "Senior Software Engineer",
             "bullets": [
-                "Developed services and microservices in service-oriented environments",
-                "Took part in requirements discussion and solutions design"
+                "Developed services in service-oriented environments",
+                "Designed and implemented new approach (from service to library) to reduce complexity, latency and increase reliability of interaction with ServiceNOW API",
+                "Took part in requirements discussion with clients",
+                "Took key role in design and development of new solution for automatization of ServiceNOW items processing. Embracing clound native approach and utilizing Azure services with async processing.",
+                "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage and improving maintainability of the codebase."
             ],
             "projects": [
+                {
+                    "client": "Internal Platform Team",
+                    "name": "Optimus (Cloud)",
+                    "period": "01.11.2025 - now",
+                    "description": "Cloud native (Azure) solution for building automatizations with specific business needs",
+                    "technologies": "Python, AsyncIO, ServiceNow, Ansible, AWX, Azure, Azure Storage (Table, Queue), Pytest, Git, JIRA, Confluence",
+                    "responsibilities": "Initial implementation of the solution, services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
+                },
                 {
                     "client": "Internal Infrastructure",
                     "name": "Optimus",
                     "period": "01.09.2024 - now",
                     "description": "Collection of services designed to automatic processing of ServiceNOW items utilizing REST, Redis and Ansible",
-                    "technologies": "Python, FastAPI, PostgreSQL, k3s, Redis, ServiceNOW, Ansible, AWX",
-                    "responsibilities": ""
+                    "technologies": "Python, FastAPI, PostgreSQL, k3s, Redis, ServiceNOW, Ansible, AWX, Git, Teamcity, unittest, Git, JIRA, Confluence",
+                    "responsibilities": "Services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
                 }
             ]
         },
