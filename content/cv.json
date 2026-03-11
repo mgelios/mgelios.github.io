@@ -4,14 +4,12 @@
     "title": "Senior Software Engineer",
     "short_description": "Highly skilled and motivated software engineer with expertise in data engineering and a strong background in Java, Python, and JavaScript. Experienced in a variety of frameworks, libraries, cloud platforms, and version control systems. Proficient in Agile methodologies and task management tools. Bachelor's degree in Computer Science from BSUIR.",
     "bullets": [
-        "10+ years of hands-on experience in software engineering in different business domains",
-        "Software development skills: Able to write readable, optimal and scalable code",
-        "Results-Driven Achievements: Delivered solutions for challenging interactions between technologies. Led a small team to complete the TangoVote prototype",
-        "Data Engineering Proficiency: Hands-on experience in Python, PySpark, and Azure Databricks. Completed Udemy course on Azure Databricks & Spark for Data Engineers",
-        "Leadership & Solution Design: Led projects, made architectural decisions, and developed solutions for successful project delivery",
-        "Cloud & Database Expertise: Knowledgeable in cloud platforms (Azure, Hetzner) and databases (MongoDB, PostgreSQL, OracleSQL, MySQL, Liquibase) for scalable and efficient application development.",
-        "Wide range of expertises: Proficient in Java, Python, and JavaScript with expertise in data engineering. Experienced in frameworks, libraries, cloud platforms, and version control systems.",
-        "Architectural proficiency: Desinging services architecture, architecture of services interactions, databases structures. Providing improvements to existing solutions"
+        "10+ years of hands-on experience in software engineering across multiple business domains, with a strong focus on Python backend development and platform engineering over the last 4 years.",
+        "Backend & Platform Engineering: Designed and developed microservices and service-oriented solutions, including cloud-native systems on Azure with async processing. Experienced in migrating on-premises solutions to cloud infrastructure.",
+        "Technical Ownership: Independently led refactoring efforts to improve maintainability and enable test coverage. Designed library-based approaches to reduce complexity and improve reliability of third-party integrations.",
+        "Communication & Visibility: Regularly presented technical progress and solutions to cross-functional audiences of up to 40 people across multiple countries and timezones.",
+        "Data Engineering: Hands-on experience with PySpark and Azure Databricks. Learned data engineering from scratch and expanded team capacity in DE tasks.",
+        "Wide Technical Range: Proficient in Python and Java, experienced in cloud platforms (Azure), databases, messaging systems, and CI/CD pipelines."
     ],
     "skills": [
         {
@@ -102,7 +100,7 @@
                 "Developed services in service-oriented environments",
                 "Designed and implemented new approach (from service to library) to reduce complexity, latency and increase reliability of interaction with ServiceNOW API",
                 "Took part in requirements discussion with clients",
-                "Took key role in design and development of new solution for automatization of ServiceNOW items processing. Embracing clound native approach and utilizing Azure services with async processing.",
+                "Took key role in design and development of new solution for automation of ServiceNOW items processing. Embracing cloud-native approach and utilizing Azure services with async processing.",
                 "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage and improving maintainability of the codebase."
             ],
             "projects": [
@@ -110,7 +108,7 @@
                     "client": "Internal Platform Team",
                     "name": "Optimus (Cloud)",
                     "period": "01.11.2025 - now",
-                    "description": "Cloud native solution for building automatizations with specific business needs. Highly increased flexibility and variety of supported use cases and technologies in comparison with previous solution. Utilizes Azure services, async processing and part of it designed to be used as a library to be easily integrated into different services.",
+                    "description": "Cloud native solution for building automations with specific business needs. Highly increased flexibility and variety of supported use cases and technologies in comparison with previous solution. Utilizes Azure services, async processing and part of it designed to be used as a library to be easily integrated into different services.",
                     "technologies": "Python, AsyncIO, ServiceNow, Ansible, AWX, Azure, Azure Storage (Table, Queue), Pytest, Git, JIRA, Confluence",
                     "responsibilities": "Initial implementation of the solution, services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
                 },
@@ -118,7 +116,7 @@
                     "client": "Internal Infrastructure",
                     "name": "Optimus",
                     "period": "01.09.2024 - now",
-                    "description": "Collection of services designed to automatic processing of ServiceNOW items utilizing REST, Redis and Ansible",
+                    "description": "Collection of services designed to automated processing of ServiceNOW items utilizing REST, Redis and Ansible",
                     "technologies": "Python, FastAPI, PostgreSQL, k3s, Redis, ServiceNOW, Ansible, AWX, Git, Teamcity, unittest, Git, JIRA, Confluence",
                     "responsibilities": "Services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
                 }
@@ -163,8 +161,8 @@
                     "name": "Ehealth",
                     "period": "21.06.2021 - 23.06.2022",
                     "description": "Web platform for IT support of health industry in Belarus sponsored by World Bank (Including patents-doctors functionalities, portal for pharmacies).",
-                    "technologies": "Java 11, Apache Camel, Microservices, Spring Boot 2+, String (Data, MVC, Cloud, Test), Keycloak, Liquibase, PostgreSQL, Docker, HTML5, CSS3.",
-                    "responsibilities": "Back-end development and support, providing documentation, helding demos to the management, bug fixing, participated in development of architecture of several services and business requirements."
+                    "technologies": "Java 11, Apache Camel, Microservices, Spring Boot 2+, Spring (Data, MVC, Cloud, Test), Keycloak, Liquibase, PostgreSQL, Docker, HTML5, CSS3.",
+                    "responsibilities": "Back-end development and support, providing documentation, holding demos to the management, bug fixing, participated in development of architecture of several services and business requirements."
                 }                
             ]
         },
@@ -176,7 +174,7 @@
                 "Developed services and microservices in service-oriented environments",
                 "Took part in requirements discussion and solutions design",
                 "Supported projects in several directions - refactoring, bug fixing, implementation of new features",
-                "Learned VueJS from scratch and increased front-end capasity of the team in first year of implementation (H4H).",
+                "Learned VueJS from scratch and increased front-end capacity of the team in first year of implementation (H4H).",
                 "Technically lead small TangoVote demo project (2 people) which was successfully delivered and demoed to a client"
             ],
             "projects": [
@@ -200,7 +198,7 @@
                     "client": "Heart for Health (H4H)",
                     "name": "Patient Portal",
                     "period": "23.09.2019 - 07.11.2019",
-                    "description": "Web platform to manupulate medical data transfered through FHIR network.",
+                    "description": "Web platform to manipulate medical data transferred through FHIR network.",
                     "technologies": "Java 12, Spring Boot 2.1, Spring 5, Spring MVC, Spring Data, Keycloak, Swagger 2, MySQL, Git, Docker",
                     "responsibilities": "Back-end development and support, bug fixing."
                 },
@@ -216,23 +214,23 @@
                     "client": "TangoVote",
                     "name": "TangoVote prototype",
                     "period": "19.04.2019-22.05.2019",
-                    "description": "Web platfrom to count votes for debate streams.",
+                    "description": "Web platform to count votes for debate streams.",
                     "technologies": "Java 8, Spring Boot 2, Spring 5, Mapstruct, Lombok, PostgreSQL, Git, HTML5, CSS3, Swagger 2.",
-                    "responsibilities": "Prepared solution desription, back-end development. Writing tests."
+                    "responsibilities": "Prepared solution description, back-end development. Writing tests."
                 },
                 {
                     "client": "Seavus",
                     "name": "Karaka, Katami",
                     "period": "01.03.2019 - 18.04.2019, 23.05.2019-22.09.19",
-                    "description": "Web platfrom to manage and tack experts and their expertises.",
+                    "description": "Web platform to manage and track experts and their expertises.",
                     "technologies": "Java 11, Spring Boot 2, Spring (Data, MVC, Security), Lombok, Mapstruct PostgreSQL, Git, Swagger.",
                     "responsibilities": "Back-end development and support, bug fixing."
                 },
                 {
                     "client": "Compumark",
-                    "name": "Clarivate analitycs, Pto web offload",
+                    "name": "Clarivate analytics, Pto web offload",
                     "period": "13.07.2018 - 01.03.2019",
-                    "description": " B2B Plathform to fetch, analyze and provide additional data regarding trademarks in different countries.",
+                    "description": " B2B Platform to fetch, analyze and provide additional data regarding trademarks in different countries.",
                     "technologies": "Java 8, Spring Boot 2, Spring 5, Spring Data, Spring MVC, Lombok, Mapstruct, Git, Swagger",
                     "responsibilities": "Back-end development and support, bug fixing, provided estimations."
                 }
@@ -243,7 +241,7 @@
             "period": "Jan 2016 - Jul 2018",
             "position": "Java/ATG Developer",
             "bullets": [
-                "Successfuly delivered 6 e-commerce projects in tight cooperation with customer",
+                "Successfully delivered 6 e-commerce projects in tight cooperation with customer",
                 "Upgraded one internal project to newer version of tools, provided precise estimations (dropdown up to 2h) for a next two months of implementation",
                 "Gained experience in e-commerce domain and such technologies as ATG, Java, Spring, KnockoutJS",
                 "Designed complex solution for integration Knockout.JS and Google Maps + Places API to support dynamic view of client stores.",
@@ -255,7 +253,7 @@
                     "name": "Columbia Pipe",
                     "period": "2017.11.01-2018.01.01 (support)",
                     "description": "B2C eCommerce website: https://www.columbiapipe.com/",
-                    "technologies": "Java 8, ATG, BCC, Endeca, Oracle SQL, SVN, Oracle Linux, Bazzaarvoice, HTML5, CSS3",
+                    "technologies": "Java 8, ATG, BCC, Endeca, Oracle SQL, SVN, Oracle Linux, Bazaarvoice, HTML5, CSS3",
                     "responsibilities": "Back-end development and support, bug fixing, provided estimations, participated in development of business requirements"
                 },
                 {
