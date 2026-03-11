@@ -94,7 +94,7 @@
     "experience": [
         {
             "employer": "UniCredit",
-            "period": "Sep 2024 - Now",
+            "period": "Sep 2024 - Apr 2026",
             "position": "Senior Software Engineer",
             "bullets": [
                 "Developed services in service-oriented environments",
@@ -107,7 +107,7 @@
                 {
                     "client": "Internal Platform Team",
                     "name": "Optimus (Cloud)",
-                    "period": "01.11.2025 - now",
+                    "period": "01.11.2025 - 30.04.2026",
                     "description": "Cloud native solution for building automations with specific business needs. Highly increased flexibility and variety of supported use cases and technologies in comparison with previous solution. Utilizes Azure services, async processing and part of it designed to be used as a library to be easily integrated into different services.",
                     "technologies": "Python, AsyncIO, ServiceNow, Ansible, AWX, Azure, Azure Storage (Table, Queue), Pytest, Git, JIRA, Confluence",
                     "responsibilities": "Initial implementation of the solution, services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
@@ -115,9 +115,9 @@
                 {
                     "client": "Internal Infrastructure",
                     "name": "Optimus",
-                    "period": "01.09.2024 - now",
+                    "period": "01.09.2024 - 30.04.2026",
                     "description": "Collection of services designed to automated processing of ServiceNOW items utilizing REST, Redis and Ansible",
-                    "technologies": "Python, FastAPI, PostgreSQL, k3s, Redis, ServiceNOW, Ansible, AWX, Git, Teamcity, unittest, Git, JIRA, Confluence",
+                    "technologies": "Python, FastAPI, PostgreSQL, k3s, Redis, ServiceNOW, Ansible, AWX, Teamcity, unittest, Git, JIRA, Confluence",
                     "responsibilities": "Services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
                 }
             ]
