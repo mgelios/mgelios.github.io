@@ -9,7 +9,8 @@
         "Technical Ownership: Independently led refactoring efforts to improve maintainability and enable test coverage. Designed library-based approaches to reduce complexity and improve reliability of third-party integrations.",
         "Communication & Visibility: Regularly presented technical progress and solutions to cross-functional audiences of up to 40 people across multiple countries and timezones.",
         "Data Engineering: Hands-on experience with PySpark and Azure Databricks. Learned data engineering from scratch and expanded team capacity in DE tasks.",
-        "Wide Technical Range: Proficient in Python and Java, experienced in cloud platforms (Azure), databases, messaging systems, and CI/CD pipelines."
+        "Wide Technical Range: Proficient in Python and Java, experienced in cloud platforms (Azure), databases, messaging systems, and CI/CD pipelines.",
+        "Integrated a multi-tool AI workflow (GitHub Copilot agent/ask/autocomplete, Claude, ChatGPT, Gemini, Microsoft Copilot) into day-to-day engineering practice over 12+ months, reducing boilerplate authoring time, improving first-draft code quality, and compressing research-to-solution cycles on complex async Python tasks"
     ],
     "skills": [
         {
@@ -105,7 +106,8 @@
                 "Designed and implemented new approach (from service to library) to reduce complexity, latency and increase reliability of interaction with ServiceNOW API",
                 "Took part in requirements discussion with clients",
                 "Took key role in design and development of new solution for automation of ServiceNOW items processing. Embracing cloud-native approach and utilizing Azure services with async processing.",
-                "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage and improving maintainability of the codebase."
+                "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage and improving maintainability of the codebase.",
+                "Integrated a multi-tool AI workflow (GitHub Copilot agent/ask/autocomplete, Claude, ChatGPT, Gemini, Microsoft Copilot) into day-to-day engineering practice over 12+ months, reducing boilerplate authoring time, improving first-draft code quality, and compressing research-to-solution cycles on complex async Python tasks"
             ],
             "projects": [
                 {
