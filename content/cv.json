@@ -69,6 +69,10 @@
             "list": ["Jenkins", "TeamCity"]
         },
         {
+            "name": "AI tools",
+            "list": ["Githib Copilot", "Claude", "Gemini", "ChatGPT"]
+        },
+        {
             "name": "Other",
             "list": ["HTML5", "CSS3"]
         }
