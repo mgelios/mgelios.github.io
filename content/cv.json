@@ -357,7 +357,8 @@
         }
     ],
     "ats_keywords": {
-        "python": ["Senior Python Developer", "Python Engineer", "Backend Engineer", "Platform Engineer",
+        "python": [
+            "Senior Python Developer", "Python Engineer", "Backend Engineer", "Platform Engineer",
             "Python 3", "asyncio", "async/await", "aiohttp", "httpx", "FastAPI", "Django",
             "REST API", "microservices", "service-oriented architecture", "event-driven architecture",
             "Azure", "Azure Storage", "Azure Queue", "Azure Table Storage", "cloud-native",
@@ -368,10 +369,15 @@
             "agile", "scrum", "cross-functional collaboration",
             "PySpark", "Databricks", "data engineering", "data platform", "medallion architecture"
         ],
-        "java": ["Senior Java Developer", "Java Engineer", "Backend Engineer", "Java Backend",
-            "Java 8", "Java 11", "Java 17", "Java 19", "Spring", "Spring Boot", "Spring MVC",
-            "Spring Data", "Spring Cloud", "Spring Security", "Hibernate", "JPA",
-            "Liquibase", "Maven", "Gradle", "JUnit", "Mockito", "Cucumber",
+        "java": [
+            "Senior Java Developer", "Java Engineer", "Backend Engineer", "Java Backend",
+            "Java 7", "Java 8", "Java 9", "Java 10", "Java 11", "Java 12", "Java 13",
+            "Java 14", "Java 15", "Java 16", "Java 17", "Java 18", "Java 19",
+            "Java 20", "Java 21", "Java 22", "Java 23", "Java 24", "Java 25",
+            "Spring", "Spring Boot", "Spring Boot 2", "Spring Boot 3",
+            "Spring MVC", "Spring Data", "Spring Cloud", "Spring Security", "Spring 5", "Spring 6",
+            "Hibernate", "JPA", "Liquibase",
+            "Maven", "Gradle", "JUnit", "Mockito", "Cucumber",
             "Apache Camel", "content-based routing", "enterprise integration patterns",
             "REST API", "microservices", "service-oriented architecture", "event-driven architecture",
             "PostgreSQL", "OracleSQL", "MySQL", "Kafka", "Redis",
@@ -381,7 +387,8 @@
             "agile", "scrum", "cross-functional collaboration",
             "e-commerce", "ATG", "fintech", "banking", "financial services"
         ],
-        "common": [  "Senior Software Engineer", "Senior Backend Engineer", "Backend Developer",
+        "common": [
+            "Senior Software Engineer", "Senior Backend Engineer", "Backend Developer",
             "REST API", "microservices", "service-oriented architecture", "event-driven architecture",
             "PostgreSQL", "MySQL", "OracleSQL", "MongoDB",
             "Kafka", "Redis", "Google PubSub",
@@ -395,7 +402,9 @@
             "fintech", "banking", "financial services", "e-commerce", "healthcare",
             "ServiceNow", "Ansible", "AWX",
             "unit testing", "test coverage",
-            "Warsaw", "Poland", "remote", "hybrid"
+            "Warsaw", "Poland", "remote", "hybrid",
+            "GitHub Copilot", "AI-assisted development", "LLM tools",
+            "ChatGPT", "Gemini", "Microsoft Copilot"
         ]
     }
 }
