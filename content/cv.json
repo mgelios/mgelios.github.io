@@ -108,7 +108,8 @@
                 "Took key role in design and development of new solution for automation of ServiceNOW items processing. Embracing cloud-native approach and utilizing Azure services with async processing using Python AsyncIO. Decomposed monolithic solution into microservices, which increased maintainability and flexibility of the system.",
                 "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage and improving maintainability of the codebase.",
                 "Integrated a multi-tool AI workflow (GitHub Copilot agent/ask/autocomplete, Claude, ChatGPT, Gemini, Microsoft Copilot) into day-to-day engineering practice over 12+ months, reducing boilerplate authoring time, improving first-draft code quality, and compressing research-to-solution cycles on complex async Python tasks",
-                "Developed and maintained Java project related to service registry"
+                "Developed and maintained Java project related to service registry",
+                "I have worked as Software Engineer with wide responsibilities - without specific focus on Python or Java"
             ],
             "projects": [
                 {
@@ -116,7 +117,7 @@
                     "name": "Optimus (Cloud)",
                     "period": "01.11.2025 - 30.04.2026",
                     "description": "Cloud native solution for building automations with specific business needs. Highly increased flexibility and variety of supported use cases and technologies in comparison with previous solution. Utilizes Azure services, async processing and part of it designed to be used as a library to be easily integrated into different services.",
-                    "technologies": "Python, AsyncIO, ServiceNow, Ansible, AWX, Azure, Azure Storage (Table, Queue), Pytest, Git, JIRA, Confluence",
+                    "technologies": "Python 3, AsyncIO, ServiceNow, Ansible, AWX, Azure, Azure Storage (Table, Queue), Pytest, Git, JIRA, Confluence",
                     "responsibilities": "Initial implementation of the solution, services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
                 },
                 {
@@ -124,7 +125,7 @@
                     "name": "Optimus",
                     "period": "01.09.2024 - 30.04.2026",
                     "description": "Collection of services designed to automated processing of ServiceNOW items utilizing REST, Redis and Ansible",
-                    "technologies": "Python, FastAPI, PostgreSQL, k3s, Redis, ServiceNOW, Ansible, AWX, Teamcity, unittest, Git, JIRA, Confluence",
+                    "technologies": "Python 3, FastAPI, PostgreSQL, k3s, Redis, ServiceNOW, Ansible, AWX, Teamcity, unittest, Git, JIRA, Confluence",
                     "responsibilities": "Services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
                 },
                 {
@@ -132,7 +133,7 @@
                     "name": "CMDB (Service registry)",
                     "period": "01.09.2024 - 30.04.2026",
                     "description": "Service related to CRUD operations on service registry",
-                    "technologies": "Java, Hibernate, Spring Boot, Liquibase, PostgreSQL, Git, JIRA, Confluence",
+                    "technologies": "Java 19, Hibernate, Spring 6, Spring Boot 3, Liquibase, PostgreSQL, Git, JIRA, Confluence, Docker, k3s, Kubernetes, k8s",
                     "responsibilities": "Services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
                 }
             ]
@@ -154,7 +155,7 @@
                     "name": "Dataplatform",
                     "period": "07.07.2022 - 30.08.2024",
                     "description": "Event driven data platform with self-servicing support",
-                    "technologies": "Python, PySpark, Azure Databricks, PostgreSQL, Liquibase, Kafka, Git, Linux, Docker, JIRA",
+                    "technologies": "Python 3, PySpark, Azure Databricks, PostgreSQL, Liquibase, Kafka, Git, Linux, Docker, JIRA",
                     "responsibilities": "Implementation of data engineering solutions, bug fixing, analyzing and grooming tickets."
                 }
             ]
