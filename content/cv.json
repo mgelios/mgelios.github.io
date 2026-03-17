@@ -115,19 +115,17 @@
                     "Delivered full feature lifecycle on Java service: requirements → design → implementation → PostgreSQL schema migrations via Liquibase → deployment.",
                     "Designed new approach (service → library) to reduce complexity and increase reliability of ServiceNOW API integration.",
                     "Took key role in design of cloud-native automation platform using Python AsyncIO and Azure services.",
-                    "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage.",
-                    "Integrated a multi-tool AI workflow into day-to-day engineering practice, improving first-draft code quality and compressing research-to-solution cycles."
+                    "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage."
                 ],
                 "python": [
                     "Designed and implemented new approach (from service to library) to reduce complexity, latency and increase reliability of interaction with ServiceNOW API.",
                     "Took key role in design and development of new solution for automation of ServiceNOW items processing — cloud-native, Azure services, async processing using Python AsyncIO. Decomposed monolithic solution into microservices, increasing maintainability and flexibility.",
                     "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage and improving maintainability of the codebase.",
-                    "Developed and maintained Java project related to service registry.",
-                    "Integrated a multi-tool AI workflow (GitHub Copilot agent/ask/autocomplete, Claude, ChatGPT, Gemini, Microsoft Copilot) into day-to-day engineering practice over 12+ months, reducing boilerplate authoring time, improving first-draft code quality, and compressing research-to-solution cycles on complex async Python tasks."
+                    "Developed and maintained Java project related to service registry."
                 ],
                 "common": [
-                    "Developed services in service-oriented environments.",
-                    "Took part in requirements discussion with clients."
+                    "Took part in requirements discussion and solution design with clients and stakeholders.",
+                    "Integrated a multi-tool AI workflow (GitHub Copilot, Claude, ChatGPT, Gemini) into day-to-day engineering practice over 12+ months, reducing boilerplate authoring time and compressing research-to-solution cycles."
                 ]
             },
             "projects": [
@@ -357,5 +355,47 @@
             "name": "Azure Databricks & Spark For Data Engineers (PySpark / SQL)",
             "link": "https://www.udemy.com/certificate/UC-75574392-269f-4a14-93f6-5bba41d3dd8e/"
         }
-    ]
+    ],
+    "ats_keywords": {
+        "python": ["Senior Python Developer", "Python Engineer", "Backend Engineer", "Platform Engineer",
+            "Python 3", "asyncio", "async/await", "aiohttp", "httpx", "FastAPI", "Django",
+            "REST API", "microservices", "service-oriented architecture", "event-driven architecture",
+            "Azure", "Azure Storage", "Azure Queue", "Azure Table Storage", "cloud-native",
+            "pytest", "unit testing", "test coverage", "mocking",
+            "PostgreSQL", "Redis", "Kafka", "Docker", "Kubernetes", "k8s", "CI/CD", "Jenkins",
+            "ServiceNow", "Ansible", "AWX",
+            "refactoring", "code quality", "technical ownership", "solution design",
+            "agile", "scrum", "cross-functional collaboration",
+            "PySpark", "Databricks", "data engineering", "data platform", "medallion architecture"
+        ],
+        "java": ["Senior Java Developer", "Java Engineer", "Backend Engineer", "Java Backend",
+            "Java 8", "Java 11", "Java 17", "Java 19", "Spring", "Spring Boot", "Spring MVC",
+            "Spring Data", "Spring Cloud", "Spring Security", "Hibernate", "JPA",
+            "Liquibase", "Maven", "Gradle", "JUnit", "Mockito", "Cucumber",
+            "Apache Camel", "content-based routing", "enterprise integration patterns",
+            "REST API", "microservices", "service-oriented architecture", "event-driven architecture",
+            "PostgreSQL", "OracleSQL", "MySQL", "Kafka", "Redis",
+            "Docker", "Kubernetes", "k8s", "k3s", "CI/CD", "Jenkins", "TeamCity",
+            "GraalVM", "multithreading", "concurrency",
+            "refactoring", "code quality", "technical ownership", "solution design",
+            "agile", "scrum", "cross-functional collaboration",
+            "e-commerce", "ATG", "fintech", "banking", "financial services"
+        ],
+        "common": [  "Senior Software Engineer", "Senior Backend Engineer", "Backend Developer",
+            "REST API", "microservices", "service-oriented architecture", "event-driven architecture",
+            "PostgreSQL", "MySQL", "OracleSQL", "MongoDB",
+            "Kafka", "Redis", "Google PubSub",
+            "Docker", "Kubernetes", "k8s", "k3s",
+            "CI/CD", "Jenkins", "TeamCity",
+            "Git", "JIRA", "Confluence",
+            "refactoring", "code quality", "technical ownership", "solution design",
+            "requirements analysis", "solution architecture", "cross-functional collaboration",
+            "agile", "scrum",
+            "Azure", "cloud-native", "cloud infrastructure",
+            "fintech", "banking", "financial services", "e-commerce", "healthcare",
+            "ServiceNow", "Ansible", "AWX",
+            "unit testing", "test coverage",
+            "Warsaw", "Poland", "remote", "hybrid"
+        ]
+    }
 }
