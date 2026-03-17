@@ -107,7 +107,8 @@
                 "Took part in requirements discussion with clients",
                 "Took key role in design and development of new solution for automation of ServiceNOW items processing. Embracing cloud-native approach and utilizing Azure services with async processing using Python AsyncIO. Decomposed monolithic solution into microservices, which increased maintainability and flexibility of the system.",
                 "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage and improving maintainability of the codebase.",
-                "Integrated a multi-tool AI workflow (GitHub Copilot agent/ask/autocomplete, Claude, ChatGPT, Gemini, Microsoft Copilot) into day-to-day engineering practice over 12+ months, reducing boilerplate authoring time, improving first-draft code quality, and compressing research-to-solution cycles on complex async Python tasks"
+                "Integrated a multi-tool AI workflow (GitHub Copilot agent/ask/autocomplete, Claude, ChatGPT, Gemini, Microsoft Copilot) into day-to-day engineering practice over 12+ months, reducing boilerplate authoring time, improving first-draft code quality, and compressing research-to-solution cycles on complex async Python tasks",
+                "Developed and maintained Java project related to service registry"
             ],
             "projects": [
                 {
@@ -124,6 +125,14 @@
                     "period": "01.09.2024 - 30.04.2026",
                     "description": "Collection of services designed to automated processing of ServiceNOW items utilizing REST, Redis and Ansible",
                     "technologies": "Python, FastAPI, PostgreSQL, k3s, Redis, ServiceNOW, Ansible, AWX, Teamcity, unittest, Git, JIRA, Confluence",
+                    "responsibilities": "Services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
+                },
+                {
+                    "client": "Internal Infrastructure",
+                    "name": "CMDB (Service registry)",
+                    "period": "01.09.2024 - 30.04.2026",
+                    "description": "Service related to CRUD operations on service registry",
+                    "technologies": "Java, Hibernate, Spring Boot, Liquibase, PostgreSQL, Git, JIRA, Confluence",
                     "responsibilities": "Services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
                 }
             ]
@@ -189,7 +198,7 @@
                     "name": "Ehealth",
                     "period": "13.03.2019 - 11.06.2021",
                     "description": "Web platform for patients, doctors, call-center support to store, manipulate and share medical data.",
-                    "technologies": "Java 13, Javascript, Microservices, Spring Boot 2.1, Vue.js 2, Spring (Data, MVC, Cloud), Google pubsub, Liquibase, Keycloak, Docker, Kubernetes, HTML5, CSS3.",
+                    "technologies": "Java 13, Python, Javascript, Microservices, Spring Boot 2.1, Vue.js 2, Spring (Data, MVC, Cloud), Google pubsub, Liquibase, Keycloak, Docker, Kubernetes, HTML5, CSS3.",
                     "responsibilities": "Fullstack (front-end and back-end) development and support, bug fixing, solution preparation, provided estimations, participated in development of business requirements."
                 },
                 {
@@ -197,7 +206,7 @@
                     "name": "GP Portal",
                     "period": "08.11.2019 - 12.03.2019",
                     "description": "Web platform for general practitioners to interact with patient's data. Based on multiple services.",
-                    "technologies": "Java 8, Spring Boot 2.1, Spring 5, Spring Data, Spring MVC, Spring Cloud, Liquibase, Swagger 2, Keycloak, Javascript, Vue.js, Git, Docker, HTML5, CSS3",
+                    "technologies": "Java 8, Python, Spring Boot 2.1, Spring 5, Spring Data, Spring MVC, Spring Cloud, Liquibase, Swagger 2, Keycloak, Javascript, Vue.js, Git, Docker, HTML5, CSS3",
                     "responsibilities": "Fullstack (front-end and back-end) development and support, bug fixing, solution preparation, provided estimations, participated in development of business requirements."
                 },
                 {
@@ -205,7 +214,7 @@
                     "name": "Patient Portal",
                     "period": "23.09.2019 - 07.11.2019",
                     "description": "Web platform to manipulate medical data transferred through FHIR network.",
-                    "technologies": "Java 12, Spring Boot 2.1, Spring 5, Spring MVC, Spring Data, Keycloak, Swagger 2, MySQL, Git, Docker",
+                    "technologies": "Java 12, Python, Spring Boot 2.1, Spring 5, Spring MVC, Spring Data, Keycloak, Swagger 2, MySQL, Git, Docker",
                     "responsibilities": "Back-end development and support, bug fixing."
                 },
                 {
