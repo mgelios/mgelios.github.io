@@ -103,6 +103,11 @@
         {{/for}}
     </script>
 
+    <script id="ats-keywords" type="text/x-jsrender">
+        {{for}}
+            <p>{{:#data}}</p>
+        {{/for}}
+    </script>
 
     <div class="flex-container">
         <section id="personal-container" class="name">
@@ -141,6 +146,12 @@
         </section>
     </div>
 
+    <div style="font-size:0;color:transparent;line-height:0;height:0;overflow:hidden;">
+        <section id="ats-container">
+        </section>
+    </div>
+
+
     <script>
         var currentPriority = getURLParam("priority") || "java";
         JSONFromURL("../content/cv.json")
@@ -152,6 +163,7 @@
                 renderTemplateWithData(content.experience, "experience", "experience-container", {currentPriority});
                 renderTemplateWithData(content.certificates, "certificates", "certificates-container");
                 renderTemplateWithData(content.bullets[currentPriority].concat(content.bullets.common), "bullets", "bullets-container");
+                renderTemplateWithData(content.ats_keywords.common.concat(content.ats_keywords[currentPriority]), "ats-keywords", "ats-container");
             });
     </script>
 </body>
