@@ -19,17 +19,17 @@ function getURLParam(name) {
     return params.get(name);
 }
 
-function renderTemplateWithData(data, templateName, targetElementID) {
+function renderTemplateWithData(data, templateName, targetElementID, helpers = {}) {
     let $ = window.jsrender;
     let tmpl = $.templates("#" + templateName);
-    let html = tmpl.render(data);
+    let html = tmpl.render(data, helpers);
     document.getElementById(targetElementID).innerHTML = html;
 }
 
-function renderTemplateWithDataAndApplyMasonry(data, templateName, targetElementID) {
+function renderTemplateWithDataAndApplyMasonry(data, templateName, targetElementID, helpers = {}) {
     let $ = window.jsrender;
     let tmpl = $.templates("#" + templateName);
-    let html = tmpl.render(data);
+    let html = tmpl.render(data, helpers);
     document.getElementById(targetElementID).innerHTML = html;
     new Masonry("#" + targetElementID);
 }

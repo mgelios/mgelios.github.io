@@ -70,7 +70,10 @@
                 </div>
                 <div>
                     <ul>
-                        {{for bullets}}
+                        {{for bullets[~currentPriority]}}
+                            <li>{{:#data}}</li>
+                        {{/for}}
+                        {{for bullets.common}}
                             <li>{{:#data}}</li>
                         {{/for}}
                     </ul>
@@ -125,15 +128,16 @@
     </div>
 
     <script>
+        var currentPriority = getURLParam("priority") || "java";
         JSONFromURL("../content/cv.json")
             .then(content => {
                 renderTemplateWithData(content, "personal", "personal-container");
                 renderTemplateWithData(content.contact_info, "contact-info", "contact-info-container");
                 renderTemplateWithData(content.skills, "skills", "skills-container");
                 renderTemplateWithData(content.education, "education", "education-container");
-                renderTemplateWithData(content.experience, "experience", "experience-container");
+                renderTemplateWithData(content.experience, "experience", "experience-container", {currentPriority});
                 renderTemplateWithData(content.certificates, "certificates", "certificates-container");
-                renderTemplateWithData(content.bullets, "bullets", "bullets-container");
+                renderTemplateWithData(content.bullets[currentPriority].concat(content.bullets.common), "bullets", "bullets-container");
             });
     </script>
 </body>
