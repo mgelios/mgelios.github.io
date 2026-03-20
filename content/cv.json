@@ -266,8 +266,7 @@
             "position": "Java/ATG Developer",
             "bullets": {
                 "common": [
-                    "Successfully delivered 6 e-commerce projects in tight cooperation with customer",
-                    "Optimized RQL queries to reduce number of records to process by 100 times, which lead to reduction of latency from 10s to 0.5s"
+                    "Delivered 6 production e-commerce projects from scratch on B2C/B2B platforms (Gildan, Gold Toe, Healthy Directions) using ATG/Java; optimized RQL queries reducing latency from 10s to 0.5s (100× fewer records processed)"
                 ]
             },
             "projects": [
