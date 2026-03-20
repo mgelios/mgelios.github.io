@@ -153,8 +153,7 @@
             "position": "Senior Software Engineer",
             "bullets": {
                 "common": [
-                    "Developed services and microservices in service-oriented environments",
-                    "Took part in requirements discussion and solutions design",
+                    "Built PySpark data pipelines on Databricks using Medallion architecture (raw → curated → consumption zones) for Intapp",
                     "Implemented logging solution which increased clarity of execution of the pipelines (up to 50% more of collected data)"
                 ]
             },
@@ -175,8 +174,7 @@
             "position": "Senior Software Engineer",
             "bullets": {
                 "common": [
-                    "Developed services and microservices in service-oriented environments",
-                    "Took part in requirements discussion and solutions design",
+                    "Investigated and implemented way to build complex routes in Apache Camel with content based conditions and two way throttling",
                     "Took initiative to do performance testing on R'n'D stage of development.",
                     "Faced undocumented and unpredictable behaviour in interaction between apache camel and spring boot actuator prometheus and came up with working solution (wrote an article about it)."
                 ]
@@ -198,8 +196,8 @@
             "position": "Senior Software Engineer",
             "bullets": {
                 "common": [
-                    "Developed services and microservices in service-oriented environments",
-                    "Took part in requirements discussion and solutions design",
+                    "Learned VueJS from scratch and increased front-end capacity of the team in first year of implementation (H4H).",
+                    "Designed, implemented and successfully presented mvc project for online debate voting platform",
                     "Supported projects in several directions - refactoring, bug fixing, implementation of new features"
                 ]
             },
