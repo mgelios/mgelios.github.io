@@ -175,7 +175,7 @@
             "bullets": {
                 "common": [
                     "Investigated and implemented way to build complex routes in Apache Camel with content based conditions and two way throttling",
-                    "Took initiative to do performance testing on R'n'D stage of development.",
+                    "Initiated performance testing at R&D stage, identified bottlenecks before production.",
                     "Faced undocumented and unpredictable behaviour in interaction between apache camel and spring boot actuator prometheus and came up with working solution (wrote an article about it)."
                 ]
             },
@@ -196,9 +196,9 @@
             "position": "Senior Software Engineer",
             "bullets": {
                 "common": [
-                    "Learned VueJS from scratch and increased front-end capacity of the team in first year of implementation (H4H).",
-                    "Designed, implemented and successfully presented mvc project for online debate voting platform",
-                    "Supported projects in several directions - refactoring, bug fixing, implementation of new features"
+                    "Developed backend services for an eHealth platform integrating mobile app, ECG device data ingestion, patient monitoring, and doctor-patient communication.",
+                    "Implemented automated prescription logic based on configurable lab result thresholds.",
+                    "Expanded team's frontend capacity by learning VueJS independently (H4H project)"
                 ]
             },
             "projects": [
