@@ -9,7 +9,7 @@
             "Wide Technical Range: Proficient in Python and Java, experienced in cloud platforms (Azure), databases, messaging systems, and CI/CD pipelines."
         ],
         "java": [
-            "10+ years of hands-on experience in software engineering, with a strong foundation in Java backend development and microservices, complemented by Python platform engineering experience over the last years.",
+            "Senior Java Engineer with 10+ years hands-on experience in software engineering, with a strong foundation in backend development and microservices.",
             "Wide Technical Range: Proficient in Java and Python, experienced in cloud platforms (Azure), databases, messaging systems, and CI/CD pipelines."
         ],
         "common": [
@@ -176,7 +176,7 @@
                 "common": [
                     "Investigated and implemented way to build complex routes in Apache Camel with content based conditions and two way throttling",
                     "Initiated performance testing at R&D stage, identified bottlenecks before production.",
-                    "Faced undocumented and unpredictable behaviour in interaction between apache camel and spring boot actuator prometheus and came up with working solution (wrote an article about it)."
+                    "Resolved undocumented issues related to integration between Apache Camel and Spring Boot Actuator Prometheus."
                 ]
             },
             "projects": [
