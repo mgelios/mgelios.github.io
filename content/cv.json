@@ -15,7 +15,7 @@
         "common": [
             "Backend & Platform Engineering: Designed and developed microservices and service-oriented solutions, including cloud-native systems on Azure with async processing. Experienced in migrating on-premises solutions to cloud infrastructure.",
             "Communication & Visibility: Regularly presented technical progress and solutions to cross-functional audiences of up to 40 people across multiple countries and timezones.",
-            "Integrated a multi-tool AI workflow (GitHub Copilot agent/ask/autocomplete, Claude, ChatGPT, Gemini, Microsoft Copilot) into day-to-day engineering practice over 12+ months, reducing boilerplate authoring time, improving first-draft code quality, and compressing research-to-solution cycles on complex async Python tasks."
+            "Integrated a multi-tool AI workflow (GitHub Copilot agent/ask/autocomplete, Claude, ChatGPT, Gemini, Microsoft Copilot) into day-to-day engineering practice over 12+ months, reducing boilerplate authoring time, improving first-draft code quality."
         ]
     },
     "skills": [
