@@ -6,8 +6,7 @@
     "bullets": {
         "python": [
             "10+ years of hands-on experience in software engineering across multiple business domains, with a strong focus on Python backend development and platform engineering over the last years.",
-            "Wide Technical Range: Proficient in Python and Java, experienced in cloud platforms (Azure), databases, messaging systems, and CI/CD pipelines.",
-            "Data Engineering: Hands-on experience with PySpark and Azure Databricks. Learned data engineering from scratch and expanded team capacity in DE tasks."
+            "Wide Technical Range: Proficient in Python and Java, experienced in cloud platforms (Azure), databases, messaging systems, and CI/CD pipelines."
         ],
         "java": [
             "10+ years of hands-on experience in software engineering, with a strong foundation in Java backend development and microservices, complemented by Python platform engineering experience over the last years.",
@@ -15,7 +14,6 @@
         ],
         "common": [
             "Backend & Platform Engineering: Designed and developed microservices and service-oriented solutions, including cloud-native systems on Azure with async processing. Experienced in migrating on-premises solutions to cloud infrastructure.",
-            "Technical Ownership: Independently led refactoring efforts to improve maintainability and enable test coverage. Designed library-based approaches to reduce complexity and improve reliability of third-party integrations.",
             "Communication & Visibility: Regularly presented technical progress and solutions to cross-functional audiences of up to 40 people across multiple countries and timezones.",
             "Integrated a multi-tool AI workflow (GitHub Copilot agent/ask/autocomplete, Claude, ChatGPT, Gemini, Microsoft Copilot) into day-to-day engineering practice over 12+ months, reducing boilerplate authoring time, improving first-draft code quality, and compressing research-to-solution cycles on complex async Python tasks."
         ]
@@ -43,7 +41,7 @@
         },
         {
             "name": "Version control systems",
-            "list": ["Git", "Subversion"]
+            "list": ["Git"]
         },
         {
             "name": "Tools",
@@ -51,7 +49,7 @@
         },
         {
             "name": "Management frameworks",
-            "list": ["Scrum", "Agile", "Spiral", "Waterfall"]
+            "list": ["Scrum", "Agile"]
         },
         {
             "name": "Task management",
@@ -59,7 +57,7 @@
         },
         {
             "name": "Cloud",
-            "list": ["Azure", "GCP (Google Cloud Platform)", "Hetzner (Managed VPS)"]
+            "list": ["Azure"]
         },
         {
             "name": "Database",
@@ -71,7 +69,7 @@
         },
         {
             "name": "Architectures",
-            "list": ["Medalion (Data Engineering)", "Microservices", "Service-oriented", "Hexagonal(Onion, Ports and Adapters)", "Monolith", "Event-driven architecture"]
+            "list": ["Medalion", "Service-oriented", "Hexagonal", "Monolith"]
         },
         {
             "name": "CI/CD",
@@ -80,10 +78,6 @@
         {
             "name": "AI tools",
             "list": ["GitHub Copilot", "Claude", "Gemini", "ChatGPT"]
-        },
-        {
-            "name": "Other",
-            "list": ["HTML5", "CSS3"]
         }
     ],
     "contact_info": {
@@ -114,14 +108,12 @@
                     "Designed and implemented CMDB service registry in Java 19 / Spring Boot 3 / Hibernate, deployed on Kubernetes (k3s/k8s).",
                     "Delivered full feature lifecycle on Java service: requirements → design → implementation → PostgreSQL schema migrations via Liquibase → deployment.",
                     "Designed new approach (service → library) to reduce complexity and increase reliability of ServiceNOW API integration.",
-                    "Took key role in design of cloud-native automation platform using Python AsyncIO and Azure services.",
                     "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage."
                 ],
                 "python": [
                     "Designed and implemented new approach (from service to library) to reduce complexity, latency and increase reliability of interaction with ServiceNOW API.",
-                    "Took key role in design and development of new solution for automation of ServiceNOW items processing — cloud-native, Azure services, async processing using Python AsyncIO. Decomposed monolithic solution into microservices, increasing maintainability and flexibility.",
-                    "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage and improving maintainability of the codebase.",
-                    "Developed and maintained Java project related to service registry."
+                    "Took key role in design and development of new solution for automation of ServiceNOW items processing — cloud-native, Azure services, async processing using Python AsyncIO.",
+                    "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage and improving maintainability of the codebase."
                 ],
                 "common": [
                     "Took part in requirements discussion and solution design with clients and stakeholders.",
@@ -158,14 +150,12 @@
         {
             "employer": "Akvelon",
             "period": "Jul 2022 - Aug 2024",
-            "position": "Senior Software Engineer / Data Engineer",
+            "position": "Senior Software Engineer",
             "bullets": {
                 "common": [
                     "Developed services and microservices in service-oriented environments",
                     "Took part in requirements discussion and solutions design",
-                    "Implemented logging solution which increased clarity of execution of the pipelines (up to 50% more of collected data)",
-                    "Learned data engineering from scratch and expanded capacity of team in terms of DE tasks",
-                    "Completed Udemy course Azure Databricks & Spark For Data Engineers (PySpark / SQL) which increased productivity in data engineering tasks"
+                    "Implemented logging solution which increased clarity of execution of the pipelines (up to 50% more of collected data)"
                 ]
             },
             "projects": [
@@ -188,8 +178,7 @@
                     "Developed services and microservices in service-oriented environments",
                     "Took part in requirements discussion and solutions design",
                     "Took initiative to do performance testing on R'n'D stage of development.",
-                    "Faced undocumented and unpredictable behaviour in interaction between apache camel and spring boot actuator prometheus and came up with working solution (wrote an article about it).",
-                    "Investigated and implemented way to build complex routes in Apache Camel with content based conditions and two way throttling"
+                    "Faced undocumented and unpredictable behaviour in interaction between apache camel and spring boot actuator prometheus and came up with working solution (wrote an article about it)."
                 ]
             },
             "projects": [
@@ -211,9 +200,7 @@
                 "common": [
                     "Developed services and microservices in service-oriented environments",
                     "Took part in requirements discussion and solutions design",
-                    "Supported projects in several directions - refactoring, bug fixing, implementation of new features",
-                    "Learned VueJS from scratch and increased front-end capacity of the team in first year of implementation (H4H).",
-                    "Designed, implemented and successfully presented mvc project for online debate voting platform"
+                    "Supported projects in several directions - refactoring, bug fixing, implementation of new features"
                 ]
             },
             "projects": [
@@ -282,9 +269,6 @@
             "bullets": {
                 "common": [
                     "Successfully delivered 6 e-commerce projects in tight cooperation with customer",
-                    "Upgraded one internal project to newer version of tools, provided precise estimations (dropdown up to 2h) for a next two months of implementation",
-                    "Gained experience in e-commerce domain and such technologies as ATG, Java, Spring, KnockoutJS",
-                    "Designed complex solution for integration Knockout.JS and Google Maps + Places API to support dynamic view of client stores.",
                     "Optimized RQL queries to reduce number of records to process by 100 times, which lead to reduction of latency from 10s to 0.5s"
                 ]
             },
