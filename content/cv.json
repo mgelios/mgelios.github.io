@@ -5,17 +5,15 @@
     "short_description": "Highly skilled and motivated software engineer with expertise in data engineering and a strong background in Java, Python, and JavaScript. Experienced in a variety of frameworks, libraries, cloud platforms, and version control systems. Proficient in Agile methodologies and task management tools. Bachelor's degree in Computer Science from BSUIR.",
     "bullets": {
         "python": [
-            "10+ years of hands-on experience in software engineering across multiple business domains, with a strong focus on Python backend development and platform engineering over the last years.",
-            "Wide Technical Range: Proficient in Python and Java, experienced in cloud platforms (Azure), databases, messaging systems, and CI/CD pipelines."
+            "10+ years of hands-on experience in software engineering across multiple business domains, with a strong focus on Python backend development and platform engineering over the last years."
         ],
         "java": [
-            "Senior Java Engineer with 10+ years hands-on experience in software engineering, with a strong foundation in backend development and microservices.",
-            "Wide Technical Range: Proficient in Java and Python, experienced in cloud platforms (Azure), databases, messaging systems, and CI/CD pipelines."
+            "Senior Software Engineer with 10+ years of experience designing and scaling high-throughput distributed systems, GraphQL facades, and microservice architectures. Proven track record of driving cross-team technical alignment, backend optimization, and modernization."
         ],
         "common": [
-            "Backend & Platform Engineering: Designed and developed microservices and service-oriented solutions, including cloud-native systems on Azure with async processing. Experienced in migrating on-premises solutions to cloud infrastructure.",
-            "Communication & Visibility: Regularly presented technical progress and solutions to cross-functional audiences of up to 40 people across multiple countries and timezones.",
-            "Integrated a multi-tool AI workflow (GitHub Copilot agent/ask/autocomplete, Claude, ChatGPT, Gemini, Microsoft Copilot) into day-to-day engineering practice over 12+ months, reducing boilerplate authoring time, improving first-draft code quality."
+            "High-Impact System Optimization & Architecture: Streamlined backend efficiency by optimizing query execution and latency by 3x, while unifying GraphQL resolution around Netflix DGS to reduce codebase size by 10% and accelerate bug resolution.",
+            "End-to-End Delivery & Reliability: Drove core tooling services from initial stakeholder alignment to production, while refactoring system exception handling into a global taxonomy that eliminated 95% of unhandled failures.",
+            "Technical Leadership & Visibility: Experienced in migrating legacy on-premise platforms to cloud-native architectures; regularly presented complex architectural progress to international audiences of 40+ cross-functional stakeholders."
         ]
     },
     "skills": [
@@ -45,7 +43,7 @@
         },
         {
             "name": "Tools",
-            "list": ["Intellij IDEA", "VS Code", "Postman", "Jmeter", "Soap UI", "Databricks"]
+            "list": ["Intellij IDEA", "VS Code", "Bruno", "Postman", "Jmeter", "Soap UI", "Databricks"]
         },
         {
             "name": "Management frameworks",
@@ -77,7 +75,7 @@
         },
         {
             "name": "AI tools",
-            "list": ["GitHub Copilot", "Claude", "Gemini", "ChatGPT"]
+            "list": ["Claude Code CLI", "GitHub Copilot", "Claude", "Gemini", "ChatGPT", "Glean"]
         }
     ],
     "contact_info": {
@@ -100,13 +98,44 @@
     ],
     "experience": [
         {
+            "employer": "Tooploox (Solvd company)",
+            "period": "May 2026 - now",
+            "position": "Senior Java Developer",
+            "bullets": {
+                "common": [
+                    "Took part in requirements discussion and solution design with clients and stakeholders.",
+                    "Optimized latency by 3x across 20% of internal tools by conducting load testing, identifying saturation points, reordering queries, and fine-tuning execution parameters.",
+                    "Unified GraphQL request processing around Netflix DGS, reducing codebase volume by 10% and boosting bug resolution speed by 15%.",
+                    "Drove end-to-end delivery of 3 core tooling services from stakeholder requirements alignment to production launch",
+                    "Refactored error handling into a unified global taxonomy, eliminating 95% of unhandled failures and boosting system observability.",
+                    "Championed code quality and engineering standards through daily PR reviews, ensuring high codebase maintainability and accelerating onboarding for new team members."
+                ]
+            },
+            "projects": [
+                {
+                    "client": "eBay",
+                    "name": "Aggregating reverse proxy (name disclosed)",
+                    "period": "25.05.2026 - now",
+                    "description": "Aggregating reverse proxy implemented to provided consolidated point of data retrieval for AI agents and other services",
+                    "technologies": "Java 25, Java 17, Spring Boot, Spring, Raptor.io, Raptor, GraphQL, SOAP, REST, Bruno, Bruno CLI, MCP, DDD, Hexagonal architecture",
+                    "responsibilities": "Services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
+                },
+                {
+                    "client": "eBay",
+                    "name": "MCP Tools collection (name disclosed)",
+                    "period": "25.05.2026 - now",
+                    "description": "Facade used by AI agents to navigate through graphQL schema and perform requests to aggregating reverse proxy",
+                    "technologies": "MCP, YAML, GraphQL, Bruno, SOAP, REST",
+                    "responsibilities": "Services support and development of new features, bug fixing, providing documentation, participating in requirements discussion and solution design."
+                }
+            ]
+        },
+        {
             "employer": "UniCredit",
             "period": "Sep 2024 - Apr 2026",
             "position": "Senior Software Engineer",
             "bullets": {
                   "java": [
-                    "Designed and implemented CMDB service registry in Java 19 / Spring Boot 3 / Hibernate, deployed on Kubernetes (k3s/k8s).",
-                    "Delivered full feature lifecycle on Java service: requirements → design → implementation → PostgreSQL schema migrations via Liquibase → deployment.",
                     "Designed new approach (service → library) to reduce complexity and increase reliability of ServiceNOW API integration.",
                     "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage."
                 ],
@@ -116,7 +145,6 @@
                     "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage and improving maintainability of the codebase."
                 ],
                 "common": [
-                    "Took part in requirements discussion and solution design with clients and stakeholders.",
                     "Integrated a multi-tool AI workflow (GitHub Copilot, Claude, ChatGPT, Gemini) into day-to-day engineering practice over 12+ months, reducing boilerplate authoring time and compressing research-to-solution cycles."
                 ]
             },
