@@ -23,11 +23,11 @@
         },
         {
             "name": "Programming languages",
-            "list": ["Java", "Python", "Javascript", "Golang"]
+            "list": ["Java", "Python", "Javascript", "Go / Golang"]
         },
         {
             "name": "Frameworks/Libraries",
-            "list": ["pyspark", "pytest", "unittest", "AsyncIO", "FastAPI", "Django", "Spring Core", "Spring Cloud", "Spring Data", "Hibernate", "Apache Camel", "Apache Spark", "VueJS", "JUnit", "Mockito", "Cucumber"]
+            "list": ["pyspark", "pytest", "unittest", "AsyncIO", "FastAPI", "Django", "Spring Core", "Spring Cloud", "Spring Data", "Hibernate", "Apache Camel", "Apache Spark", "Vue.js", "JUnit", "Mockito", "Cucumber"]
         },
         {
             "name": "Build tools",
@@ -35,7 +35,7 @@
         },
         {   
             "name": "Containers",
-            "list": ["Kubernetes", "K3S", "K8S", "Docker"]
+            "list": ["Kubernetes (K8s)", "K3S", "Docker"]
         },
         {
             "name": "Version control systems",
@@ -67,7 +67,7 @@
         },
         {
             "name": "Architectures",
-            "list": ["Medalion", "Service-oriented", "Hexagonal", "Monolith"]
+            "list": ["Medallion", "Service-oriented", "Hexagonal", "Monolith"]
         },
         {
             "name": "CI/CD",
@@ -103,7 +103,6 @@
             "position": "Senior Java Developer",
             "bullets": {
                 "common": [
-                    "Took part in requirements discussion and solution design with clients and stakeholders.",
                     "Optimized latency by 3x across 20% of internal tools by conducting load testing, identifying saturation points, reordering queries, and fine-tuning execution parameters.",
                     "Unified GraphQL request processing around Netflix DGS, reducing codebase volume by 10% and boosting bug resolution speed by 15%.",
                     "Drove end-to-end delivery of 3 core tooling services from stakeholder requirements alignment to production launch",
@@ -136,7 +135,7 @@
             "position": "Senior Software Engineer",
             "bullets": {
                   "java": [
-                    "Designed new approach (service → library) to reduce complexity and increase reliability of ServiceNOW API integration.",
+                    "Refactored ServiceNOW API integration from a standalone service to a lightweight library, reducing architectural complexity and improving component reliability.",
                     "Led a refactor to simplify control flow and isolate responsibilities, enabling effective test coverage."
                 ],
                 "python": [
@@ -182,7 +181,7 @@
             "bullets": {
                 "common": [
                     "Built PySpark data pipelines on Databricks using Medallion architecture (raw → curated → consumption zones) for Intapp",
-                    "Implemented logging solution which increased clarity of execution of the pipelines (up to 50% more of collected data)"
+                    "Enhanced pipeline execution observability by implementing a structured logging system, increasing diagnostic data collection by 50%."
                 ]
             },
             "projects": [
@@ -221,12 +220,12 @@
         {
             "employer": "Seavus",
             "period": "Jul 2018 - Jun 2021",
-            "position": "Senior Software Engineer",
+            "position": "Software Engineer",
             "bullets": {
                 "common": [
                     "Developed backend services for an eHealth platform integrating mobile app, ECG device data ingestion, patient monitoring, and doctor-patient communication.",
                     "Implemented automated prescription logic based on configurable lab result thresholds.",
-                    "Expanded team's frontend capacity by learning VueJS independently (H4H project)"
+                    "Accelerated project delivery by independently mastering Vue.js, expanding the backend team's capacity to deliver full-stack eHealth features."
                 ]
             },
             "projects": [
